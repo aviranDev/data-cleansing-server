@@ -1,0 +1,300 @@
+2024-12-19T19:22:09.226Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:22:32.549Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:22:33.960Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:22:51.116Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:22:52.411Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:23:29.387Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:23:30.704Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:23:31.790Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:23:32.627Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:27:51.194Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:27:57.986Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:47:11
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:28:04.776Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:47:11
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:28:14.462Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:47:11
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:28:20.739Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:28:55.862Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:03.703Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/logindfg",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:29:08.086Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:18.891Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:20.108Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:20.966Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:22.026Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:23.234Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:24.359Z [ERROR]: Error: Account is locked. Try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later.
+    at AuthService.login (\services\authService.ts:130:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:26.173Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:27.595Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:29.038Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:30.624Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:35.456Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:31:45.978Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)

@@ -1,0 +1,695 @@
+2024-12-19T15:53:30.274Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T15:53:30.299Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T15:55:54.943Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T15:55:54.988Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T15:56:21.215Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T15:56:21.243Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T15:56:30.721Z [WARN]: Missing required environment variable: ORIGIN. Using default value: http://localhost:5173
+2024-12-19T15:56:30.833Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T15:56:30.881Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:12:57.512Z [INFO]: Graceful shutdown handlers configured.
+2024-12-19T16:12:57.519Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:12:57.561Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:13:08.083Z [INFO]: Graceful shutdown handlers configured.
+2024-12-19T16:13:08.088Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:13:08.136Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:13:09.245Z [INFO]: Received signal: SIGINT. Initiating graceful shutdown...
+2024-12-19T16:13:24.318Z [INFO]: Graceful shutdown handlers configured.
+2024-12-19T16:13:24.324Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:13:24.366Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:13:26.236Z [INFO]: Received signal: SIGINT. Initiating graceful shutdown...
+2024-12-19T16:15:28.212Z [INFO]: Graceful shutdown handlers configured.
+2024-12-19T16:15:28.218Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:15:28.259Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:15:31.372Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-19T16:17:02.027Z [INFO]: Graceful shutdown handlers configured.
+2024-12-19T16:17:02.032Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:17:02.065Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:17:43.869Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:17:43.920Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:17:46.677Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-19T16:17:56.709Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:17:56.754Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:19:02.221Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:19:02.290Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:19:13.466Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:19:13.522Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:19:29.771Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:19:29.827Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:19:37.962Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:19:38.009Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:26:01.880Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:26:01.923Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:26:22.527Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:26:22.576Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:26:31.342Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:26:31.393Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:26:37.594Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:26:37.645Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:26:44.891Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:26:44.930Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:26:51.919Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:26:51.958Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:26:58.664Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:26:58.711Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:27:06.770Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:27:06.832Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:27:17.852Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:27:17.946Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:43:22.449Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:43:22.495Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:43:42.448Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:43:42.517Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:46:44.890Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:46:44.937Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:47:11.622Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:47:11.704Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:47:16.882Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:47:16.954Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:47:29.795Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:47:29.842Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:47:41.001Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:47:41.056Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:47:50.481Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:47:50.529Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:48:23.323Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:48:23.361Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:48:41.574Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:48:41.633Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:48:51.392Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:48:51.471Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:49:28.520Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:49:28.557Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:49:45.354Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:49:45.401Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:49:54.096Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:49:54.164Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:49:57.860Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:49:57.898Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:50:36.429Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:50:51.218Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:50:51.265Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:50:57.750Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:50:57.806Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:51:27.222Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:51:27.272Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:51:37.270Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:51:37.318Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:52:03.792Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:52:03.884Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:52:10.264Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:52:10.310Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:52:15.770Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:52:15.815Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:52:45.774Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:52:45.825Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:52:51.757Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:52:51.802Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:53:06.681Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:53:06.921Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:54:59.041Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:54:59.097Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:56:33.282Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:56:33.328Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:56:43.668Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:56:43.710Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:56:52.941Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:56:53.070Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:57:00.671Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:57:00.764Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:57:19.569Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:57:19.618Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:58:10.167Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:58:10.232Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:58:40.600Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:58:40.640Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T16:59:02.574Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T16:59:02.611Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:00:08.540Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:00:08.614Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:00:12.037Z [DEBUG]: Connected to MongoDB
+2024-12-19T17:00:12.041Z [DEBUG]: Database connection established for seeding
+2024-12-19T17:00:12.446Z [DEBUG]: User Aiqw99 added.
+2024-12-19T17:00:12.447Z [DEBUG]: User Aiqw98 added.
+2024-12-19T17:00:12.448Z [DEBUG]: User Aiqw97 added.
+2024-12-19T17:00:12.448Z [DEBUG]: Data successfully imported
+2024-12-19T17:00:12.454Z [DEBUG]: Database disconnected
+2024-12-19T17:10:00.794Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:10:00.874Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:10:09.481Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:10:09.524Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:10:22.245Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:10:22.293Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:10:37.391Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:10:37.436Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:10:59.277Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:10:59.358Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:11:25.770Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:11:25.819Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:11:37.786Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:11:37.902Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:11:52.784Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:11:52.852Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:12:00.902Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:12:01.045Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:12:15.491Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:12:15.540Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:12:24.132Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:12:24.177Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:12:52.553Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:12:52.610Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:13:24.889Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:13:24.966Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:13:33.728Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:13:33.772Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:13:59.268Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:13:59.317Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:14:39.346Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T17:14:39.395Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T17:14:44.293Z [INFO]: Authentication process complete
+2024-12-19T17:19:31.047Z [INFO]: Authentication process complete
+2024-12-19T19:17:58.191Z [INFO]: Authentication process complete
+2024-12-19T19:18:04.515Z [INFO]: Authentication process complete
+2024-12-19T19:20:33.203Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:20:33.246Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:20:37.174Z [INFO]: Authentication process complete
+2024-12-19T19:21:28.580Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:21:28.694Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:21:38.638Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:21:38.676Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:22:03.359Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:22:03.407Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:22:09.226Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:22:31.232Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:22:31.273Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:22:32.549Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:22:33.960Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:22:51.116Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:22:52.411Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:23:22.740Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:23:22.777Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:23:24.034Z [INFO]: Authentication process complete
+2024-12-19T19:23:29.387Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:23:29.389Z [INFO]: Authentication process complete
+2024-12-19T19:23:30.704Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:23:30.706Z [INFO]: Authentication process complete
+2024-12-19T19:23:31.790Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:23:32.627Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:25:23.822Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:25:23.869Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:25:58.524Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:25:58.586Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:27:41.626Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:27:41.630Z [INFO]: Routes configured successfully.
+2024-12-19T19:27:41.636Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:27:41.677Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:27:49.666Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:27:49.671Z [INFO]: Routes configured successfully.
+2024-12-19T19:27:49.677Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:27:49.713Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:27:51.194Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:27:57.986Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:47:11
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:28:04.776Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:47:11
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:28:13.257Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:28:13.261Z [INFO]: Routes configured successfully.
+2024-12-19T19:28:13.266Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:28:13.301Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:28:14.462Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:47:11
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:28:20.739Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-19T19:28:55.862Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:28:55.865Z [INFO]: Authentication process complete
+2024-12-19T19:29:03.703Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/auth/logindfg",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-19T19:29:08.086Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:08.087Z [INFO]: Authentication process complete
+2024-12-19T19:29:12.673Z [INFO]: Authentication process complete
+2024-12-19T19:29:18.891Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:18.893Z [INFO]: Authentication process complete
+2024-12-19T19:29:20.108Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:20.110Z [INFO]: Authentication process complete
+2024-12-19T19:29:20.966Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:20.968Z [INFO]: Authentication process complete
+2024-12-19T19:29:22.026Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:22.028Z [INFO]: Authentication process complete
+2024-12-19T19:29:23.234Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:23.237Z [INFO]: Authentication process complete
+2024-12-19T19:29:24.359Z [ERROR]: Error: Account is locked. Try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later.
+    at AuthService.login (\services\authService.ts:130:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:24.360Z [INFO]: Authentication process complete
+2024-12-19T19:29:26.173Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:26.174Z [INFO]: Authentication process complete
+2024-12-19T19:29:27.595Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:27.596Z [INFO]: Authentication process complete
+2024-12-19T19:29:29.038Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:29.039Z [INFO]: Authentication process complete
+2024-12-19T19:29:30.624Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:30.625Z [INFO]: Authentication process complete
+2024-12-19T19:29:35.456Z [ERROR]: Error: Account is locked. Try again later
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. Try again later
+    at AuthService.login (\services\authService.ts:116:12)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:29:35.457Z [INFO]: Authentication process complete
+2024-12-19T19:30:10.231Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:30:10.239Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:30:10.276Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:30:28.265Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:30:28.274Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:30:28.312Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:30:42.472Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:30:42.485Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:30:42.529Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:31:06.068Z [INFO]: Authentication process complete
+2024-12-19T19:31:10.709Z [DEBUG]: Refresh token process complete
+2024-12-19T19:31:39.076Z [DEBUG]: Reset Password process complete
+2024-12-19T19:31:45.978Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-19T19:31:45.982Z [INFO]: Authentication process complete
+2024-12-19T19:31:50.189Z [INFO]: Authentication process complete
+2024-12-19T19:32:37.770Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:32:37.794Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:32:37.892Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:33:07.846Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:33:07.856Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:33:07.894Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:33:16.499Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:33:16.550Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:33:16.597Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:35:23.561Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:35:23.612Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:35:23.656Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:40:01.614Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:40:01.655Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:40:01.693Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:58:48.610Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:58:48.651Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:58:48.692Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:59:19.595Z [INFO]: Middlewares configured successfully.
+2024-12-19T19:59:19.633Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T19:59:19.676Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T19:59:59.759Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-19T20:00:15.482Z [INFO]: Middlewares configured successfully.
+2024-12-19T20:00:15.565Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T20:00:15.637Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T20:00:24.937Z [INFO]: Middlewares configured successfully.
+2024-12-19T20:00:25.019Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T20:00:25.089Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T20:01:50.235Z [INFO]: Middlewares configured successfully.
+2024-12-19T20:01:50.294Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T20:01:50.355Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:28:57.916Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/19/2024, 11:28:57 PM
+2024-12-19T21:28:58.059Z [DEBUG]: Cron job ran successfully at: 12/19/2024, 11:28:58 PM
+2024-12-19T21:30:46.517Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:30:46.559Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:30:46.616Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:31:11.162Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:31:11.215Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:31:11.270Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:31:35.003Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:31:35.069Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:31:35.142Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:32:02.161Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:32:02.217Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:32:02.281Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:32:10.898Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:32:10.938Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:32:10.984Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:32:57.086Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:32:57.131Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:32:57.183Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:33:14.921Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:33:14.991Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:33:15.063Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:33:41.663Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:33:41.711Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:33:41.763Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:34:07.560Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:34:07.628Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:34:07.689Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:34:59.356Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:34:59.408Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:34:59.453Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:35:41.578Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:35:41.626Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:35:41.680Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:36:17.933Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:36:17.975Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:36:18.028Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:36:55.814Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:36:55.855Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:36:55.898Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:44:59.246Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:44:59.286Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:44:59.337Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:45:44.581Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:45:44.626Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:45:44.678Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:45:54.521Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:45:54.571Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:45:54.631Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:49:13.472Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:49:13.513Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:49:13.560Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:50:42.793Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:50:42.856Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:50:42.936Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T21:57:10.578Z [INFO]: Middlewares configured successfully.
+2024-12-19T21:57:10.606Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T21:57:10.644Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:00:00.098Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/20/2024, 12:00:00 AM
+2024-12-19T22:00:00.115Z [DEBUG]: Cron job ran successfully at: 12/20/2024, 12:00:00 AM
+2024-12-19T22:06:16.392Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:06:16.445Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:06:16.503Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:06:40.637Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:06:40.682Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:06:40.726Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:08:35.068Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:08:35.119Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:08:35.164Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:09:16.829Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:09:16.926Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:09:17.035Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:14:10.185Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:14:10.238Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:14:10.289Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:14:29.359Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:14:29.420Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:14:29.497Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:14:41.912Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:14:41.991Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:14:42.072Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:15:20.342Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:15:20.414Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:15:20.485Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:16:32.827Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:16:32.902Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:16:32.965Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:16:50.346Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:16:50.391Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:16:50.437Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:17:38.318Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:17:38.365Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:17:38.410Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:17:50.075Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:17:50.123Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:17:50.165Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:18:37.143Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:18:37.192Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:18:37.230Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:20:29.066Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:20:29.143Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:20:29.205Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:21:16.237Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:21:16.281Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:21:16.325Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:22:09.955Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:22:10.076Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:22:10.185Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:23:55.172Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:23:55.223Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:23:55.284Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:24:11.204Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:24:11.270Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:24:11.346Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:24:18.459Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:24:18.524Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:24:18.598Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:24:55.039Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:24:55.114Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:24:55.189Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:25:18.462Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:25:18.511Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:25:18.574Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:25:38.747Z [INFO]: Middlewares configured successfully.
+2024-12-19T22:25:38.821Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T22:25:38.887Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T22:25:58.246Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-19T23:32:16.520Z [INFO]: Middlewares configured successfully.
+2024-12-19T23:32:16.561Z [INFO]: Server is running on http://localhost:8080
+2024-12-19T23:32:16.613Z [INFO]: Connected To MongoDB Locally.
+2024-12-19T23:39:33.845Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
