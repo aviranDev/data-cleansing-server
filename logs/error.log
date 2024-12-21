@@ -298,3 +298,205 @@ Unauthorized: Invalid username or password.
     at AuthService.login (\services\authService.ts:140:11)
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-20T22:29:32.286Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-20T22:29:44.518Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2024-12-20T22:30:11.458Z [ERROR]: Error: Account is locked. try again later.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 429
+}
+Stack trace:
+Too Many Requests Error: Account is locked. try again later.
+    at \utils\limiter.ts:71:12
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-20T22:35:13.308Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/contact/6765d200e7022695766193fe",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-20T22:35:27.678Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/contact/6765d200e7022695766193fe",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-20T23:24:21.852Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/contacts-by-location?location=maman&page=2&limit=3",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2024-12-20T23:25:00.879Z [ERROR]: Error: No contacts found for the location: undefined
+Meta: {
+  "url": "/api/contacts/contacts-by-location?service=agent&page=2&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: undefined
+    at ContactService.selectByLocation (\services\contactService.ts:101:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:72:35)
+2024-12-20T23:25:29.629Z [ERROR]: Error: No contacts found for the location: undefined
+Meta: {
+  "url": "/api/contacts/contacts-by-location?service=agent&page=2&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: undefined
+    at ContactService.selectByLocation (\services\contactService.ts:101:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:72:35)
+2024-12-21T00:07:58.118Z [ERROR]: Error: No contacts found for the location: location
+Meta: {
+  "url": "/api/contacts/contacts-by-location?location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: location
+    at ContactService.selectByLocation (\services\contactService.ts:101:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:75:35)
+2024-12-21T00:08:42.713Z [ERROR]: Error: No contacts found for the location: service
+Meta: {
+  "url": "/api/contacts/contacts-by-location?service=agent&page=2&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: service
+    at ContactService.selectByLocation (\services\contactService.ts:101:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:75:35)
+2024-12-21T00:09:04.696Z [ERROR]: Error: No contacts found for the location: location
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: location
+    at ContactService.selectByLocation (\services\contactService.ts:101:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:75:35)
+2024-12-21T00:11:27.871Z [ERROR]: Error: No contacts found for the location: location
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: location
+    at ContactService.selectByLocation (\services\contactService.ts:101:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:74:35)
+2024-12-21T00:12:09.912Z [ERROR]: Error: No contacts found for the location: location
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: location
+    at ContactService.selectByLocation (\services\contactService.ts:101:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:75:35)
+2024-12-21T00:13:14.442Z [ERROR]: Error: No contacts found for the location: location
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: location
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:75:35)
+2024-12-21T00:14:21.035Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+ReferenceError: location is not defined
+    at ContactService.selectByLocation (\services\contactService.ts:121:64)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:75:35)
+2024-12-21T00:14:26.663Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+ReferenceError: location is not defined
+    at ContactService.selectByLocation (\services\contactService.ts:121:64)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:75:35)
+2024-12-21T00:14:52.994Z [ERROR]: Error: No contacts found for the location: location
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: location
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:74:35)
+2024-12-21T00:26:05.385Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+ReferenceError: location is not defined
+    at ContactService.selectByLocation (\services\contactService.ts:103:56)
+    at ContactController.selectByLocation (\controllers\contactController.ts:81:54)
+    at userAuth (\middlewares\userAuth.ts:36:3)
+2024-12-21T00:26:51.305Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+ReferenceError: location is not defined
+    at ContactService.selectByLocation (\services\contactService.ts:103:56)
+    at ContactController.selectByLocation (\controllers\contactController.ts:81:54)
+    at userAuth (\middlewares\userAuth.ts:36:3)

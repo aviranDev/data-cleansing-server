@@ -15,6 +15,8 @@ import {startCronJob} from './utils/cronJob';
 import {processExcelFile} from './doc/excelFile';
 import path from 'path';
 import chokidar from 'chokidar';
+import _ from 'lodash';
+
 dotenv.config();
 
 function setupMiddlewares(app: Application) {
@@ -40,12 +42,13 @@ function setupRoutes(app: Application) {
 const filePath = path.join(process.cwd(), 'src/data2.xlsx');
 const watcher = chokidar.watch(filePath, {persistent: true});
 
-watcher
-	.on('change', () => {
+watcher.on(
+	'change',
+	_.debounce(() => {
 		console.log('File changed, updating database...');
 		processExcelFile(filePath);
-	})
-	.on('error', (error) => console.error('File watching error:', error));
+	}, 1000)
+);
 
 // Initial processing
 processExcelFile(filePath);

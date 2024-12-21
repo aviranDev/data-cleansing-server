@@ -1,7 +1,12 @@
 import XLSX from 'xlsx';
 import fs from 'fs';
-// import Record from '../models/Record';
-import CustomAgent, {ICustomAgent} from '../models/customAgents';
+import Contact, {IContact} from '../models/Contact';
+
+// Helper function to chunk an array
+const chunkArray = <T>(array: T[], size: number): T[][] =>
+	Array.from({length: Math.ceil(array.length / size)}, (_, i) =>
+		array.slice(i * size, i * size + size)
+	);
 
 // Function to process the Excel file
 export const processExcelFile = async (filePath: string): Promise<void> => {
@@ -15,45 +20,58 @@ export const processExcelFile = async (filePath: string): Promise<void> => {
 		// Read and parse the Excel file
 		const workbook = XLSX.readFile(filePath);
 		const sheetName = workbook.SheetNames[0];
-		const sheetData: ICustomAgent[] = XLSX.utils.sheet_to_json<ICustomAgent>(
+		const sheetData: IContact[] = XLSX.utils.sheet_to_json<IContact>(
 			workbook.Sheets[sheetName]
 		);
 
-		// Sync data with the database
-		const existingRecords = await CustomAgent.find();
-		const existingEmails = new Set(existingRecords.map((rec) => rec.email));
+		// Log the number of rows parsed
+		console.log(`Parsed ${sheetData.length} rows from Excel file.`);
 
-		const newRecords = sheetData.filter(
-			(row) => !existingEmails.has(row.email)
-		);
-		const updatedRecords = sheetData.filter((row) =>
-			existingEmails.has(row.email)
-		);
-
-		// Insert new records
-		if (newRecords.length) {
-			await CustomAgent.insertMany(
-				newRecords.map((row) => ({
-					agent: row.agent,
-					contactName: row.contactName,
-					email: row.email,
-					phone: row.phone,
-					role: row.role,
-				}))
-			);
+		if (sheetData.length === 0) {
+			console.warn('No data found in the Excel sheet.');
+			return;
 		}
 
-		// Update existing records
-		for (const record of updatedRecords) {
-			await CustomAgent.updateOne(
-				{email: record.email}, // Filter by unique identifier
-				{...record} // Update with all fields from the record
-			);
+		// Define chunk size for batch processing
+		const CHUNK_SIZE = 100; // Adjust based on your database capacity
+
+		// Define valid service values
+		const validServices = ['agent', 'airline', 'transport'];
+
+		// Validate and correct the service field for each row
+		sheetData.forEach((row, index) => {
+			if (row.service && !validServices.includes(row.service)) {
+				console.warn(
+					`Invalid service value "${row.service}" at row ${
+						index + 1
+					}. Setting to "agent".`
+				);
+				row.service = 'agent'; // Set to a default value if invalid
+			}
+		});
+
+		// Prepare bulk operations in chunks
+		const chunkedData = chunkArray(sheetData, CHUNK_SIZE);
+		for (const chunk of chunkedData) {
+			const bulkOps = chunk.map((row) => ({
+				updateOne: {
+					filter: {email: row.email}, // Unique identifier
+					update: {$set: row}, // Update all fields
+					upsert: true, // Insert if not found
+				},
+			}));
+
+			if (bulkOps.length > 0) {
+				const result = await Contact.bulkWrite(bulkOps);
+				console.log(
+					`Chunk processed: ${result.matchedCount} updated, ${result.upsertedCount} inserted.`
+				);
+			}
 		}
 
 		// **Delete records not present in Excel**
 		const excelEmails = new Set(sheetData.map((row) => row.email));
-		await CustomAgent.deleteMany({email: {$nin: Array.from(excelEmails)}});
+		await Contact.deleteMany({email: {$nin: Array.from(excelEmails)}});
 
 		console.log('Excel file processed and database updated.');
 	} catch (error) {

@@ -6,7 +6,9 @@ dotenv.config();
 
 // Default values for the environment in case specific variables are not provided
 const defaults = {
-	dbUri: 'mongodb://127.0.0.1:27017/data-cleansing', // Default URI for MongoDB in development
+	proUri:
+		'mongodb+srv://aviran:304715840@cluster0.g4o9h.mongodb.net/data-cleansing', // Default URI for MongoDB in development
+	devUri: 'mongodb://127.0.0.1:27017/data-cleansing', // Default URI for MongoDB in development
 	jwtSecret: 'default_jwt_secret', // Default JWT secret for token signing
 	accessTokenSecret: 'default_access_token_secret', // Default secret for access token
 	refreshTokenSecret: 'default_refresh_token_secret', // Default secret for refresh token
@@ -50,6 +52,16 @@ const ensureEnvVars = (): void => {
 	});
 };
 
+// Check for MongoDB URIs specifically
+if (!process.env.DB_URI_DEV && !defaults.devUri) {
+	logger.error('Development MongoDB URI is not defined. Exiting...');
+	process.exit(1);
+}
+if (!process.env.DB_URI_PROD && !defaults.proUri) {
+	logger.error('Production MongoDB URI is not defined. Exiting...');
+	process.exit(1);
+}
+
 // Run the environment check at the start of the application
 ensureEnvVars();
 
@@ -65,9 +77,6 @@ const config = {
 
 	// Salt value for password hashing, fallback to default salt if not provided
 	salt: Number(process.env.SALT) || defaults.salt,
-
-	// MongoDB URI, selects the appropriate URI based on the environment
-	uri: process.env.DB_URI || defaults.dbUri,
 
 	// JWT secret, use environment variable or fallback to default if missing
 	jwtSecret: process.env.JWT_SECRET || defaults.jwtSecret,
@@ -85,6 +94,11 @@ const config = {
 		process.env.ACCESS_TOKEN_EXPIRE || defaults.accessTokenExpire,
 	refreshTokenExpire:
 		process.env.REFRESH_TOKEN_EXPIRE || defaults.refreshTokenExpire,
+
+	uri:
+		process.env.NODE_ENV === 'production'
+			? process.env.DB_URI_PROD || defaults.proUri
+			: process.env.DB_URI_DEV || defaults.devUri,
 };
 
 // Export the configuration object to be used throughout the application
