@@ -14,6 +14,7 @@
 	"license": "ISC",
 	"dependencies": {
 		"@types/jsonwebtoken": "^9.0.7",
+		"@types/lodash": "^4.17.13",
 		"axios": "^1.7.9",
 		"bcryptjs": "^2.4.3",
 		"chokidar": "^4.0.3",
@@ -24,8 +25,13 @@
 		"express": "^4.21.2",
 		"joi": "^17.13.3",
 		"jsonwebtoken": "^9.0.2",
+		"lodash": "^4.17.21",
 		"mongoose": "^8.9.2",
 		"morgan": "^1.10.0",
+		"mysql2": "^3.11.5",
+		"p-limit": "^6.2.0",
+		"p-map": "^7.0.3",
+		"sequelize": "^6.37.5",
 		"winston": "^3.17.0",
 		"xlsx": "^0.18.5"
 	},
