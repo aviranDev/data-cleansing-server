@@ -25,8 +25,6 @@ const schema = new Schema<IContact>({
 	email: {type: String, required: true},
 	phone: {
 		type: String,
-		minlength: 9,
-		maxlength: 9,
 		required: true,
 	},
 	role: {

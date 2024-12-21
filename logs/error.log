@@ -500,3 +500,288 @@ ReferenceError: location is not defined
     at ContactService.selectByLocation (\services\contactService.ts:103:56)
     at ContactController.selectByLocation (\controllers\contactController.ts:81:54)
     at userAuth (\middlewares\userAuth.ts:36:3)
+2024-12-21T14:03:19.197Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:119:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:72:35)
+2024-12-21T14:03:25.179Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:119:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:72:35)
+2024-12-21T14:04:59.359Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:121:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:72:35)
+2024-12-21T14:05:58.831Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:121:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:73:35)
+2024-12-21T14:07:00.749Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:121:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:73:35)
+2024-12-21T14:07:12.181Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:121:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:73:35)
+2024-12-21T14:15:48.309Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?limit=3&page=1&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:16:35.343Z [ERROR]: Error: No contacts found for the location: "test record 10"
+Meta: {
+  "url": "/api/contacts/contacts-by-company?limit=3&page=1&company=%22test%20record%2010%22",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: "test record 10"
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:17:57.840Z [ERROR]: Error: No contacts found for the location: test%record%10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%record%10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test%record%10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:18:46.012Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:19:31.502Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:19:55.940Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:19:57.287Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:21:36.421Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/contacts-by-location?limit=3&location=maman&page=1",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2024-12-21T15:10:24.365Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/find-contact-by-email?email=person5email@mail.com",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-21T15:11:15.504Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/find-contact-by-email?email=person5email@mail.com",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.getContactByEmail (\services\contactService.ts:149:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.getContactByEmail (\controllers\contactController.ts:127:20)
+2024-12-21T15:11:47.290Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/find-contact-by-email?email=person5email@mail.com",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.getContactByEmail (\services\contactService.ts:149:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.getContactByEmail (\controllers\contactController.ts:127:20)
+2024-12-21T15:18:18.549Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/contacts-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-21T15:18:27.307Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-21T15:18:49.824Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-21T15:19:09.852Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2024-12-21T15:20:40.136Z [ERROR]: Error: No contacts found for the company: Agent
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=Agent",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: Agent
+    at ContactService.selectByService (\services\contactService.ts:154:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:20:45.101Z [ERROR]: Error: No contacts found for the company: gent
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=gent",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: gent
+    at ContactService.selectByService (\services\contactService.ts:154:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:21:31.755Z [ERROR]: Error: No contacts found for the service: gent
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=gent",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the service: gent
+    at ContactService.selectByService (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:21:36.996Z [ERROR]: Error: No contacts found for the service: agent
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=agent",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the service: agent
+    at ContactService.selectByService (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:21:50.023Z [ERROR]: Error: No contacts found for the service: airline
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the service: airline
+    at ContactService.selectByService (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:21:55.962Z [ERROR]: Error: No contacts found for the service: airline
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the service: airline
+    at ContactService.selectByService (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
