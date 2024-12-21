@@ -1529,3 +1529,746 @@ ReferenceError: location is not defined
 2024-12-21T00:27:35.119Z [INFO]: Connected To MongoDB Locally.
 2024-12-21T00:27:37.027Z [DEBUG]: Port contacts is complete.
 2024-12-21T00:27:40.368Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-21T10:57:37.045Z [INFO]: Middlewares configured successfully.
+2024-12-21T10:57:37.082Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T10:57:37.127Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:00:32.285Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:00:32.337Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:00:32.390Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:01:29.963Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:01:30.007Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:01:30.065Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:02:03.473Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:02:03.508Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:02:03.550Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:02:38.311Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:02:38.342Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:02:38.382Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:02:47.234Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:02:47.270Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:02:47.307Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:03:11.409Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:03:11.458Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:03:11.504Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:04:17.434Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:04:17.465Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:04:17.506Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:05:18.125Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:05:18.167Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:05:18.208Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:05:27.728Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:05:27.765Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:05:27.802Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:06:46.589Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:06:46.621Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:06:46.655Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:06:59.033Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:06:59.067Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:06:59.101Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:07:39.240Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:07:39.274Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:07:39.319Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:07:46.608Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:07:46.642Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:07:46.693Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:11:24.443Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:11:24.475Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:11:24.525Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:11:36.587Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:11:36.629Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:11:36.704Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:11:56.521Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:11:56.557Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:11:56.597Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:15:05.774Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:15:05.805Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:15:05.837Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:15:40.895Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:15:40.946Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:15:40.997Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:16:44.902Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:16:44.960Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:16:44.998Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:16:55.354Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:16:55.413Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:16:55.448Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:17:14.235Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:17:14.300Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:17:14.338Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:17:42.038Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:17:42.095Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:17:42.129Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:20:16.051Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:20:16.183Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:20:16.187Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:20:48.471Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:20:48.571Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:20:48.575Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:27:35.584Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:27:35.668Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:27:35.671Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:28:18.698Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:28:18.784Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:28:18.787Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:29:44.323Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:29:44.406Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:29:44.410Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:30:01.192Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:30:01.282Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:30:01.286Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:33:10.546Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:33:10.646Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:33:10.650Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:36:51.062Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:36:51.145Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:36:51.149Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:37:02.383Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:37:02.493Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:37:02.496Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:37:36.479Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:37:36.576Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:37:36.581Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:38:23.695Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:38:23.784Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:38:23.788Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:38:40.500Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:38:40.667Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:38:40.677Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:43:25.762Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:43:25.864Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:43:25.869Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:43:36.291Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:43:36.415Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:43:36.421Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:51:31.341Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:51:31.428Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:51:31.432Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:52:33.285Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:52:33.375Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:52:33.381Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:52:59.016Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:52:59.118Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:52:59.125Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:54:04.523Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:54:04.609Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:54:04.614Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:55:04.448Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:55:04.544Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:55:04.549Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:55:20.097Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:55:20.189Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:55:20.194Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:55:55.494Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:55:55.583Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:55:55.587Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:56:21.457Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:56:21.556Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:56:21.560Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:57:22.595Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:57:22.707Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:57:22.712Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:57:42.287Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:57:42.382Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:57:42.389Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:58:10.278Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:58:10.377Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:58:10.382Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:58:29.079Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:58:29.181Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:58:29.187Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T11:58:55.888Z [INFO]: Middlewares configured successfully.
+2024-12-21T11:58:55.982Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T11:58:55.986Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:00:00.064Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/21/2024, 2:00:00 PM
+2024-12-21T12:00:00.072Z [DEBUG]: Cron job ran successfully at: 12/21/2024, 2:00:00 PM
+2024-12-21T12:00:09.259Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:00:09.358Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:00:09.363Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:00:23.321Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:00:23.411Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:00:23.416Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:01:24.139Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:01:24.235Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:01:24.241Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:04:23.725Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:04:23.823Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:04:23.830Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:05:17.013Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:05:17.159Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:05:17.166Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:05:49.250Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:05:49.348Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:05:49.353Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:08:39.122Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:08:39.208Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:08:39.213Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:10:18.779Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:10:18.881Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:10:18.884Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:10:32.834Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:10:32.942Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:10:32.946Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:10:58.985Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:10:59.072Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:10:59.076Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:11:53.145Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:11:53.245Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:11:53.249Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:12:15.122Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:12:15.240Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:12:15.247Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:14:12.094Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:14:12.189Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:14:12.196Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:15:17.021Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:15:17.116Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:15:17.121Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:15:24.842Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:15:24.938Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:15:24.942Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:15:40.347Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:15:40.446Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:15:40.451Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:16:23.731Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:16:23.836Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:16:23.842Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:16:33.645Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:16:33.743Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:16:33.747Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:16:40.264Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:16:40.360Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:16:40.366Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:17:06.872Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:17:06.974Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:17:06.978Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:17:12.751Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:17:12.846Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:17:12.850Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:20:43.008Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:20:43.100Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:20:43.105Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:21:18.024Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:21:18.123Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:21:18.129Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T12:22:20.438Z [INFO]: Middlewares configured successfully.
+2024-12-21T12:22:20.533Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T12:22:20.537Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:24:48.993Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/21/2024, 3:24:48 PM
+2024-12-21T13:24:49.030Z [DEBUG]: Cron job ran successfully at: 12/21/2024, 3:24:49 PM
+2024-12-21T13:31:44.910Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:31:45.012Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:31:45.017Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:31:59.319Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:31:59.410Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:31:59.414Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:32:27.012Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:32:27.142Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:32:27.147Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:32:34.448Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:32:34.555Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:32:34.560Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:33:15.087Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:33:15.199Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:33:15.210Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:36:03.697Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:36:03.805Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:36:03.810Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:36:24.431Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:36:24.556Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:36:24.562Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:36:47.589Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:36:47.698Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:36:47.703Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:36:59.998Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:37:00.142Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:37:00.149Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:39:46.273Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:39:46.374Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:39:46.379Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:40:16.010Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:40:16.111Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:40:16.116Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:41:17.226Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:41:17.320Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:41:17.324Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:44:30.018Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:44:30.124Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:44:30.129Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:46:07.378Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:46:07.466Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:46:07.470Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:48:51.995Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:48:52.079Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:48:52.085Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:50:36.153Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:50:36.243Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:50:36.249Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:51:40.859Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:51:40.966Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:51:40.971Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:51:55.099Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:51:55.203Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:51:55.207Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:52:09.570Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:52:09.741Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:52:09.748Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:52:54.159Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:52:54.264Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:52:54.270Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:53:23.054Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:53:23.149Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:53:23.154Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:53:30.845Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:53:30.938Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:53:30.942Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:54:37.905Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:54:38.005Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:54:38.010Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:54:54.909Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:54:55.017Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:54:55.022Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:55:03.611Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:55:03.763Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:55:03.771Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:56:32.194Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:56:32.360Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:56:32.369Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T13:57:00.953Z [INFO]: Middlewares configured successfully.
+2024-12-21T13:57:01.061Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T13:57:01.066Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:00:00.061Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/21/2024, 4:00:00 PM
+2024-12-21T14:00:00.069Z [DEBUG]: Cron job ran successfully at: 12/21/2024, 4:00:00 PM
+2024-12-21T14:00:14.503Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:00:14.597Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:00:14.602Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:01:30.860Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:01:30.974Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:01:30.980Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:02:00.731Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:02:00.848Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:02:00.852Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:02:19.852Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:02:20.152Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:02:20.162Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:02:49.036Z [INFO]: Authentication process complete
+2024-12-21T14:02:53.142Z [DEBUG]: Refresh token process complete
+2024-12-21T14:03:19.197Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:119:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:72:35)
+2024-12-21T14:03:19.200Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:03:25.179Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:119:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:72:35)
+2024-12-21T14:03:25.181Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:04:55.555Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:04:55.661Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:04:55.666Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:04:59.359Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:121:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:72:35)
+2024-12-21T14:04:59.364Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:05:50.606Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:05:50.709Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:05:50.713Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:05:58.831Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:121:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:73:35)
+2024-12-21T14:05:58.836Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:06:51.684Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:07:00.749Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:121:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:73:35)
+2024-12-21T14:07:00.752Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:07:12.181Z [ERROR]: Error: No contacts found for the location: maman
+Meta: {
+  "url": "/api/contacts/contacts-by-location?page=2&limit=3&location=maman",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: maman
+    at ContactService.selectByLocation (\services\contactService.ts:121:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByLocation (\controllers\contactController.ts:73:35)
+2024-12-21T14:07:12.183Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:07:16.720Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:09:08.764Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:09:08.863Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:09:08.869Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:09:46.975Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:09:47.083Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:09:47.091Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:10:24.361Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:10:24.578Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:10:24.587Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:15:15.215Z [DEBUG]: Refresh token process complete
+2024-12-21T14:15:48.309Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?limit=3&page=1&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:15:48.311Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:16:35.343Z [ERROR]: Error: No contacts found for the location: "test record 10"
+Meta: {
+  "url": "/api/contacts/contacts-by-company?limit=3&page=1&company=%22test%20record%2010%22",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: "test record 10"
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:16:35.345Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:17:57.840Z [ERROR]: Error: No contacts found for the location: test%record%10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%record%10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test%record%10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:17:57.842Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:18:46.012Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:18:46.014Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:19:11.195Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:19:11.296Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:19:11.301Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:19:31.502Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:19:31.506Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:19:43.741Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:19:43.829Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:19:43.833Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:19:55.940Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:19:55.944Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:19:57.287Z [ERROR]: Error: No contacts found for the location: test record 10
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%2010",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the location: test record 10
+    at ContactService.selectByLocation (\services\contactService.ts:103:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:101:34)
+2024-12-21T14:19:57.288Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:20:18.262Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:20:18.353Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:20:18.357Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:21:20.733Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:21:20.855Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:21:20.861Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:21:24.990Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:21:36.421Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/contacts-by-location?limit=3&location=maman&page=1",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2024-12-21T14:21:49.000Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:25:45.451Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:25:45.540Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:25:45.545Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:25:56.542Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:25:56.654Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:25:56.660Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:26:11.935Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:26:12.105Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:26:12.112Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:27:04.684Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:27:04.785Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:27:04.789Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:27:17.689Z [DEBUG]: Refresh token process complete
+2024-12-21T14:27:30.087Z [DEBUG]: Display contacts complete.
+2024-12-21T14:28:23.540Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:28:23.636Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:28:23.640Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:28:39.747Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:28:39.880Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:28:39.886Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:28:52.847Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:28:52.966Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:28:52.971Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:29:08.916Z [DEBUG]: Refresh token process complete
+2024-12-21T14:29:52.144Z [DEBUG]: Display contacts complete.
+2024-12-21T14:30:02.425Z [DEBUG]: Display contact is complete.
+2024-12-21T14:30:06.826Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:30:11.321Z [DEBUG]: Port contacts is complete.
+2024-12-21T14:31:23.751Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:31:23.843Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:31:23.848Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:31:54.167Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:31:54.254Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:31:54.259Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:33:49.244Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:33:49.328Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:33:49.332Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:34:23.825Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:34:23.922Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:34:23.926Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T14:34:29.935Z [INFO]: Middlewares configured successfully.
+2024-12-21T14:34:30.070Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T14:34:30.074Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:04:49.072Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/21/2024, 5:04:49 PM
+2024-12-21T15:04:49.086Z [DEBUG]: Cron job ran successfully at: 12/21/2024, 5:04:49 PM
+2024-12-21T15:08:35.049Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:08:35.156Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:08:35.161Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:09:55.898Z [DEBUG]: Refresh token process complete
+2024-12-21T15:10:24.365Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/find-contact-by-email?email=person5email@mail.com",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-21T15:11:14.982Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:11:15.158Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:11:15.179Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:11:15.504Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/find-contact-by-email?email=person5email@mail.com",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.getContactByEmail (\services\contactService.ts:149:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.getContactByEmail (\controllers\contactController.ts:127:20)
+2024-12-21T15:11:15.509Z [DEBUG]: Display contact is complete.
+2024-12-21T15:11:47.290Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/find-contact-by-email?email=person5email@mail.com",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.getContactByEmail (\services\contactService.ts:149:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.getContactByEmail (\controllers\contactController.ts:127:20)
+2024-12-21T15:11:47.292Z [DEBUG]: Display contact is complete.
+2024-12-21T15:12:04.280Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:12:04.371Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:12:04.376Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:12:42.585Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:12:42.670Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:12:42.674Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:12:43.369Z [DEBUG]: Display contact is complete.
+2024-12-21T15:14:13.326Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:14:13.435Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:14:13.440Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:14:49.424Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:14:49.519Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:14:49.525Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:15:15.829Z [DEBUG]: Display contact is complete.
+2024-12-21T15:15:22.535Z [DEBUG]: Display contact is complete.
+2024-12-21T15:17:45.197Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:17:45.347Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:17:45.354Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:18:18.549Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/contacts-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-21T15:18:27.307Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-21T15:18:49.824Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-21T15:19:09.852Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2024-12-21T15:19:13.615Z [DEBUG]: Refresh token process complete
+2024-12-21T15:19:30.526Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:19:43.582Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:20:40.136Z [ERROR]: Error: No contacts found for the company: Agent
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=Agent",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: Agent
+    at ContactService.selectByService (\services\contactService.ts:154:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:20:40.138Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:20:45.101Z [ERROR]: Error: No contacts found for the company: gent
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=gent",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: gent
+    at ContactService.selectByService (\services\contactService.ts:154:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:20:45.103Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:21:31.575Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:21:31.662Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:21:31.667Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:21:31.755Z [ERROR]: Error: No contacts found for the service: gent
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=gent",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the service: gent
+    at ContactService.selectByService (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:21:31.760Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:21:36.996Z [ERROR]: Error: No contacts found for the service: agent
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=agent",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the service: agent
+    at ContactService.selectByService (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:21:36.997Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:21:50.023Z [ERROR]: Error: No contacts found for the service: airline
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the service: airline
+    at ContactService.selectByService (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:21:50.024Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:21:55.962Z [ERROR]: Error: No contacts found for the service: airline
+Meta: {
+  "url": "/api/contacts/search-contacts-by-service?limit=3&page=1&service=airline",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the service: airline
+    at ContactService.selectByService (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-21T15:21:55.963Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:22:06.345Z [INFO]: Middlewares configured successfully.
+2024-12-21T15:22:06.435Z [INFO]: Connected To MongoDB Locally.
+2024-12-21T15:22:06.441Z [INFO]: Server is running on http://localhost:8080
+2024-12-21T15:22:08.410Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:22:24.329Z [DEBUG]: Port contacts is complete.
+2024-12-21T15:22:41.332Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
