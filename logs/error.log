@@ -785,3 +785,705 @@ Internal Error: No contacts found for the service: airline
     at ContactService.selectByService (\services\contactService.ts:142:10)
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ContactController.selectByService (\controllers\contactController.ts:105:34)
+2024-12-27T12:23:39.212Z [ERROR]: Unhandled Rejection at:
+2024-12-27T12:24:56.749Z [ERROR]: Unhandled Rejection at:
+2024-12-27T12:25:13.539Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/all-casdsa",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-27T12:25:19.457Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contasdsa",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-27T12:25:24.969Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/cs",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-04T15:22:14.418Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2025-01-04T15:22:26.871Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2025-01-04T19:30:41.301Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%209",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-04T19:31:10.353Z [ERROR]: Error: No contacts found for the company: test record 9
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?page=1&limit=3&company=test%20record%209",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: test record 9
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:77:34)
+2025-01-04T19:31:23.507Z [ERROR]: Error: No contacts found for the company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?page=1&limit=3&company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:77:34)
+2025-01-04T19:31:45.933Z [ERROR]: Error: No contacts found for the company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:77:34)
+2025-01-04T19:34:14.409Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T19:34:14.429Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-04T19:42:06.109Z [ERROR]: Error: Error retrieving contacts for company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:120:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:75:34)
+2025-01-04T19:42:43.715Z [ERROR]: Error: Error retrieving contacts for company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:120:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T19:43:49.303Z [ERROR]: Error: Error retrieving contacts for company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:121:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T19:44:05.444Z [ERROR]: Error: Error retrieving contacts for company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:121:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T19:44:14.390Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T19:44:14.408Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-04T19:48:55.055Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+MongoServerError: Invalid $addFields :: caused by :: Use of undefined variable: totalItems
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-04T19:49:41.875Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+MongoServerError: Invalid $addFields :: caused by :: Use of undefined variable: totalItems
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-04T19:50:03.449Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+MongoServerError: Invalid $addFields :: caused by :: Use of undefined variable: totalItems
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-04T19:54:14.399Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T19:54:14.413Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-04T19:57:03.956Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-04T19:57:22.461Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-04T20:04:14.384Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T20:04:14.399Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-04T20:23:01.296Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-04T20:23:01.434Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T20:35:37.149Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:37.265Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:37.287Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:37.415Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:58.080Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:58.199Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:58.233Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:58.339Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:36:13.684Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:36:13.804Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:36:13.851Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:36:13.970Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:37:37.514Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:37:37.618Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:37:37.674Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:37:37.783Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:38:06.801Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test+record+1&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:38:18.766Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test+record+&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:39:06.097Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:39:06.206Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:39:06.248Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:39:06.365Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:40:13.231Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:143:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:40:13.283Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:143:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:40:13.321Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:143:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:40:13.450Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:143:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-09T23:57:38.289Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T00:08:03.925Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T00:13:52.328Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=s&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:13:54.981Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=sa&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:13:55.083Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=sas&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:13:55.203Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=sasd&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:40:47.497Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:40:47.586Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:40:47.723Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:40:47.793Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T01:42:48.469Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T01:43:04.122Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/filter-by-name?test%20record%201",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T01:47:30.726Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test+record+2",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:211:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T01:47:53.491Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test+record+2",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:211:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T01:48:02.086Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test+record+2",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:211:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)

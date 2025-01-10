@@ -11,7 +11,11 @@ const controller = new ContactController(contactService);
 // Create a new Express router instance
 const router = Router();
 
-router.get('/all-contacts', userAuth, controller.allContacts);
+router.get('/', userAuth, controller.allContacts);
+
+router.get(`/filter-by-name`, userAuth, controller.filterByName);
+
+router.get(`/search-by-name`, userAuth, controller.searchByname);
 
 router.get(
 	`/search-contacts-by-location`,
@@ -19,13 +23,9 @@ router.get(
 	controller.selectByLocation
 );
 
-router.get(`/search-contacts-by-company`, userAuth, controller.selectByCompany);
-
 router.get(`/search-contacts-by-service`, userAuth, controller.selectByService);
 
 router.get(`/find-contact-by-email`, userAuth, controller.getContactByEmail);
-
-router.get(`/find-contact-by-name`, userAuth, controller.findByContactName);
 
 router.get('/display-contact/:id', userAuth, controller.getContactById);
 

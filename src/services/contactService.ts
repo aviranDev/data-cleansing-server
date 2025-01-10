@@ -10,11 +10,13 @@ export interface IContactService {
 		page: number,
 		pageSize: number
 	): Promise<object>;
-	selectByCompany(
-		company: string,
+	searchContacts(
+		filter: object, // Accept an object for MongoDB-style filters
 		page: number,
 		pageSize: number
-	): Promise<object>;
+	): Promise<{items: IContact[]; totalItems: number; totalPages: number}>;
+	filterByName(company: string): Promise<object>;
+	searchByname(search: string): Promise<IContact>;
 	selectByService(
 		service: string,
 		page: number,
@@ -22,7 +24,6 @@ export interface IContactService {
 	): Promise<object>;
 	getContactById(documentId: string): Promise<IContact>;
 	getContactByEmail(contactEmail: string): Promise<IContact>;
-	getContactByName(contactName: string): Promise<IContact>;
 }
 
 class ContactService {
@@ -39,21 +40,38 @@ class ContactService {
 		page: number,
 		pageSize: number
 	): Promise<{items: IContact[]; totalItems: number; totalPages: number}> {
-		const totalItems = await this.model.countDocuments(filter);
-		if (totalItems === 0) {
-			throw new BaseError('No items found for the given filter.');
-		}
-
-		const totalPages = Math.ceil(totalItems / pageSize);
 		const skipCount = (page - 1) * pageSize;
 
-		const items = await this.model
-			.find(filter)
-			.skip(skipCount)
-			.limit(pageSize)
-			.exec();
+		try {
+			const result = await this.model.aggregate([
+				{$match: filter},
+				{
+					$facet: {
+						metadata: [
+							{$count: 'totalItems'}, // Count total items
+							{
+								$addFields: {
+									totalPages: {$ceil: {$divide: ['$totalItems', pageSize]}},
+								},
+							}, // Calculate total pages
+						],
+						items: [
+							{$skip: skipCount}, // Skip the appropriate number of records
+							{$limit: pageSize}, // Limit the number of records per page
+						],
+					},
+				},
+			]);
 
-		return {items, totalItems, totalPages};
+			const totalItems = result[0]?.metadata?.[0]?.totalItems || 0;
+			const totalPages = result[0]?.metadata?.[0]?.totalPages || 0;
+			const items = result[0]?.items || [];
+			console.log(items);
+
+			return {items, totalItems, totalPages};
+		} catch (error) {
+			throw new BaseError('Error during aggregation.');
+		}
 	}
 
 	/**
@@ -105,28 +123,26 @@ class ContactService {
 	}
 
 	/**
-	 * Retrieves contacts for a specific company in a paginated manner.
+	 * Retrieves contacts for a specific company in a paginated manner with case-sensitive name matching.
 	 */
-	public async selectByCompany(
-		company: string,
-		page: number,
-		pageSize: number
-	): Promise<object> {
+	public async filterByName(company: string): Promise<object> {
 		try {
-			const {items, totalItems, totalPages} = await this.paginate(
-				{company},
-				page,
-				pageSize
-			);
+			// Create a case-sensitive filter for the company name using $regex
+			const filter = {company: {$regex: company, $options: 'i'}};
 
-			return {
-				contacts: items,
-				currentPage: page,
-				totalPages,
-				totalItems,
-			};
+			// Use findOne to retrieve the first contact that matches the company
+			const data = await this.model
+				.find(filter)
+				.limit(parseInt('3'))
+				.select('company'); // Return only relevant fields
+
+			if (!data) {
+				throw new BaseError(`No contacts found for the company: ${company}`);
+			}
+
+			return {data};
 		} catch (error) {
-			throw new BaseError(`No contacts found for the company: ${company}`);
+			throw new BaseError(`Error retrieving contacts for company: ${company}`);
 		}
 	}
 	/**
@@ -188,15 +204,54 @@ class ContactService {
 	/**
 	 * Retrieves the details of a contact by its ID.
 	 */
-	public async getContactByName(contactName: string): Promise<IContact> {
+	public async searchByname(search: string): Promise<IContact> {
 		try {
-			const contact = await this.model.findOne({contactName});
+			const contact = await this.model.findOne({search});
 			if (!contact) {
 				throw new ConflictError('Contact not found.');
 			}
 			return contact;
 		} catch (error) {
 			throw error;
+		}
+	}
+
+	public async searchContacts(
+		filter: object, // Updated type to object
+		page: number = 1,
+		pageSize: number = 10
+	): Promise<{items: IContact[]; totalItems: number; totalPages: number}> {
+		try {
+			const result = await this.model.aggregate([
+				{$match: filter},
+				{
+					$facet: {
+						metadata: [
+							{$count: 'totalItems'},
+							{
+								$addFields: {
+									totalPages: {$ceil: {$divide: ['$totalItems', pageSize]}},
+								},
+							},
+						],
+						items: [{$skip: (page - 1) * pageSize}, {$limit: pageSize}],
+					},
+				},
+			]);
+
+			const metadata = result[0]?.metadata?.[0] || {
+				totalItems: 0,
+				totalPages: 0,
+			};
+			const items = result[0]?.items || [];
+
+			return {
+				items,
+				totalItems: metadata.totalItems,
+				totalPages: metadata.totalPages,
+			};
+		} catch (error) {
+			throw new BaseError('Error during search aggregation.');
 		}
 	}
 }
