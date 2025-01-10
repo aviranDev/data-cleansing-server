@@ -2272,3 +2272,2436 @@ Internal Error: No contacts found for the service: airline
 2024-12-21T15:22:08.410Z [DEBUG]: Port contacts is complete.
 2024-12-21T15:22:24.329Z [DEBUG]: Port contacts is complete.
 2024-12-21T15:22:41.332Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-27T00:31:39.029Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:31:39.134Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:31:39.139Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:32:36.760Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:32:36.827Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:32:36.830Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:33:21.843Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:33:21.934Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:33:21.941Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:33:52.997Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:33:53.059Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:33:53.062Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:34:34.146Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:34:34.238Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:34:34.242Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:42:14.404Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:42:14.493Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:42:14.496Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:43:26.671Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:43:26.762Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:43:26.767Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:46:55.130Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:46:55.236Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:46:55.242Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:48:13.395Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:48:13.494Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:48:13.498Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:48:31.849Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:48:31.940Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:48:31.944Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:50:00.385Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:50:00.470Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:50:00.474Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:50:40.597Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:50:40.703Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:50:40.708Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T00:59:05.681Z [INFO]: Middlewares configured successfully.
+2024-12-27T00:59:05.778Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T00:59:05.783Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:00:00.058Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/27/2024, 3:00:00 AM
+2024-12-27T01:00:00.070Z [DEBUG]: Cron job ran successfully at: 12/27/2024, 3:00:00 AM
+2024-12-27T01:01:44.058Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:01:44.157Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:01:44.162Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:02:18.646Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:02:18.738Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:02:18.742Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:05:31.554Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:05:31.692Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:05:31.698Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:05:40.741Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:05:40.867Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:05:40.875Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:05:52.825Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:05:52.928Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:05:52.933Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:06:40.368Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:06:40.465Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:06:40.471Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:08:17.306Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:08:17.394Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:08:17.398Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:08:48.649Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:08:48.737Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:08:48.742Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:09:55.866Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:09:56.009Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:09:56.030Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:10:24.076Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:10:24.165Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:10:24.170Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:10:45.428Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:10:45.520Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:10:45.524Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:11:11.237Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:11:11.332Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:11:11.336Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:11:49.337Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:11:49.449Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:11:49.453Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:12:17.220Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:12:17.340Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:12:17.347Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:12:25.257Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:12:25.363Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:12:25.368Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:12:49.853Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:12:49.956Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:12:49.961Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:12:58.953Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:12:59.060Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:12:59.065Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:13:15.969Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:13:16.065Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:13:16.069Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:13:43.568Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:13:43.661Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:13:43.666Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:14:18.298Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:14:18.395Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:14:18.400Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:14:28.361Z [INFO]: Middlewares configured successfully.
+2024-12-27T01:14:28.469Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T01:14:28.474Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T01:16:38.659Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-27T02:32:39.947Z [INFO]: Middlewares configured successfully.
+2024-12-27T02:32:40.133Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T02:32:40.144Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T02:32:40.333Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-27T02:32:40.349Z [INFO]: Server closed successfully.
+2024-12-27T02:32:40.424Z [INFO]: MongoDB connection closed.
+2024-12-27T02:33:12.691Z [INFO]: Middlewares configured successfully.
+2024-12-27T02:33:12.778Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T02:33:12.782Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T02:35:09.165Z [INFO]: Middlewares configured successfully.
+2024-12-27T02:35:09.284Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T02:35:09.288Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T02:35:54.064Z [INFO]: Middlewares configured successfully.
+2024-12-27T02:35:54.167Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T02:35:54.171Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T02:42:26.609Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-27T10:34:33.798Z [INFO]: Middlewares configured successfully.
+2024-12-27T10:34:33.890Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T10:34:33.893Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T10:37:05.534Z [INFO]: Middlewares configured successfully.
+2024-12-27T10:37:05.599Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T10:37:05.623Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T10:37:05.627Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T10:37:24.461Z [INFO]: Middlewares configured successfully.
+2024-12-27T10:37:24.531Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T10:37:24.553Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T10:37:24.556Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:00:00.052Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/27/2024, 1:00:00 PM
+2024-12-27T11:00:00.061Z [DEBUG]: Cron job ran successfully at: 12/27/2024, 1:00:00 PM
+2024-12-27T11:04:11.342Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:04:11.420Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:04:11.449Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:04:11.453Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:04:43.837Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:04:43.937Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:04:43.968Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:04:43.972Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:04:54.183Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:04:54.279Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:04:54.310Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:04:54.315Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:05:10.271Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:05:10.366Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:05:10.399Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:05:10.406Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:05:45.997Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:05:46.084Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:05:46.111Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:05:46.115Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:06:02.989Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:06:03.077Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:06:03.104Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:06:03.112Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:06:25.901Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:06:25.969Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:06:25.994Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:06:25.998Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:07:02.907Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:07:02.972Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:07:02.994Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:07:02.997Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:11:46.723Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:11:46.793Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:11:46.818Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:11:46.822Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:12:09.182Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:12:09.287Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:12:09.327Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:12:09.335Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:16:48.898Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:16:48.963Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:16:48.986Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:16:48.990Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:19:22.356Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:19:22.431Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:19:22.458Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:19:22.463Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:20:25.533Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:20:25.615Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:20:25.640Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:20:25.644Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:21:15.632Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:21:15.717Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:21:15.742Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:21:15.747Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:21:30.777Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:21:30.868Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:21:30.904Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:21:30.910Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T11:46:09.896Z [INFO]: Middlewares configured successfully.
+2024-12-27T11:46:09.961Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T11:46:09.983Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T11:46:09.987Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:00:00.054Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/27/2024, 2:00:00 PM
+2024-12-27T12:00:00.064Z [DEBUG]: Cron job ran successfully at: 12/27/2024, 2:00:00 PM
+2024-12-27T12:01:16.194Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:01:16.276Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:01:16.307Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:01:16.313Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:01:22.561Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:01:22.627Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:01:22.651Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:01:22.657Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:04:36.739Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:04:36.808Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:04:36.832Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:04:36.835Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:15:03.391Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:15:03.456Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:15:03.479Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:15:03.484Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:18:48.644Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:18:48.849Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:18:48.921Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:18:48.930Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:20:06.225Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:20:06.504Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:20:06.558Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:20:06.568Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:20:32.031Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:20:32.188Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:20:32.240Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:20:32.249Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:23:39.212Z [ERROR]: Unhandled Rejection at:
+2024-12-27T12:23:59.678Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:23:59.756Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:23:59.785Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:23:59.788Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:24:32.848Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:24:32.915Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:24:32.940Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:24:32.944Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:24:56.749Z [ERROR]: Unhandled Rejection at:
+2024-12-27T12:25:11.396Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:25:11.465Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:25:11.488Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:25:11.492Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:25:13.539Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/all-casdsa",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-27T12:25:19.457Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contasdsa",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-27T12:25:24.969Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/cs",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2024-12-27T12:26:13.369Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:26:13.440Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:26:13.466Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:26:13.472Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:26:26.402Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:26:26.466Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:26:26.491Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:26:26.495Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:27:51.697Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:27:51.766Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:27:51.795Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:27:51.800Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:28:54.862Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:28:54.931Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:28:54.954Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:28:54.958Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:35:04.539Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:35:04.604Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:35:04.629Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:35:04.633Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T12:35:52.095Z [INFO]: Middlewares configured successfully.
+2024-12-27T12:35:52.158Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T12:35:52.185Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T12:35:52.189Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T13:00:00.044Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/27/2024, 3:00:00 PM
+2024-12-27T13:00:00.049Z [DEBUG]: Cron job ran successfully at: 12/27/2024, 3:00:00 PM
+2024-12-27T16:22:45.422Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/27/2024, 6:22:45 PM
+2024-12-27T16:22:45.425Z [DEBUG]: Cron job ran successfully at: 12/27/2024, 6:22:45 PM
+2024-12-27T16:25:29.581Z [INFO]: Middlewares configured successfully.
+2024-12-27T16:25:29.646Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T16:25:29.668Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T16:25:29.672Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:15:41.014Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/27/2024, 10:15:41 PM
+2024-12-27T20:15:41.033Z [DEBUG]: Cron job ran successfully at: 12/27/2024, 10:15:41 PM
+2024-12-27T20:19:19.715Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:25:01.931Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:25:05.690Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:25:25.995Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:25:57.525Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:27:52.737Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:27:54.461Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:44:02.419Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:44:02.489Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:44:02.515Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:44:02.520Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:44:09.266Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:44:09.337Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:44:09.361Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:44:09.364Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:44:36.314Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:44:36.379Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:44:36.408Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:44:36.412Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:44:42.950Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:44:43.036Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:44:43.069Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:44:43.076Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:44:43.123Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:44:58.417Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:44:58.494Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:44:58.520Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:44:58.525Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:44:58.570Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:44:58.575Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T20:45:36.981Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:45:37.051Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:45:37.074Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:45:37.077Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:45:37.113Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:45:37.124Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T20:46:48.461Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:46:48.561Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:46:48.590Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:46:48.596Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:46:48.646Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:46:48.651Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T20:47:22.616Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:47:22.680Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:47:22.711Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:47:22.715Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:47:22.755Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:47:22.761Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T20:47:33.234Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:47:33.323Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:47:33.358Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:47:33.363Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:47:33.417Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:47:33.427Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T20:47:55.694Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:47:55.761Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:47:55.785Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:47:55.790Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:47:55.828Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:47:55.831Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T20:48:38.768Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:48:38.834Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:48:38.855Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:48:38.860Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:48:38.901Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:48:38.907Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T20:49:11.141Z [INFO]: Middlewares configured successfully.
+2024-12-27T20:49:11.209Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T20:49:11.231Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T20:49:11.235Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T20:49:11.282Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T20:49:11.287Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T21:00:00.045Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/27/2024, 11:00:00 PM
+2024-12-27T21:00:00.055Z [DEBUG]: Cron job ran successfully at: 12/27/2024, 11:00:00 PM
+2024-12-27T21:28:45.866Z [INFO]: Middlewares configured successfully.
+2024-12-27T21:28:45.934Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-27T21:28:45.960Z [INFO]: Connected To MongoDB Locally.
+2024-12-27T21:28:45.963Z [INFO]: Server is running on http://localhost:8080
+2024-12-27T21:28:45.998Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2024-12-27T21:28:46.004Z [DEBUG]: Excel file processed and database updated.
+2024-12-27T22:00:00.062Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 12:00:00 AM
+2024-12-27T22:00:00.077Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 12:00:00 AM
+2024-12-27T23:00:00.030Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 1:00:00 AM
+2024-12-27T23:00:00.033Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 1:00:00 AM
+2024-12-28T00:00:00.051Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 2:00:00 AM
+2024-12-28T00:00:00.058Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 2:00:00 AM
+2024-12-28T01:00:00.052Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 3:00:00 AM
+2024-12-28T01:00:00.058Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 3:00:00 AM
+2024-12-28T02:00:00.050Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 4:00:00 AM
+2024-12-28T02:00:00.056Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 4:00:00 AM
+2024-12-28T02:30:09.011Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2024-12-28T12:33:38.552Z [INFO]: Middlewares configured successfully.
+2024-12-28T12:33:38.617Z [DEBUG]: Parsed 11 rows from Excel file.
+2024-12-28T12:33:38.640Z [INFO]: Connected To MongoDB Locally.
+2024-12-28T12:33:38.646Z [INFO]: Server is running on http://localhost:8080
+2024-12-28T12:33:38.664Z [DEBUG]: No changes for email: person1email@mail.com
+2024-12-28T12:33:38.665Z [DEBUG]: No changes for email: person2email@mail.com
+2024-12-28T12:33:38.665Z [DEBUG]: No changes for email: person3email@mail.com
+2024-12-28T12:33:38.666Z [DEBUG]: No changes for email: person4email@mail.com
+2024-12-28T12:33:38.666Z [DEBUG]: No changes for email: person5email@mail.com
+2024-12-28T12:33:38.667Z [DEBUG]: No changes for email: person6email@mail.com
+2024-12-28T12:33:38.667Z [DEBUG]: No changes for email: person7email@mail.com
+2024-12-28T12:33:38.667Z [DEBUG]: No changes for email: person8email@mail.com
+2024-12-28T12:33:38.668Z [DEBUG]: No changes for email: person9email@mail.com
+2024-12-28T12:33:38.668Z [DEBUG]: No changes for email: person10email@mail.com
+2024-12-28T12:33:38.669Z [DEBUG]: No changes for email: person222email@mail.com
+2024-12-28T12:33:38.674Z [DEBUG]: Excel file processed and database updated.
+2024-12-28T13:00:00.089Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 3:00:00 PM
+2024-12-28T13:00:00.109Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 3:00:00 PM
+2024-12-28T14:00:00.057Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 4:00:00 PM
+2024-12-28T14:00:00.060Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 4:00:00 PM
+2024-12-28T15:00:00.049Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 5:00:00 PM
+2024-12-28T15:00:00.054Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 5:00:00 PM
+2024-12-28T16:00:00.044Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 6:00:00 PM
+2024-12-28T16:00:00.046Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 6:00:00 PM
+2024-12-28T17:00:00.036Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 7:00:00 PM
+2024-12-28T17:00:00.039Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 7:00:00 PM
+2024-12-28T18:00:00.062Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 8:00:00 PM
+2024-12-28T18:00:00.069Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 8:00:00 PM
+2024-12-28T19:00:00.061Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 9:00:00 PM
+2024-12-28T19:00:00.067Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 9:00:00 PM
+2024-12-28T20:00:00.039Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 10:00:00 PM
+2024-12-28T20:00:00.041Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 10:00:00 PM
+2024-12-28T21:38:48.684Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 12/28/2024, 11:38:48 PM
+2024-12-28T21:38:48.687Z [DEBUG]: Cron job ran successfully at: 12/28/2024, 11:38:48 PM
+2024-12-28T21:42:08.725Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-01-03T22:34:40.953Z [INFO]: Middlewares configured successfully.
+2025-01-03T22:34:41.123Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-03T22:34:41.183Z [INFO]: Connected To MongoDB Locally.
+2025-01-03T22:34:41.190Z [INFO]: Server is running on http://localhost:8080
+2025-01-03T22:34:41.224Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-03T22:34:41.225Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-03T22:34:41.226Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-03T22:34:41.227Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-03T22:34:41.228Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-03T22:34:41.229Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-03T22:34:41.229Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-03T22:34:41.230Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-03T22:34:41.231Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-03T22:34:41.231Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-03T22:34:41.232Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-03T22:34:41.241Z [DEBUG]: Excel file processed and database updated.
+2025-01-03T22:54:31.064Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-01-04T01:34:59.286Z [INFO]: Middlewares configured successfully.
+2025-01-04T01:34:59.354Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T01:34:59.378Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T01:34:59.381Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T01:34:59.401Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T01:34:59.402Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T01:34:59.402Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T01:34:59.403Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T01:34:59.403Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T01:34:59.404Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T01:34:59.404Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T01:34:59.405Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T01:34:59.405Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T01:34:59.406Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T01:34:59.406Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T01:34:59.412Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T01:38:29.042Z [INFO]: Authentication process complete
+2025-01-04T01:38:29.071Z [DEBUG]: User display profile operation completed.
+2025-01-04T01:38:56.241Z [DEBUG]: User display profile operation completed.
+2025-01-04T01:39:05.727Z [DEBUG]: Logout process complete
+2025-01-04T02:00:00.043Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/4/2025, 4:00:00 AM
+2025-01-04T02:00:00.048Z [DEBUG]: Cron job ran successfully at: 1/4/2025, 4:00:00 AM
+2025-01-04T02:48:09.821Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-01-04T15:16:37.303Z [INFO]: Middlewares configured successfully.
+2025-01-04T15:16:37.373Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T15:16:37.403Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T15:16:37.408Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T15:16:37.428Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T15:16:37.428Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T15:16:37.429Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T15:16:37.429Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T15:16:37.429Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T15:16:37.430Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T15:16:37.430Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T15:16:37.430Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T15:16:37.431Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T15:16:37.432Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T15:16:37.432Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T15:16:37.439Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T15:22:00.655Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-01-04T15:22:10.350Z [INFO]: Middlewares configured successfully.
+2025-01-04T15:22:10.433Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T15:22:10.460Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T15:22:10.464Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T15:22:10.485Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T15:22:10.487Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T15:22:10.488Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T15:22:10.489Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T15:22:10.489Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T15:22:10.490Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T15:22:10.490Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T15:22:10.491Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T15:22:10.491Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T15:22:10.492Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T15:22:10.494Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T15:22:10.502Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T15:22:14.418Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:105:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2025-01-04T15:22:14.423Z [INFO]: Authentication process complete
+2025-01-04T15:22:26.871Z [ERROR]: Error: Invalid username or password.
+Meta: {
+  "url": "/api/auth/login",
+  "method": "POST",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Invalid username or password.
+    at AuthService.login (\services\authService.ts:140:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.login (\controllers\authController.ts:31:40)
+2025-01-04T15:22:26.872Z [INFO]: Authentication process complete
+2025-01-04T15:22:29.858Z [INFO]: Authentication process complete
+2025-01-04T15:22:29.871Z [DEBUG]: User display profile operation completed.
+2025-01-04T15:23:14.095Z [DEBUG]: User display profile operation completed.
+2025-01-04T15:23:38.747Z [DEBUG]: User display profile operation completed.
+2025-01-04T15:25:33.450Z [DEBUG]: Logout process complete
+2025-01-04T15:25:41.698Z [INFO]: Authentication process complete
+2025-01-04T15:25:41.713Z [DEBUG]: User display profile operation completed.
+2025-01-04T15:27:03.767Z [DEBUG]: Logout process complete
+2025-01-04T15:27:08.344Z [INFO]: Authentication process complete
+2025-01-04T15:27:08.359Z [DEBUG]: User display profile operation completed.
+2025-01-04T15:27:54.359Z [DEBUG]: Logout process complete
+2025-01-04T15:27:58.457Z [INFO]: Authentication process complete
+2025-01-04T15:27:58.466Z [DEBUG]: User display profile operation completed.
+2025-01-04T15:28:18.656Z [DEBUG]: Logout process complete
+2025-01-04T15:35:09.437Z [INFO]: Authentication process complete
+2025-01-04T15:35:09.450Z [DEBUG]: User display profile operation completed.
+2025-01-04T15:45:09.463Z [DEBUG]: Refresh token process complete
+2025-01-04T15:45:09.487Z [DEBUG]: User display profile operation completed.
+2025-01-04T15:55:10.446Z [DEBUG]: Refresh token process complete
+2025-01-04T15:55:10.475Z [DEBUG]: User display profile operation completed.
+2025-01-04T16:00:00.049Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/4/2025, 6:00:00 PM
+2025-01-04T16:00:00.053Z [DEBUG]: Cron job ran successfully at: 1/4/2025, 6:00:00 PM
+2025-01-04T16:05:11.446Z [DEBUG]: Refresh token process complete
+2025-01-04T16:05:11.469Z [DEBUG]: User display profile operation completed.
+2025-01-04T16:15:12.440Z [DEBUG]: Refresh token process complete
+2025-01-04T16:15:12.468Z [DEBUG]: User display profile operation completed.
+2025-01-04T16:25:13.442Z [DEBUG]: Refresh token process complete
+2025-01-04T16:25:13.463Z [DEBUG]: User display profile operation completed.
+2025-01-04T16:35:14.493Z [DEBUG]: Refresh token process complete
+2025-01-04T16:35:14.520Z [DEBUG]: User display profile operation completed.
+2025-01-04T16:45:15.442Z [DEBUG]: Refresh token process complete
+2025-01-04T16:45:15.463Z [DEBUG]: User display profile operation completed.
+2025-01-04T16:55:15.486Z [DEBUG]: Refresh token process complete
+2025-01-04T16:55:15.502Z [DEBUG]: User display profile operation completed.
+2025-01-04T16:58:09.815Z [DEBUG]: Logout process complete
+2025-01-04T16:58:30.042Z [INFO]: Authentication process complete
+2025-01-04T16:58:30.053Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:00:00.046Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/4/2025, 7:00:00 PM
+2025-01-04T17:00:00.053Z [DEBUG]: Cron job ran successfully at: 1/4/2025, 7:00:00 PM
+2025-01-04T17:05:58.034Z [DEBUG]: Logout process complete
+2025-01-04T17:06:13.926Z [INFO]: Authentication process complete
+2025-01-04T17:06:13.937Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:07:20.263Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:07:33.863Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:08:51.317Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:14:56.885Z [DEBUG]: Logout process complete
+2025-01-04T17:15:17.498Z [INFO]: Authentication process complete
+2025-01-04T17:15:17.512Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:25:17.537Z [DEBUG]: Refresh token process complete
+2025-01-04T17:25:17.577Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:25:25.735Z [DEBUG]: Logout process complete
+2025-01-04T17:25:59.543Z [INFO]: Authentication process complete
+2025-01-04T17:25:59.555Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:28:44.943Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:29:51.350Z [DEBUG]: Logout process complete
+2025-01-04T17:52:45.150Z [INFO]: Authentication process complete
+2025-01-04T17:52:45.162Z [DEBUG]: User display profile operation completed.
+2025-01-04T17:59:18.538Z [DEBUG]: Logout process complete
+2025-01-04T18:00:00.049Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/4/2025, 8:00:00 PM
+2025-01-04T18:00:00.052Z [DEBUG]: Cron job ran successfully at: 1/4/2025, 8:00:00 PM
+2025-01-04T18:54:04.412Z [INFO]: Authentication process complete
+2025-01-04T18:54:04.426Z [DEBUG]: User display profile operation completed.
+2025-01-04T18:54:08.935Z [DEBUG]: Logout process complete
+2025-01-04T18:54:13.186Z [INFO]: Authentication process complete
+2025-01-04T18:54:13.197Z [DEBUG]: User display profile operation completed.
+2025-01-04T19:00:00.027Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/4/2025, 9:00:00 PM
+2025-01-04T19:00:00.028Z [DEBUG]: Cron job ran successfully at: 1/4/2025, 9:00:00 PM
+2025-01-04T19:04:13.226Z [DEBUG]: Refresh token process complete
+2025-01-04T19:04:13.249Z [DEBUG]: User display profile operation completed.
+2025-01-04T19:14:13.407Z [DEBUG]: Refresh token process complete
+2025-01-04T19:14:13.441Z [DEBUG]: User display profile operation completed.
+2025-01-04T19:24:13.449Z [DEBUG]: Refresh token process complete
+2025-01-04T19:24:13.469Z [DEBUG]: User display profile operation completed.
+2025-01-04T19:28:16.783Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:28:16.871Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:28:16.900Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:28:16.906Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:28:16.932Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:28:16.933Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:28:16.935Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:28:16.936Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:28:16.937Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:28:16.938Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:28:16.938Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:28:16.939Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:28:16.939Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:28:16.942Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:28:16.947Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:28:16.964Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:29:51.488Z [INFO]: Authentication process complete
+2025-01-04T19:29:55.491Z [DEBUG]: Refresh token process complete
+2025-01-04T19:30:41.301Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/contacts-by-company?page=1&limit=3&company=test%20record%209",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-04T19:31:10.353Z [ERROR]: Error: No contacts found for the company: test record 9
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?page=1&limit=3&company=test%20record%209",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: test record 9
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:77:34)
+2025-01-04T19:31:10.356Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:31:23.507Z [ERROR]: Error: No contacts found for the company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?page=1&limit=3&company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:77:34)
+2025-01-04T19:31:23.510Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:31:45.933Z [ERROR]: Error: No contacts found for the company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: No contacts found for the company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:77:34)
+2025-01-04T19:31:45.936Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:32:08.860Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:32:08.961Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:32:09.021Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:32:09.027Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:32:09.060Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:32:09.062Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:32:09.063Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:32:09.063Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:32:09.064Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:32:09.065Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:32:09.067Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:32:09.069Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:32:09.070Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:32:09.070Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:32:09.071Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:32:09.086Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:32:14.371Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:34:07.991Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:34:08.063Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:34:08.088Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:34:08.093Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:34:08.108Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:34:08.109Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:34:08.110Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:34:08.110Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:34:08.111Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:34:08.111Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:34:08.111Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:34:08.112Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:34:08.112Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:34:08.113Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:34:08.113Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:34:08.120Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:34:14.409Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T19:34:14.413Z [DEBUG]: Refresh token process complete
+2025-01-04T19:34:14.427Z [DEBUG]: Logout process complete
+2025-01-04T19:34:14.429Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-04T19:35:46.884Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:35:46.970Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:35:47.000Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:35:47.005Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:35:47.027Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:35:47.028Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:35:47.029Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:35:47.030Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:35:47.031Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:35:47.032Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:35:47.032Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:35:47.033Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:35:47.033Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:35:47.034Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:35:47.034Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:35:47.045Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:38:50.084Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:38:50.181Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:38:50.227Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:38:50.235Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:38:50.279Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:38:50.280Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:38:50.282Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:38:50.282Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:38:50.283Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:38:50.284Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:38:50.285Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:38:50.286Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:38:50.286Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:38:50.288Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:38:50.290Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:38:50.312Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:40:47.332Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:40:47.419Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:40:47.446Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:40:47.451Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:40:47.472Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:40:47.473Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:40:47.474Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:40:47.474Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:40:47.475Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:40:47.476Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:40:47.476Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:40:47.477Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:40:47.477Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:40:47.478Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:40:47.478Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:40:47.485Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:41:22.955Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:41:23.108Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:41:23.150Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:41:23.158Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:41:23.198Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:41:23.200Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:41:23.201Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:41:23.202Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:41:23.203Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:41:23.203Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:41:23.204Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:41:23.205Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:41:23.205Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:41:23.207Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:41:23.208Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:41:23.226Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:41:52.590Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:41:52.673Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:41:52.697Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:41:52.702Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:41:52.720Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:41:52.721Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:41:52.722Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:41:52.722Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:41:52.723Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:41:52.724Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:41:52.724Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:41:52.725Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:41:52.725Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:41:52.726Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:41:52.727Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:41:52.736Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:41:53.553Z [DEBUG]: Refresh token process complete
+2025-01-04T19:42:06.109Z [ERROR]: Error: Error retrieving contacts for company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:120:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:75:34)
+2025-01-04T19:42:06.110Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:42:42.132Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:42:42.226Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:42:42.249Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:42:42.254Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:42:42.273Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:42:42.274Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:42:42.275Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:42:42.276Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:42:42.276Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:42:42.277Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:42:42.277Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:42:42.278Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:42:42.279Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:42:42.279Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:42:42.279Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:42:42.287Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:42:43.715Z [ERROR]: Error: Error retrieving contacts for company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:120:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T19:42:43.720Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:43:47.861Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:43:47.921Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:43:47.944Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:43:47.948Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:43:47.962Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:43:47.963Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:43:47.964Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:43:47.964Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:43:47.965Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:43:47.965Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:43:47.966Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:43:47.967Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:43:47.967Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:43:47.968Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:43:47.968Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:43:47.975Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:43:49.303Z [ERROR]: Error: Error retrieving contacts for company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:121:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T19:43:49.310Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:44:04.201Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:44:04.266Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:44:04.287Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:44:04.291Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:44:04.313Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:44:04.314Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:44:04.315Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:44:04.315Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:44:04.316Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:44:04.317Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:44:04.317Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:44:04.317Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:44:04.318Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:44:04.318Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:44:04.319Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:44:04.327Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:44:05.444Z [ERROR]: Error: Error retrieving contacts for company: test record 1
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?company=test%20record%201",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: test record 1
+    at ContactService.selectByCompany (\services\contactService.ts:121:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T19:44:05.458Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:44:14.390Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T19:44:14.391Z [DEBUG]: Refresh token process complete
+2025-01-04T19:44:14.406Z [DEBUG]: Logout process complete
+2025-01-04T19:44:14.408Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-04T19:44:20.670Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:44:20.743Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:44:20.775Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:44:20.781Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:44:20.801Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:44:20.802Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:44:20.803Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:44:20.804Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:44:20.805Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:44:20.806Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:44:20.806Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:44:20.807Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:44:20.807Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:44:20.808Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:44:20.808Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:44:20.815Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:44:21.955Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:45:17.553Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:45:17.643Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:45:17.669Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:45:17.673Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:45:17.691Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:45:17.692Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:45:17.693Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:45:17.694Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:45:17.694Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:45:17.695Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:45:17.695Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:45:17.696Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:45:17.696Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:45:17.698Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:45:17.699Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:45:17.709Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:45:18.885Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:45:21.295Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:45:26.657Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:46:09.683Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:46:09.755Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:46:09.789Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:46:09.795Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:46:09.821Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:46:09.822Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:46:09.823Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:46:09.824Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:46:09.824Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:46:09.825Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:46:09.826Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:46:09.826Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:46:09.827Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:46:09.828Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:46:09.828Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:46:09.834Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:46:12.061Z [DEBUG]: Refresh token process complete
+2025-01-04T19:47:52.026Z [DEBUG]: Display contacts complete.
+2025-01-04T19:48:50.486Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:48:50.558Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:48:50.580Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:48:50.583Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:48:50.599Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:48:50.599Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:48:50.600Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:48:50.600Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:48:50.601Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:48:50.602Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:48:50.602Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:48:50.602Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:48:50.603Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:48:50.603Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:48:50.604Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:48:50.613Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:48:55.055Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+MongoServerError: Invalid $addFields :: caused by :: Use of undefined variable: totalItems
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-04T19:48:55.059Z [DEBUG]: Display contacts complete.
+2025-01-04T19:49:38.920Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:49:38.989Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:49:39.011Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:49:39.015Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:49:39.031Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:49:39.032Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:49:39.033Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:49:39.033Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:49:39.034Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:49:39.034Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:49:39.034Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:49:39.035Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:49:39.035Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:49:39.036Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:49:39.036Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:49:39.044Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:49:41.875Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+MongoServerError: Invalid $addFields :: caused by :: Use of undefined variable: totalItems
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-04T19:49:41.887Z [DEBUG]: Display contacts complete.
+2025-01-04T19:50:02.103Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:50:02.171Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:50:02.193Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:50:02.196Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:50:02.210Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:50:02.210Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:50:02.211Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:50:02.212Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:50:02.212Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:50:02.213Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:50:02.213Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:50:02.214Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:50:02.214Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:50:02.216Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:50:02.219Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:50:02.228Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:50:03.449Z [ERROR]: Error: An unknown error occurred
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+MongoServerError: Invalid $addFields :: caused by :: Use of undefined variable: totalItems
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-04T19:50:03.456Z [DEBUG]: Display contacts complete.
+2025-01-04T19:50:24.698Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:50:24.791Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:50:24.826Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:50:24.831Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:50:24.858Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:50:24.858Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:50:24.859Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:50:24.860Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:50:24.860Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:50:24.861Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:50:24.862Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:50:24.862Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:50:24.862Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:50:24.863Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:50:24.864Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:50:24.872Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:52:05.156Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:52:05.262Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:52:05.298Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:52:05.304Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:52:05.342Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:52:05.343Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:52:05.345Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:52:05.346Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:52:05.347Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:52:05.347Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:52:05.348Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:52:05.348Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:52:05.349Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:52:05.350Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:52:05.351Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:52:05.365Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:52:07.375Z [DEBUG]: Display contacts complete.
+2025-01-04T19:52:16.121Z [DEBUG]: Display contacts complete.
+2025-01-04T19:52:40.109Z [INFO]: Middlewares configured successfully.
+2025-01-04T19:52:40.195Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T19:52:40.223Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T19:52:40.227Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T19:52:40.256Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T19:52:40.257Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T19:52:40.257Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T19:52:40.258Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T19:52:40.259Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T19:52:40.259Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T19:52:40.259Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T19:52:40.260Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T19:52:40.260Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T19:52:40.261Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T19:52:40.261Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T19:52:40.269Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T19:52:41.451Z [DEBUG]: Display contacts complete.
+2025-01-04T19:54:14.399Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T19:54:14.401Z [DEBUG]: Refresh token process complete
+2025-01-04T19:54:14.412Z [DEBUG]: Logout process complete
+2025-01-04T19:54:14.413Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-04T19:57:03.956Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-04T19:57:22.461Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts?page=1&limit=3",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-04T19:57:25.032Z [INFO]: Authentication process complete
+2025-01-04T19:57:30.116Z [DEBUG]: Refresh token process complete
+2025-01-04T19:57:42.738Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:57:45.364Z [DEBUG]: Port contacts is complete.
+2025-01-04T19:57:54.583Z [DEBUG]: Display contacts complete.
+2025-01-04T20:00:00.056Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/4/2025, 10:00:00 PM
+2025-01-04T20:00:00.062Z [DEBUG]: Cron job ran successfully at: 1/4/2025, 10:00:00 PM
+2025-01-04T20:04:14.384Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T20:04:14.385Z [DEBUG]: Refresh token process complete
+2025-01-04T20:04:14.398Z [DEBUG]: Logout process complete
+2025-01-04T20:04:14.399Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-04T20:22:46.931Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:22:47.064Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:22:47.115Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:22:47.124Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:22:47.158Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:22:47.160Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:22:47.162Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:22:47.163Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:22:47.164Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:22:47.166Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:22:47.167Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:22:47.168Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:22:47.169Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:22:47.170Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:22:47.172Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:22:47.193Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:23:01.296Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-04T20:23:01.434Z [ERROR]: Error: Token not found in the database.
+Meta: {
+  "url": "/api/auth/refresh-token",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Token not found in the database.
+    at SessionService.verifyRefreshToken (\services\SessionService.ts:114:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.refreshAccessToken (\services\authService.ts:178:28)
+    at async AuthController.refreshAccessToken (\controllers\authController.ts:114:27)
+2025-01-04T20:23:01.436Z [DEBUG]: Refresh token process complete
+2025-01-04T20:23:21.592Z [INFO]: Authentication process complete
+2025-01-04T20:23:21.609Z [DEBUG]: User display profile operation completed.
+2025-01-04T20:24:14.468Z [DEBUG]: User display profile operation completed.
+2025-01-04T20:24:22.738Z [DEBUG]: User display profile operation completed.
+2025-01-04T20:25:58.434Z [DEBUG]: User display profile operation completed.
+2025-01-04T20:30:28.198Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:30:28.293Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:30:28.323Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:30:28.328Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:30:28.353Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:30:28.353Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:30:28.354Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:30:28.355Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:30:28.355Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:30:28.356Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:30:28.356Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:30:28.357Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:30:28.357Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:30:28.357Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:30:28.358Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:30:28.369Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:30:46.292Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:30:46.480Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:30:46.532Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:30:46.544Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:30:46.597Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:30:46.599Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:30:46.601Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:30:46.602Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:30:46.603Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:30:46.604Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:30:46.605Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:30:46.606Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:30:46.606Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:30:46.607Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:30:46.609Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:30:46.617Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:31:48.587Z [DEBUG]: Logout process complete
+2025-01-04T20:32:07.333Z [INFO]: Authentication process complete
+2025-01-04T20:32:07.353Z [DEBUG]: User display profile operation completed.
+2025-01-04T20:32:55.008Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:32:55.072Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:32:55.103Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:32:55.107Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:32:55.132Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:32:55.133Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:32:55.134Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:32:55.134Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:32:55.135Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:32:55.135Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:32:55.135Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:32:55.136Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:32:55.136Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:32:55.136Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:32:55.137Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:32:55.144Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:35:37.149Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:37.265Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:37.287Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:37.415Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:43.316Z [DEBUG]: Logout process complete
+2025-01-04T20:35:52.776Z [INFO]: Authentication process complete
+2025-01-04T20:35:52.800Z [DEBUG]: User display profile operation completed.
+2025-01-04T20:35:58.080Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:58.199Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:58.233Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:35:58.339Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:36:13.684Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:36:13.804Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:36:13.851Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:36:13.970Z [ERROR]: Error: Access denied. No token provided.
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Access denied. No token provided.
+    at userAuth (\middlewares\userAuth.ts:28:10)
+2025-01-04T20:37:21.888Z [DEBUG]: Logout process complete
+2025-01-04T20:37:31.202Z [INFO]: Authentication process complete
+2025-01-04T20:37:31.221Z [DEBUG]: User display profile operation completed.
+2025-01-04T20:37:37.514Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:37:37.515Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:37:37.618Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:37:37.618Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:37:37.674Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:37:37.675Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:37:37.783Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:37:37.783Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:38:06.801Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test+record+1&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:38:06.803Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:38:18.766Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test+record+&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:38:18.767Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:39:02.094Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:39:02.167Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:39:02.200Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:39:02.206Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:39:02.228Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:39:02.229Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:39:02.230Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:39:02.232Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:39:02.233Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:39:02.235Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:39:02.236Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:39:02.236Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:39:02.237Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:39:02.237Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:39:02.239Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:39:02.251Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:39:06.097Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:39:06.101Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:39:06.206Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:39:06.207Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:39:06.248Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:39:06.251Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:39:06.365Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:142:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:39:06.368Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:40:02.265Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:40:02.357Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:40:02.398Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:40:02.408Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:40:02.455Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:40:02.492Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:40:02.493Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:40:02.494Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:40:02.496Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:40:02.497Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:40:02.498Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:40:02.498Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:40:02.499Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:40:02.501Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:40:02.502Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:40:02.522Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:40:09.349Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:40:09.439Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:40:09.469Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:40:09.474Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:40:09.494Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:40:09.495Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:40:09.497Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:40:09.497Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:40:09.498Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:40:09.499Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:40:09.499Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:40:09.500Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:40:09.500Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:40:09.501Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:40:09.502Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:40:09.510Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:40:13.231Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:143:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:40:13.237Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:40:13.283Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:143:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:40:13.285Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:40:13.321Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:143:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:40:13.324Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:40:13.450Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.selectByCompany (\services\contactService.ts:143:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.selectByCompany (\controllers\contactController.ts:76:34)
+2025-01-04T20:40:13.451Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:43:01.351Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:43:01.420Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:43:01.449Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:43:01.453Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:43:01.478Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:43:01.479Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:43:01.483Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:43:01.484Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:43:01.485Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:43:01.485Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:43:01.486Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:43:01.486Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:43:01.486Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:43:01.487Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:43:01.488Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:43:01.495Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:43:24.764Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:43:24.865Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:43:24.891Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:43:24.899Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:43:24.926Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:43:24.927Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:43:24.928Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:43:24.929Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:43:24.929Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:43:24.930Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:43:24.932Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:43:24.932Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:43:24.933Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:43:24.933Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:43:24.935Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:43:24.941Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:43:34.519Z [INFO]: Middlewares configured successfully.
+2025-01-04T20:43:34.647Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-04T20:43:34.689Z [INFO]: Connected To MongoDB Locally.
+2025-01-04T20:43:34.694Z [INFO]: Server is running on http://localhost:8080
+2025-01-04T20:43:34.712Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-04T20:43:34.714Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-04T20:43:34.715Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-04T20:43:34.715Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-04T20:43:34.716Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-04T20:43:34.716Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-04T20:43:34.717Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-04T20:43:34.717Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-04T20:43:34.718Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-04T20:43:34.718Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-04T20:43:34.719Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-04T20:43:34.727Z [DEBUG]: Excel file processed and database updated.
+2025-01-04T20:43:36.300Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:43:39.974Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:43:41.490Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:43:42.625Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:43:52.807Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:43:52.925Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:43:52.964Z [DEBUG]: Port contacts is complete.
+2025-01-04T20:43:53.094Z [DEBUG]: Port contacts is complete.
+2025-01-09T23:50:08.087Z [INFO]: Middlewares configured successfully.
+2025-01-09T23:50:08.178Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-09T23:50:08.209Z [INFO]: Connected To MongoDB Locally.
+2025-01-09T23:50:08.213Z [INFO]: Server is running on http://localhost:8080
+2025-01-09T23:50:08.265Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-09T23:50:08.265Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-09T23:50:08.266Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-09T23:50:08.267Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-09T23:50:08.267Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-09T23:50:08.268Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-09T23:50:08.268Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-09T23:50:08.269Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-09T23:50:08.269Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-09T23:50:08.270Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-09T23:50:08.270Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-09T23:50:08.281Z [DEBUG]: Excel file processed and database updated.
+2025-01-09T23:50:45.067Z [INFO]: Middlewares configured successfully.
+2025-01-09T23:50:45.129Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-09T23:50:45.152Z [INFO]: Connected To MongoDB Locally.
+2025-01-09T23:50:45.157Z [INFO]: Server is running on http://localhost:8080
+2025-01-09T23:50:45.174Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-09T23:50:45.175Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-09T23:50:45.175Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-09T23:50:45.176Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-09T23:50:45.177Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-09T23:50:45.177Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-09T23:50:45.178Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-09T23:50:45.178Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-09T23:50:45.179Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-09T23:50:45.180Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-09T23:50:45.180Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-09T23:50:45.187Z [DEBUG]: Excel file processed and database updated.
+2025-01-09T23:54:02.859Z [INFO]: Middlewares configured successfully.
+2025-01-09T23:54:02.929Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-09T23:54:02.951Z [INFO]: Connected To MongoDB Locally.
+2025-01-09T23:54:02.955Z [INFO]: Server is running on http://localhost:8080
+2025-01-09T23:54:02.970Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-09T23:54:02.971Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-09T23:54:02.972Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-09T23:54:02.972Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-09T23:54:02.973Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-09T23:54:02.973Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-09T23:54:02.974Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-09T23:54:02.974Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-09T23:54:02.975Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-09T23:54:02.976Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-09T23:54:02.976Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-09T23:54:02.983Z [DEBUG]: Excel file processed and database updated.
+2025-01-09T23:55:01.514Z [INFO]: Middlewares configured successfully.
+2025-01-09T23:55:01.579Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-09T23:55:01.600Z [INFO]: Connected To MongoDB Locally.
+2025-01-09T23:55:01.604Z [INFO]: Server is running on http://localhost:8080
+2025-01-09T23:55:01.620Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-09T23:55:01.620Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-09T23:55:01.621Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-09T23:55:01.622Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-09T23:55:01.622Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-09T23:55:01.623Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-09T23:55:01.623Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-09T23:55:01.624Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-09T23:55:01.624Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-09T23:55:01.625Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-09T23:55:01.625Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-09T23:55:01.632Z [DEBUG]: Excel file processed and database updated.
+2025-01-09T23:55:11.064Z [INFO]: Middlewares configured successfully.
+2025-01-09T23:55:11.129Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-09T23:55:11.151Z [INFO]: Connected To MongoDB Locally.
+2025-01-09T23:55:11.155Z [INFO]: Server is running on http://localhost:8080
+2025-01-09T23:55:11.169Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-09T23:55:11.170Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-09T23:55:11.170Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-09T23:55:11.171Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-09T23:55:11.171Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-09T23:55:11.172Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-09T23:55:11.172Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-09T23:55:11.173Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-09T23:55:11.173Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-09T23:55:11.173Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-09T23:55:11.174Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-09T23:55:11.181Z [DEBUG]: Excel file processed and database updated.
+2025-01-09T23:55:38.547Z [INFO]: Middlewares configured successfully.
+2025-01-09T23:55:38.612Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-09T23:55:38.638Z [INFO]: Connected To MongoDB Locally.
+2025-01-09T23:55:38.644Z [INFO]: Server is running on http://localhost:8080
+2025-01-09T23:55:38.665Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-09T23:55:38.665Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-09T23:55:38.666Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-09T23:55:38.666Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-09T23:55:38.667Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-09T23:55:38.668Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-09T23:55:38.668Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-09T23:55:38.668Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-09T23:55:38.669Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-09T23:55:38.670Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-09T23:55:38.673Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-09T23:55:38.681Z [DEBUG]: Excel file processed and database updated.
+2025-01-09T23:57:38.289Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-09T23:57:38.474Z [DEBUG]: Refresh token process complete
+2025-01-09T23:57:38.502Z [DEBUG]: User display profile operation completed.
+2025-01-10T00:00:00.047Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 2:00:00 AM
+2025-01-10T00:00:00.052Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 2:00:00 AM
+2025-01-10T00:07:24.910Z [DEBUG]: User display profile operation completed.
+2025-01-10T00:08:03.925Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T00:08:03.948Z [DEBUG]: Refresh token process complete
+2025-01-10T00:08:03.956Z [DEBUG]: User display profile operation completed.
+2025-01-10T00:10:21.823Z [INFO]: Middlewares configured successfully.
+2025-01-10T00:10:21.890Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T00:10:21.913Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T00:10:21.917Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T00:10:21.933Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T00:10:21.934Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T00:10:21.935Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T00:10:21.936Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T00:10:21.937Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T00:10:21.938Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T00:10:21.938Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T00:10:21.939Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T00:10:21.939Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T00:10:21.940Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T00:10:21.940Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T00:10:21.948Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T00:13:52.328Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=s&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:13:54.981Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=sa&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:13:55.083Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=sas&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:13:55.203Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-contacts-by-company?search=sasd&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:14:13.536Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:14:13.581Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:14:13.645Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:14:17.463Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:14:19.683Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:14:24.223Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:14:24.363Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:14:24.412Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:14:24.514Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:23.487Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:25.602Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:26.161Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:27.016Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:27.278Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:33.127Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:33.250Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:33.283Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:33.399Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:34.179Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:34.684Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:34.726Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:36.082Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:39.150Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:39.409Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:39.430Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:39.556Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:40.525Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:40.710Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:41.015Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:41.154Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:16:41.273Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:17:03.037Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:17:04.232Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:17:05.163Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:17:05.271Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:18:04.165Z [DEBUG]: Refresh token process complete
+2025-01-10T00:18:04.215Z [DEBUG]: User display profile operation completed.
+2025-01-10T00:20:19.774Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:20:20.542Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:20:21.307Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:20:21.988Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:22:07.385Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:22:07.536Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:22:07.617Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:22:07.713Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:22:59.108Z [INFO]: Middlewares configured successfully.
+2025-01-10T00:22:59.171Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T00:22:59.193Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T00:22:59.197Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T00:22:59.212Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T00:22:59.213Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T00:22:59.214Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T00:22:59.214Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T00:22:59.215Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T00:22:59.216Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T00:22:59.216Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T00:22:59.217Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T00:22:59.218Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T00:22:59.219Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T00:22:59.219Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T00:22:59.227Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T00:23:00.335Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:23:00.481Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:23:00.572Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:23:00.666Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:23:46.622Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:23:46.765Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:23:46.823Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:23:46.898Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:24:15.983Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:24:16.100Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:24:16.148Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:24:16.249Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:24:42.195Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:24:42.334Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:24:42.379Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:24:42.505Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:25:27.091Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:25:27.224Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:25:27.279Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:25:27.370Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:25:48.530Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:25:48.674Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:25:48.738Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:25:48.896Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:27:11.057Z [INFO]: Middlewares configured successfully.
+2025-01-10T00:27:11.132Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T00:27:11.171Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T00:27:11.177Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T00:27:11.202Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T00:27:11.203Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T00:27:11.204Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T00:27:11.204Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T00:27:11.205Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T00:27:11.205Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T00:27:11.205Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T00:27:11.206Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T00:27:11.206Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T00:27:11.206Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T00:27:11.207Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T00:27:11.216Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T00:27:16.998Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:27:17.161Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:27:17.223Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:27:17.334Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:28:04.230Z [DEBUG]: Refresh token process complete
+2025-01-10T00:28:04.261Z [DEBUG]: User display profile operation completed.
+2025-01-10T00:30:41.678Z [INFO]: Middlewares configured successfully.
+2025-01-10T00:30:41.744Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T00:30:41.768Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T00:30:41.772Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T00:30:41.787Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T00:30:41.789Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T00:30:41.790Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T00:30:41.790Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T00:30:41.791Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T00:30:41.791Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T00:30:41.791Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T00:30:41.792Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T00:30:41.792Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T00:30:41.793Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T00:30:41.793Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T00:30:41.802Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T00:31:04.697Z [INFO]: Middlewares configured successfully.
+2025-01-10T00:31:04.762Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T00:31:04.786Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T00:31:04.791Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T00:31:04.808Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T00:31:04.809Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T00:31:04.809Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T00:31:04.810Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T00:31:04.810Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T00:31:04.811Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T00:31:04.811Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T00:31:04.812Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T00:31:04.812Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T00:31:04.813Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T00:31:04.813Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T00:31:04.824Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T00:31:35.330Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:35.732Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:36.831Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:37.548Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:42.196Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:42.544Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:42.972Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:44.301Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:45.876Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:46.073Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:46.424Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:46.957Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:48.350Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:31:53.134Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:32:39.589Z [INFO]: Middlewares configured successfully.
+2025-01-10T00:32:39.666Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T00:32:39.689Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T00:32:39.693Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T00:32:39.712Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T00:32:39.713Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T00:32:39.714Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T00:32:39.716Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T00:32:39.717Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T00:32:39.718Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T00:32:39.719Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T00:32:39.719Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T00:32:39.720Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T00:32:39.721Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T00:32:39.721Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T00:32:39.742Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T00:33:06.349Z [INFO]: Middlewares configured successfully.
+2025-01-10T00:33:06.427Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T00:33:06.459Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T00:33:06.462Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T00:33:06.478Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T00:33:06.479Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T00:33:06.480Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T00:33:06.480Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T00:33:06.482Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T00:33:06.482Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T00:33:06.483Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T00:33:06.483Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T00:33:06.484Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T00:33:06.484Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T00:33:06.485Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T00:33:06.493Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T00:34:14.307Z [INFO]: Middlewares configured successfully.
+2025-01-10T00:34:14.378Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T00:34:14.402Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T00:34:14.406Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T00:34:14.421Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T00:34:14.422Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T00:34:14.422Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T00:34:14.423Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T00:34:14.424Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T00:34:14.424Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T00:34:14.425Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T00:34:14.425Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T00:34:14.426Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T00:34:14.426Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T00:34:14.427Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T00:34:14.435Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T00:38:05.182Z [DEBUG]: Refresh token process complete
+2025-01-10T00:38:05.229Z [DEBUG]: User display profile operation completed.
+2025-01-10T00:40:47.497Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-company?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:40:47.586Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-company?search=te&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:40:47.723Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-company?search=tes&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:40:47.793Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-company?search=test&limit=10",
+  "method": "GET",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T00:41:02.177Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:41:02.344Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:41:02.411Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:41:02.541Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:41:18.428Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:41:18.884Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:41:21.210Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:41:21.525Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:42:35.568Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:21.583Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:24.127Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:25.525Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:25.658Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:25.740Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:25.815Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:27.604Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:29.224Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:32.683Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:36.464Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:56.627Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:56.738Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:56.802Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:56.913Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:46:58.521Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:47:05.056Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:47:14.850Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:47:14.952Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:47:15.026Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:47:15.114Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:47:15.559Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:00.130Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:02.751Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:02.915Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:02.974Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:03.083Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:05.259Z [DEBUG]: Refresh token process complete
+2025-01-10T00:48:05.290Z [DEBUG]: User display profile operation completed.
+2025-01-10T00:48:08.637Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:39.395Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:43.443Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:48:44.888Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:52:54.148Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:52:54.338Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:52:54.459Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:52:54.550Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:52:55.625Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:52:57.082Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:52:57.705Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:52:58.081Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:20.998Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:21.121Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:21.193Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:21.288Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:23.580Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:23.971Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:24.216Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:25.039Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:25.299Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:25.530Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:25.831Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:26.139Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:26.407Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:28.201Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:28.493Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:28.782Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:30.028Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:30.222Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:30.422Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:56:32.415Z [DEBUG]: Port contacts is complete.
+2025-01-10T00:58:06.145Z [DEBUG]: Refresh token process complete
+2025-01-10T00:58:06.187Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:00:00.043Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 3:00:00 AM
+2025-01-10T01:00:00.049Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 3:00:00 AM
+2025-01-10T01:08:07.155Z [DEBUG]: Refresh token process complete
+2025-01-10T01:08:07.191Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:17:25.103Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:17:25.202Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:17:25.264Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:17:25.354Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:17:26.969Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:18:08.153Z [DEBUG]: Refresh token process complete
+2025-01-10T01:18:08.194Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:20:35.160Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:20:35.319Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:20:35.452Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:20:35.540Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:20:36.254Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:20:38.071Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:20:43.711Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:20:45.470Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:23:09.222Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:23:09.376Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:23:09.409Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:23:09.553Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:23:10.870Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:23:20.060Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:17.479Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:18.722Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:18.825Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:18.919Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:19.042Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:19.061Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:19.142Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:20.052Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:20.554Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:20.599Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:20.613Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:20.644Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:22.460Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:22.889Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:23.807Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:25.012Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:32.074Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:24:36.425Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:05.798Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:05.979Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:06.038Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:06.146Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:08.203Z [DEBUG]: Refresh token process complete
+2025-01-10T01:28:08.219Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:28:08.528Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:09.521Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:09.967Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:10.788Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:11.812Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:56.720Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:56.917Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:56.977Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:28:57.083Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:00.031Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:01.936Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:03.188Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:21.446Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:24.571Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:24.682Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:24.734Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:24.859Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:25.918Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:26.828Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:38.343Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:38.487Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:38.532Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:38.638Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:39.408Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:29:40.318Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:19.119Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:19.243Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:19.312Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:19.406Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:20.279Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:21.037Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:21.902Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:22.588Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:30:23.291Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:23.020Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:23.178Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:23.233Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:23.352Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:24.018Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:24.845Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:25.237Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:25.860Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:26.355Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:32:26.537Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:33:57.624Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:33:57.801Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:33:57.874Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:33:58.000Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:45.038Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:45.179Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:45.227Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:45.354Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:45.832Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:46.962Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:47.520Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:34:50.955Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:51.102Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:51.148Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:51.260Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:51.965Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:53.342Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:53.789Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:34:56.182Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:56.313Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:56.316Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:56.427Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:56.853Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:57.658Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:34:58.170Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:35:39.933Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:35:40.079Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:35:40.132Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:35:40.245Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:35:40.893Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:35:45.058Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:36:57.908Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:36:58.029Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:36:58.085Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:36:58.180Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:36:58.518Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:39:26.355Z [INFO]: Middlewares configured successfully.
+2025-01-10T01:39:26.424Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T01:39:26.448Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T01:39:26.453Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T01:39:26.471Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T01:39:26.472Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T01:39:26.473Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T01:39:26.473Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T01:39:26.474Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T01:39:26.474Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T01:39:26.475Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T01:39:26.475Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T01:39:26.476Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T01:39:26.476Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T01:39:26.494Z [DEBUG]: Chunk processed: 0 updated, 1 inserted.
+2025-01-10T01:39:26.497Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T01:39:43.991Z [INFO]: Middlewares configured successfully.
+2025-01-10T01:39:44.081Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T01:39:44.111Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T01:39:44.116Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T01:39:44.135Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T01:39:44.136Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T01:39:44.137Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T01:39:44.137Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T01:39:44.138Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T01:39:44.138Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T01:39:44.139Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T01:39:44.139Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T01:39:44.140Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T01:39:44.140Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T01:39:44.141Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T01:39:44.150Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T01:39:52.940Z [INFO]: Middlewares configured successfully.
+2025-01-10T01:39:53.051Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T01:39:53.091Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T01:39:53.098Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T01:39:53.126Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T01:39:53.128Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T01:39:53.129Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T01:39:53.130Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T01:39:53.132Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T01:39:53.133Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T01:39:53.134Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T01:39:53.135Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T01:39:53.136Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T01:39:53.137Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T01:39:53.138Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T01:39:53.157Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T01:40:03.167Z [INFO]: Middlewares configured successfully.
+2025-01-10T01:40:03.242Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T01:40:03.266Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T01:40:03.270Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T01:40:03.286Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T01:40:03.287Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T01:40:03.288Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T01:40:03.288Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T01:40:03.289Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T01:40:03.289Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T01:40:03.290Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T01:40:03.290Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T01:40:03.291Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T01:40:03.292Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T01:40:03.292Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T01:40:03.300Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T01:42:48.469Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T01:42:48.500Z [DEBUG]: Refresh token process complete
+2025-01-10T01:42:48.522Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:48.596Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:48.652Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:48.737Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:50.717Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:56.055Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:56.202Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:56.219Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:56.340Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:42:57.489Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:43:01.431Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:43:04.122Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/filter-by-name?test%20record%201",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-10T01:44:22.948Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:44:23.138Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:44:23.172Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:44:23.288Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:44:24.420Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:44:27.016Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:45:48.203Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:45:48.368Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:45:48.427Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:45:48.545Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:45:49.236Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:45:52.347Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:46:09.165Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:47:26.747Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:47:26.887Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:47:26.919Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:47:27.028Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:47:27.765Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:47:30.726Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test+record+2",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:211:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T01:47:30.727Z [DEBUG]: Display contact is complete.
+2025-01-10T01:47:53.491Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test+record+2",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:211:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T01:47:53.492Z [DEBUG]: Display contact is complete.
+2025-01-10T01:48:02.086Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test+record+2",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:211:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T01:48:02.088Z [DEBUG]: Display contact is complete.
+2025-01-10T01:48:58.808Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:48:58.916Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:48:58.982Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:48:59.093Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:49:00.018Z [DEBUG]: Port contacts is complete.
+2025-01-10T01:49:03.344Z [DEBUG]: Display contact is complete.
+2025-01-10T01:55:45.160Z [DEBUG]: Refresh token process complete
+2025-01-10T01:55:45.220Z [DEBUG]: User display profile operation completed.
+2025-01-10T01:58:25.889Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...

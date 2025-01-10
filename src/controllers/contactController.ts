@@ -62,23 +62,20 @@ class ContactController {
 			logger.debug('Port contacts is complete.');
 		}
 	};
-	selectByCompany = async (
+
+	filterByName = async (
 		request: Request,
 		response: Response,
 		next: NextFunction
 	): Promise<void> => {
 		try {
 			// Parse pagination parameters from the request query or use default values if not provided.
-			const page: number = parseInt(request.query.page as string) || 1;
-			const limit: number = parseInt(request.query.limit as string) || 10;
-			const company = request.query.company as string;
+			const search = request.query.search as string;
+			console.log(search);
 
 			// Call the service to fetch contacts for the given location.
-			const contactsInThatcompany = await this.service.selectByCompany(
-				company,
-				page,
-				limit
-			);
+			const contactsInThatcompany = await this.service.filterByName(search);
+			console.log(contactsInThatcompany);
 
 			// Respond with a success message.
 			response.status(200).json(contactsInThatcompany);
@@ -90,6 +87,30 @@ class ContactController {
 			logger.debug('Port contacts is complete.');
 		}
 	};
+
+	searchByname = async (
+		request: Request,
+		response: Response,
+		next: NextFunction
+	): Promise<void> => {
+		try {
+			// Extract the contact ID from the request parameters.
+			const search = request.query.search as string;
+
+			// Call the service to retrieve the contact by its ID.
+			const contact = await this.service.searchByname(search);
+
+			// Respond with the contact details.
+			response.status(200).send({contact: contact});
+		} catch (error) {
+			// Pass any errors to the error-handling middleware.
+			next(error);
+		} finally {
+			// Log a message indicating that the operation is complete.
+			logger.debug('Display contact is complete.');
+		}
+	};
+
 	selectByService = async (
 		request: Request,
 		response: Response,
@@ -165,26 +186,30 @@ class ContactController {
 		}
 	};
 
-	findByContactName = async (
-		request: Request,
-		response: Response,
+	searchContacts = async (
+		req: Request,
+		res: Response,
 		next: NextFunction
 	): Promise<void> => {
 		try {
-			// Extract the contact ID from the request parameters.
-			const name = request.query.name as string;
+			const searchQuery = (req.query.search as string) || ''; // The search term (e.g., name or company)
+			const limit = parseInt(req.query.limit as string) || 10; // Maximum results to return
 
-			// Call the service to retrieve the contact by its ID.
-			const contact = await this.service.getContactByName(name);
+			// Create a filter based on the search query, making it case-insensitive and allowing partial matches
+			const filter = {
+				$or: [
+					{name: {$regex: searchQuery, $options: 'i'}}, // Search by name (case-insensitive)
+					{company: {$regex: searchQuery, $options: 'i'}}, // Search by company (case-insensitive)
+				],
+			};
+			console.log('-------------------> ', searchQuery);
 
-			// Respond with the contact details.
-			response.status(200).send({contact: contact});
+			// Fetch matching contacts from the database (no pagination needed for this case)
+			const contacts = await this.service.searchContacts(filter, 1, limit);
+
+			res.status(200).json(contacts);
 		} catch (error) {
-			// Pass any errors to the error-handling middleware.
 			next(error);
-		} finally {
-			// Log a message indicating that the operation is complete.
-			logger.debug('Display contact is complete.');
 		}
 	};
 }
