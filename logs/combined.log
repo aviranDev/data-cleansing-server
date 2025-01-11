@@ -4705,3 +4705,3022 @@ Conflict Error: Contact not found.
 2025-01-10T01:55:45.160Z [DEBUG]: Refresh token process complete
 2025-01-10T01:55:45.220Z [DEBUG]: User display profile operation completed.
 2025-01-10T01:58:25.889Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-01-10T12:31:30.226Z [INFO]: Middlewares configured successfully.
+2025-01-10T12:31:30.393Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T12:31:30.451Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T12:31:30.462Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T12:31:30.530Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T12:31:30.537Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T12:31:30.543Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T12:31:30.545Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T12:31:30.547Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T12:31:30.552Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T12:31:30.553Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T12:31:30.557Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T12:31:30.559Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T12:31:30.561Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T12:31:30.568Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T12:31:30.593Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T12:55:07.889Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T12:55:08.131Z [DEBUG]: Refresh token process complete
+2025-01-10T12:55:08.173Z [DEBUG]: User display profile operation completed.
+2025-01-10T12:58:37.311Z [DEBUG]: Logout process complete
+2025-01-10T12:58:37.318Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-10T12:58:38.917Z [DEBUG]: Logout process complete
+2025-01-10T12:58:38.920Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-10T12:58:46.796Z [DEBUG]: User display profile operation completed.
+2025-01-10T12:58:48.273Z [DEBUG]: Logout process complete
+2025-01-10T12:58:48.274Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-10T12:59:04.315Z [DEBUG]: Logout process complete
+2025-01-10T12:59:04.318Z [ERROR]: Error: Cookie must be provided.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Cookie must be provided.
+    at AuthService.logout (\services\authService.ts:248:11)
+    at AuthController.logout (\controllers\authController.ts:146:23)
+2025-01-10T13:00:00.055Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 3:00:00 PM
+2025-01-10T13:00:00.060Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 3:00:00 PM
+2025-01-10T13:00:11.492Z [INFO]: Authentication process complete
+2025-01-10T13:00:11.504Z [DEBUG]: User display profile operation completed.
+2025-01-10T13:00:31.792Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:00:33.015Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:00:35.310Z [DEBUG]: Display contact is complete.
+2025-01-10T13:00:39.690Z [DEBUG]: Display contact is complete.
+2025-01-10T13:00:47.180Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:00:50.369Z [DEBUG]: Display contact is complete.
+2025-01-10T13:02:17.523Z [DEBUG]: User display profile operation completed.
+2025-01-10T13:02:22.073Z [DEBUG]: Logout process complete
+2025-01-10T13:02:42.846Z [INFO]: Authentication process complete
+2025-01-10T13:02:42.861Z [DEBUG]: User display profile operation completed.
+2025-01-10T13:04:48.520Z [DEBUG]: User display profile operation completed.
+2025-01-10T13:05:21.815Z [DEBUG]: User display profile operation completed.
+2025-01-10T13:09:07.803Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:09:12.091Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:09:14.430Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:09:16.852Z [DEBUG]: Display contact is complete.
+2025-01-10T13:13:02.905Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T13:13:02.985Z [DEBUG]: Refresh token process complete
+2025-01-10T13:13:03.006Z [DEBUG]: User display profile operation completed.
+2025-01-10T13:13:30.545Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:13:44.996Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:13:47.200Z [DEBUG]: Display contact is complete.
+2025-01-10T13:16:38.368Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:16:38.497Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:16:38.588Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:16:38.661Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:16:40.569Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:16:40.764Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:16:40.934Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:17:20.915Z [DEBUG]: User display profile operation completed.
+2025-01-10T13:17:23.190Z [DEBUG]: User display profile operation completed.
+2025-01-10T13:19:49.141Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:19:49.680Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:19:50.747Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:20:29.036Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:20:29.185Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:20:29.230Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:20:29.313Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:20:29.996Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:20:31.266Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:20:32.109Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:20:32.766Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:21:16.573Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:21:17.057Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:21:17.725Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:21:35.824Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:21:35.932Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:21:35.972Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:21:36.080Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:22:06.088Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:22:06.251Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:22:06.261Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:22:06.373Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:22:06.977Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:23:42.862Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T13:23:42.877Z [DEBUG]: Refresh token process complete
+2025-01-10T13:23:42.890Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:23:43.010Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:23:43.043Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:23:43.160Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:33.357Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:33.458Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:33.519Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:33.611Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:50.869Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:50.872Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:50.945Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:54.038Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:54.082Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:54.141Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:54.266Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:54.280Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:24:54.340Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:12.013Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:12.054Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:12.173Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:12.403Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:12.405Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:29.878Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:29.908Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:30.037Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:30.172Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:30.174Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:30.334Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:32.686Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:32.711Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:32.818Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:32.937Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:32.948Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:33.047Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:33.147Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:33.172Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:45.779Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:45.810Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:45.888Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:46.020Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:46.038Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:46.848Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:47.349Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:47.378Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:47.410Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:26:55.033Z [DEBUG]: Display contact is complete.
+2025-01-10T13:27:04.217Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:10.966Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:11.035Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:11.157Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:11.332Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:11.334Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:11.482Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:12.606Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:13.109Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:13.144Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:13.166Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:13.209Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:22.143Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:22.157Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:27:22.260Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:52.438Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:52.476Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:52.557Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:52.689Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:52.699Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:52.831Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:53.744Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:54.244Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:54.276Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:54.304Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:54.347Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:58.571Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:58.712Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:58.796Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:28:58.905Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:01.208Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:01.217Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:01.375Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:03.684Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:03.801Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:03.884Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:03.968Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:23.102Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:23.227Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:23.284Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:23.395Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:44.596Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:44.612Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:29:44.713Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:04.195Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:04.229Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:04.371Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:04.535Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:04.537Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:06.811Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:07.313Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:07.336Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:07.373Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:08.440Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:08.547Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:08.590Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:08.681Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:40.592Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:40.599Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:40.716Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:40.868Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:40.880Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:41.021Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:43.234Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:43.371Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:43.374Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:43.385Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:43.507Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:44.998Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:45.102Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:45.139Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:45.257Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:30:47.301Z [DEBUG]: Display contact is complete.
+2025-01-10T13:30:50.245Z [DEBUG]: Display contact is complete.
+2025-01-10T13:31:02.130Z [DEBUG]: Display contact is complete.
+2025-01-10T13:31:38.369Z [DEBUG]: Display contact is complete.
+2025-01-10T13:31:47.588Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:47.620Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:47.698Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:47.834Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:47.836Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:47.935Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:48.747Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:49.248Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:49.274Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:49.311Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:49.353Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:50.242Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:50.362Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:50.387Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:50.470Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:31:58.220Z [DEBUG]: Display contact is complete.
+2025-01-10T13:32:09.290Z [DEBUG]: Display contact is complete.
+2025-01-10T13:33:18.160Z [INFO]: Middlewares configured successfully.
+2025-01-10T13:33:18.225Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T13:33:18.249Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T13:33:18.253Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T13:33:18.269Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T13:33:18.270Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T13:33:18.271Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T13:33:18.271Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T13:33:18.272Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T13:33:18.272Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T13:33:18.273Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T13:33:18.274Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T13:33:18.275Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T13:33:18.275Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T13:33:18.276Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T13:33:18.283Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T13:33:23.989Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:33:24.105Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:33:24.131Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:33:24.239Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:33:40.685Z [DEBUG]: Display contact is complete.
+2025-01-10T13:34:08.537Z [INFO]: Middlewares configured successfully.
+2025-01-10T13:34:08.600Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T13:34:08.623Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T13:34:08.627Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T13:34:08.643Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T13:34:08.643Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T13:34:08.644Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T13:34:08.645Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T13:34:08.645Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T13:34:08.645Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T13:34:08.646Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T13:34:08.646Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T13:34:08.647Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T13:34:08.647Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T13:34:08.648Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T13:34:08.658Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T13:34:15.054Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/search-by-name?test%20record%202",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T13:34:15.091Z [DEBUG]: Refresh token process complete
+2025-01-10T13:34:15.111Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?test%20record%202",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T13:34:15.112Z [DEBUG]: Display contact is complete.
+2025-01-10T13:34:25.139Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?test%20record%202",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T13:34:25.140Z [DEBUG]: Display contact is complete.
+2025-01-10T13:35:03.288Z [DEBUG]: Display contact is complete.
+2025-01-10T13:35:08.828Z [DEBUG]: Display contact is complete.
+2025-01-10T13:35:12.852Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:17.140Z [DEBUG]: Display contact is complete.
+2025-01-10T13:35:20.457Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:20.547Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:24.299Z [DEBUG]: Display contact is complete.
+2025-01-10T13:35:27.686Z [DEBUG]: Display contact is complete.
+2025-01-10T13:35:35.871Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:35.874Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:36.007Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:36.151Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:36.154Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:36.249Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:36.971Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:37.473Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:37.501Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:37.528Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:35:37.557Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:54:07.482Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T13:54:07.501Z [DEBUG]: Refresh token process complete
+2025-01-10T13:54:07.512Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:54:20.110Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:54:20.273Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:54:20.362Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:54:24.347Z [DEBUG]: Display contact is complete.
+2025-01-10T13:59:43.780Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:59:44.249Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:59:45.693Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:59:46.855Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:59:47.055Z [DEBUG]: Port contacts is complete.
+2025-01-10T13:59:47.191Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:00:00.054Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 4:00:00 PM
+2025-01-10T14:00:00.059Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 4:00:00 PM
+2025-01-10T14:00:25.713Z [DEBUG]: User display profile operation completed.
+2025-01-10T14:04:56.358Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:04:56.376Z [DEBUG]: Refresh token process complete
+2025-01-10T14:04:56.385Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:04:56.847Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:05:06.352Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:05:06.493Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:05:06.517Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:05:06.628Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:06:42.847Z [DEBUG]: User display profile operation completed.
+2025-01-10T14:09:27.192Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:27.203Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:27.307Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:27.448Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:27.457Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:27.570Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:28.269Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:28.758Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:28.799Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:28.840Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:28.875Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:30.343Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:30.509Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:30.554Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:30.661Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.135Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.639Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.690Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.707Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.753Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.768Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.799Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.846Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.891Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.921Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.949Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:37.979Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:38.483Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:38.616Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:38.652Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:38.757Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:41.322Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:41.399Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:41.446Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:41.552Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:55.990Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:56.309Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:56.655Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:09:56.717Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:10:05.100Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:10:05.248Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:10:05.308Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:10:05.436Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:10:10.788Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:10:10.890Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:10:10.936Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:10:11.045Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.271Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.282Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.416Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.531Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.545Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.697Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.821Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.834Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:04.957Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:05.469Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:05.973Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:06.002Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:06.035Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:06.071Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:06.091Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:06.137Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:06.168Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:07.568Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:07.736Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:07.796Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:07.889Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:13.048Z [DEBUG]: Display contact is complete.
+2025-01-10T14:14:18.312Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:18.485Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:18.569Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:18.700Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:22.728Z [DEBUG]: Display contact is complete.
+2025-01-10T14:14:29.047Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:29.184Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:29.195Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:14:29.306Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:19:28.653Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:19:28.670Z [DEBUG]: Refresh token process complete
+2025-01-10T14:19:28.684Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:20:08.374Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:20:08.491Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:20:08.520Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:20:08.631Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.179Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.210Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.333Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.491Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.504Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.632Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.746Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.756Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:43.841Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:47.364Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:47.865Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:47.898Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:47.924Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:47.957Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:47.988Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:48.034Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:48.061Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:50.691Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:50.860Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:50.912Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:24:51.018Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:12.870Z [DEBUG]: Display contact is complete.
+2025-01-10T14:25:24.325Z [DEBUG]: Display contact is complete.
+2025-01-10T14:25:37.269Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:37.434Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:37.601Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:37.768Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:37.935Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:38.115Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:38.302Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:38.468Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:38.652Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:38.818Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:38.998Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:39.194Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:41.060Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:41.181Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:41.283Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:41.374Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:55.114Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:55.268Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:55.292Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:25:55.386Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:27:49.128Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:27:49.275Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:27:49.301Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:27:49.407Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:33:14.537Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:33:14.551Z [DEBUG]: Refresh token process complete
+2025-01-10T14:33:14.564Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:33:14.686Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:33:14.747Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:33:14.851Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:33:19.683Z [DEBUG]: Display contact is complete.
+2025-01-10T14:33:33.542Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:33:33.730Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:33:33.778Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:33:33.871Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:23.289Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:23.300Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:23.383Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:23.505Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:23.516Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:23.619Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:23.925Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:24.426Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:24.469Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:24.501Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:24.532Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:26.146Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:26.297Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:26.379Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:26.481Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:33.324Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:33.455Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:33.535Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:33.613Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:59.046Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:59.148Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:59.176Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:34:59.274Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:34.096Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:34.118Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:34.270Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:34.451Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:34.453Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:34.547Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:36.718Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:37.223Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:37.251Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:37.279Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:37.309Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:44.683Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:44.906Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:44.996Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:35:45.136Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:36:02.616Z [DEBUG]: Display contact is complete.
+2025-01-10T14:36:54.797Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:37:05.386Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:37:11.013Z [DEBUG]: Display contact is complete.
+2025-01-10T14:37:12.915Z [DEBUG]: Display contact is complete.
+2025-01-10T14:37:15.905Z [DEBUG]: Display contact is complete.
+2025-01-10T14:37:36.544Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:37:51.575Z [DEBUG]: User display profile operation completed.
+2025-01-10T14:37:54.773Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:38:05.193Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:38:43.409Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:38:49.427Z [DEBUG]: Display contact is complete.
+2025-01-10T14:39:01.291Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:39:01.743Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:39:02.096Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:39:02.241Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:39:45.962Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:40:57.441Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:42.778Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=j&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:44:42.789Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=jk&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:44:42.804Z [DEBUG]: Refresh token process complete
+2025-01-10T14:44:42.816Z [DEBUG]: Refresh token process complete
+2025-01-10T14:44:42.817Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:42.825Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:42.931Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:43.057Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:43.060Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:44.212Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:44.362Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:44.545Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:45.978Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:54.092Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:54.179Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:54.260Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:55.166Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:44:55.668Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:47:09.588Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:47:17.549Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:47:27.212Z [DEBUG]: Display contact is complete.
+2025-01-10T14:47:39.074Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:06.628Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:30.732Z [DEBUG]: User display profile operation completed.
+2025-01-10T14:49:50.106Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:50.152Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:50.259Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:51.627Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:51.669Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:51.743Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:51.897Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:51.911Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:57.951Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:58.061Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:58.143Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:49:58.282Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:05.538Z [DEBUG]: Display contact is complete.
+2025-01-10T14:50:11.886Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:12.261Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:12.614Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:14.340Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:14.458Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:14.518Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:14.624Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:40.158Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:40.274Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:40.314Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:50:40.413Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:00.380Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:00.502Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:00.591Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:00.687Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:19.032Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:19.152Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:19.225Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:19.301Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:27.927Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:27.933Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:28.028Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:28.160Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:28.167Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:28.266Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:29.244Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:29.731Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:29.777Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:29.807Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:29.836Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:31.809Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:31.906Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:31.950Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:32.052Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:48.968Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:51.558Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:51.658Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:51.735Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:51.888Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:54.736Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:54.844Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:54.876Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:51:54.979Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:10.074Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:10.175Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:10.252Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:10.337Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:12.743Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:12.745Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:12.998Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:13.059Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:14.874Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:14.976Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:15.010Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:15.109Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:17.572Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:17.650Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:17.709Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:17.813Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:52:55.401Z [DEBUG]: Display contact is complete.
+2025-01-10T14:53:00.613Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:53:00.749Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:53:00.855Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:53:00.957Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:22.063Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:24.829Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:24.836Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:24.838Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:25.035Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:25.045Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:25.139Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:25.615Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:26.113Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:26.149Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:26.178Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:26.239Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:26.671Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:26.787Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:26.851Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:26.913Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:29.004Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:29.098Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:29.157Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:29.241Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:59.520Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:54:59.537Z [DEBUG]: Refresh token process complete
+2025-01-10T14:54:59.553Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:59.661Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:59.716Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:54:59.823Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:06.482Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:06.600Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:06.661Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:06.759Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:14.267Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:14.355Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:14.415Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:14.491Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:22.119Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:22.270Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:22.345Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:22.434Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.245Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.751Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.783Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.805Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.864Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.880Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.911Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.955Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:25.982Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:26.017Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:26.046Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:26.089Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:26.595Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:26.716Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:26.758Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:26.852Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:30.992Z [DEBUG]: Display contact is complete.
+2025-01-10T14:55:48.032Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:48.036Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:48.101Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:48.206Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:48.209Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:48.345Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:48.450Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:48.589Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:49.090Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:49.132Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:49.148Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:49.605Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:49.701Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:49.713Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:49.819Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:55:55.297Z [DEBUG]: Display contact is complete.
+2025-01-10T14:56:47.496Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:47.659Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:47.665Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:47.750Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:48.553Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:49.052Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:49.087Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:50.263Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:50.398Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:50.454Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:50.566Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:54.036Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:54.150Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:54.159Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:54.270Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:57.462Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:57.964Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:57.991Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:58.543Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:58.678Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:58.681Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:56:58.811Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:09.374Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:09.489Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:09.519Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:09.607Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:17.793Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:17.913Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:17.922Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:18.035Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:46.741Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:46.844Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:46.876Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:57:46.981Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:58:11.481Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:58:11.553Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:58:11.613Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:58:11.705Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:58:30.842Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:58:30.981Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:58:31.024Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:58:31.128Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:07.545Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:07.559Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:07.560Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:07.769Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:07.919Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:08.238Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:08.744Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:08.789Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:08.830Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:16.611Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:16.617Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:16.713Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:17.911Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:18.340Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:18.599Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:18.809Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:19.583Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:20.074Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:20.130Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:20.147Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:20.895Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:45.856Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:45.860Z [DEBUG]: Port contacts is complete.
+2025-01-10T14:59:45.984Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:00:00.029Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 5:00:00 PM
+2025-01-10T15:00:00.031Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 5:00:00 PM
+2025-01-10T15:00:44.595Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:00:45.551Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:00:46.039Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:00:47.098Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:00:47.201Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:00:47.320Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:00:47.396Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:00:52.265Z [DEBUG]: Display contact is complete.
+2025-01-10T15:01:39.176Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:39.187Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:39.266Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:39.391Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:39.395Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:39.636Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:39.799Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:39.951Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:40.114Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:44.248Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:44.396Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:44.407Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:44.531Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:49.373Z [DEBUG]: Display contact is complete.
+2025-01-10T15:01:52.528Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:53.516Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:01:56.784Z [DEBUG]: Display contact is complete.
+2025-01-10T15:01:59.295Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:02.533Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:02:02.651Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:02:02.666Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:02:02.776Z [DEBUG]: Port contacts is complete.
+2025-01-10T15:02:07.773Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:11.190Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:13.738Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:21.205Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:21.869Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:22.262Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:22.446Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:22.615Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:22.790Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:22.957Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:23.150Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:23.311Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:23.477Z [DEBUG]: Display contact is complete.
+2025-01-10T15:02:23.654Z [DEBUG]: Display contact is complete.
+2025-01-10T18:58:46.143Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 8:58:46 PM
+2025-01-10T18:58:46.172Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 8:58:46 PM
+2025-01-10T19:00:00.028Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 9:00:00 PM
+2025-01-10T19:00:00.030Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 9:00:00 PM
+2025-01-10T20:27:51.079Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 10:27:51 PM
+2025-01-10T20:27:51.104Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 10:27:51 PM
+2025-01-10T20:28:27.210Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T20:28:27.241Z [DEBUG]: Refresh token process complete
+2025-01-10T20:28:27.264Z [DEBUG]: User display profile operation completed.
+2025-01-10T20:36:13.574Z [DEBUG]: Port contacts is complete.
+2025-01-10T20:36:32.466Z [DEBUG]: Display contact is complete.
+2025-01-10T20:58:43.481Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T20:58:43.516Z [DEBUG]: Refresh token process complete
+2025-01-10T20:58:43.528Z [DEBUG]: User display profile operation completed.
+2025-01-10T21:00:00.029Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/10/2025, 11:00:00 PM
+2025-01-10T21:00:00.031Z [DEBUG]: Cron job ran successfully at: 1/10/2025, 11:00:00 PM
+2025-01-10T21:01:38.568Z [DEBUG]: User display profile operation completed.
+2025-01-10T21:03:03.570Z [DEBUG]: Port contacts is complete.
+2025-01-10T21:03:03.725Z [DEBUG]: Port contacts is complete.
+2025-01-10T21:03:03.775Z [DEBUG]: Port contacts is complete.
+2025-01-10T21:03:03.878Z [DEBUG]: Port contacts is complete.
+2025-01-10T21:03:11.203Z [DEBUG]: Display contact is complete.
+2025-01-10T21:05:18.628Z [DEBUG]: Port contacts is complete.
+2025-01-10T21:05:18.753Z [DEBUG]: Port contacts is complete.
+2025-01-10T21:05:18.784Z [DEBUG]: Port contacts is complete.
+2025-01-10T21:05:18.906Z [DEBUG]: Port contacts is complete.
+2025-01-10T21:05:20.498Z [DEBUG]: Display contact is complete.
+2025-01-10T22:12:19.773Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/11/2025, 12:12:19 AM
+2025-01-10T22:12:19.775Z [DEBUG]: Cron job ran successfully at: 1/11/2025, 12:12:19 AM
+2025-01-10T22:12:52.713Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T22:12:52.762Z [DEBUG]: Refresh token process complete
+2025-01-10T22:12:52.784Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:12:58.018Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:13:03.446Z [DEBUG]: Display contact is complete.
+2025-01-10T22:13:10.056Z [DEBUG]: Display contact is complete.
+2025-01-10T22:15:02.862Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:15:06.056Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:15:06.195Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:15:06.282Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:15:06.407Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:15:08.289Z [DEBUG]: Display contact is complete.
+2025-01-10T22:15:09.094Z [DEBUG]: Display contact is complete.
+2025-01-10T22:20:20.883Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:20:21.868Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:20:22.691Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:20:23.741Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:20:23.896Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:20:27.054Z [DEBUG]: Display contact is complete.
+2025-01-10T22:25:25.723Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=test+record+&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T22:25:25.740Z [DEBUG]: Refresh token process complete
+2025-01-10T22:25:25.751Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.216Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.271Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.290Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.314Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.346Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.374Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.405Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.451Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.483Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.512Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:26.546Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:28.536Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:25:52.947Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:26:17.258Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:26:23.843Z [DEBUG]: Display contact is complete.
+2025-01-10T22:26:29.122Z [DEBUG]: Display contact is complete.
+2025-01-10T22:26:30.968Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:26:31.133Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:27:27.321Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:27:34.835Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:10.274Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:12.967Z [DEBUG]: Display contact is complete.
+2025-01-10T22:28:55.420Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:57.879Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:58.261Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:58.778Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:58.807Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:58.822Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:58.851Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:58.913Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:58.926Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:59.630Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:59.809Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:28:59.992Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:00.171Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:00.358Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:01.717Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:03.102Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:03.651Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:03.741Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:10.793Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:15.637Z [DEBUG]: Display contact is complete.
+2025-01-10T22:29:19.427Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:19.547Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:20.714Z [DEBUG]: Display contact is complete.
+2025-01-10T22:29:24.283Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:24.388Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:29:26.452Z [DEBUG]: Display contact is complete.
+2025-01-10T22:31:32.063Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:31:42.382Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:31:45.308Z [DEBUG]: Display contact is complete.
+2025-01-10T22:32:26.678Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:32:34.786Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:32:38.181Z [DEBUG]: Display contact is complete.
+2025-01-10T22:33:01.487Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:35:48.198Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T22:35:48.215Z [DEBUG]: Refresh token process complete
+2025-01-10T22:35:48.225Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:35:54.014Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:01.302Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:01.438Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:01.468Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:01.575Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:11.853Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:11.992Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:12.017Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:12.123Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:29.354Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:29.521Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:29.548Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:29.642Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:34.972Z [DEBUG]: Display contact is complete.
+2025-01-10T22:36:50.890Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:36:53.366Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:53.490Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:53.505Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:53.609Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:54.672Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:54.825Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:54.965Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:56.112Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:56.289Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:56.335Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:36:56.444Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:37:00.954Z [DEBUG]: Display contact is complete.
+2025-01-10T22:37:22.074Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:37:22.780Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:37:23.425Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:37:26.179Z [DEBUG]: Display contact is complete.
+2025-01-10T22:37:50.002Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:37:52.471Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:37:52.639Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:37:52.730Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:37:52.819Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:04.931Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:05.070Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:05.111Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:05.202Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:18.222Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:18.350Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:18.415Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:18.539Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:38:21.461Z [DEBUG]: Display contact is complete.
+2025-01-10T22:39:42.101Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:40:22.164Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:40:28.243Z [DEBUG]: Display contact is complete.
+2025-01-10T22:40:42.461Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:41:21.100Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:41:25.300Z [DEBUG]: Display contact is complete.
+2025-01-10T22:42:16.430Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:42:22.136Z [DEBUG]: Display contact is complete.
+2025-01-10T22:43:07.430Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:43:10.749Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:11.057Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:11.561Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:12.143Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:13.832Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:14.183Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:14.747Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:15.980Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:16.176Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:16.340Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:16.569Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:16.935Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:18.015Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:43:21.074Z [DEBUG]: Display contact is complete.
+2025-01-10T22:44:23.637Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:44:23.755Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:44:23.829Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:44:23.966Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:44:26.307Z [DEBUG]: Display contact is complete.
+2025-01-10T22:44:27.088Z [DEBUG]: Display contact is complete.
+2025-01-10T22:44:41.329Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:44:44.737Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:44:45.891Z [DEBUG]: Display contact is complete.
+2025-01-10T22:44:51.571Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:44:53.066Z [DEBUG]: Display contact is complete.
+2025-01-10T22:48:04.762Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T22:48:04.775Z [DEBUG]: Refresh token process complete
+2025-01-10T22:48:04.785Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:04.907Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:04.969Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:05.063Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:08.873Z [DEBUG]: Display contact is complete.
+2025-01-10T22:48:11.479Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:11.600Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:11.649Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:11.770Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:12.195Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:12.497Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:12.679Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:13.252Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:14.287Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:14.426Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:14.654Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:14.777Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:15.127Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:16.805Z [DEBUG]: Display contact is complete.
+2025-01-10T22:48:34.925Z [DEBUG]: User display profile operation completed.
+2025-01-10T22:48:37.431Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:37.555Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:37.586Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:37.704Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:37.783Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:38.564Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:38.746Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:39.000Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:39.173Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:39.298Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:39.494Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:39.645Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:40.436Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:48:41.619Z [DEBUG]: Display contact is complete.
+2025-01-10T22:49:04.773Z [DEBUG]: Display contact is complete.
+2025-01-10T22:49:06.812Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:06.977Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:08.194Z [DEBUG]: Display contact is complete.
+2025-01-10T22:49:09.815Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:09.949Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:10.002Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:11.106Z [DEBUG]: Display contact is complete.
+2025-01-10T22:49:41.635Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:41.757Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:41.821Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:41.914Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:43.481Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:43.691Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:43.878Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:44.436Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:45.280Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:45.403Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:45.631Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:45.736Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:46.113Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:46.867Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:47.383Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:48.314Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:48.386Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:51.280Z [DEBUG]: Display contact is complete.
+2025-01-10T22:49:56.403Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:56.497Z [DEBUG]: Port contacts is complete.
+2025-01-10T22:49:57.798Z [DEBUG]: Display contact is complete.
+2025-01-10T22:51:18.110Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T22:51:18.140Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2025-01-10T22:51:18.143Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T22:51:19.411Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T22:51:19.423Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2025-01-10T22:51:19.425Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T22:51:23.692Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T22:51:23.704Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2025-01-10T22:51:23.706Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:06:50.870Z [INFO]: Middlewares configured successfully.
+2025-01-10T23:06:50.938Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T23:06:50.968Z [INFO]: Connected To MongoDB Locally.
+2025-01-10T23:06:50.973Z [INFO]: Server is running on http://localhost:8080
+2025-01-10T23:06:51.023Z [DEBUG]: Chunk processed: 11 updated, 0 inserted.
+2025-01-10T23:06:51.027Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:07:10.188Z [DEBUG]: Parsed 0 rows from Excel file.
+2025-01-10T23:07:10.188Z [WARN]: No data found in the Excel sheet.
+2025-01-10T23:07:27.401Z [DEBUG]: Parsed 11 rows from Excel file.
+2025-01-10T23:07:27.405Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:07:27.406Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T23:07:27.406Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T23:07:27.407Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T23:07:27.407Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T23:07:27.409Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T23:07:27.410Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T23:07:27.410Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T23:07:27.411Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T23:07:27.411Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T23:07:27.412Z [DEBUG]: No changes for email: person222email@mail.com
+2025-01-10T23:07:27.416Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:07:42.305Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-10T23:07:42.309Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:07:42.309Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T23:07:42.310Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T23:07:42.310Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T23:07:42.311Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T23:07:42.312Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T23:07:42.312Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T23:07:42.313Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T23:07:42.313Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T23:07:42.314Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T23:07:42.318Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:07:43.673Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-10T23:07:43.676Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:07:43.677Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T23:07:43.677Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T23:07:43.678Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T23:07:43.678Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T23:07:43.680Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T23:07:43.680Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T23:07:43.681Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T23:07:43.682Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T23:07:43.682Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T23:07:43.686Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:08:12.557Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-10T23:08:12.596Z [DEBUG]: Chunk processed: 0 updated, 10 inserted.
+2025-01-10T23:08:12.598Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:08:46.574Z [DEBUG]: Parsed 8 rows from Excel file.
+2025-01-10T23:08:46.578Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:08:46.579Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T23:08:46.579Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T23:08:46.580Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T23:08:46.580Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T23:08:46.581Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T23:08:46.581Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T23:08:46.583Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T23:08:46.586Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:08:52.420Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-10T23:08:52.423Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:08:52.423Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T23:08:52.424Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T23:08:52.424Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T23:08:52.424Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T23:08:52.425Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T23:08:52.425Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T23:08:52.425Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T23:08:52.429Z [DEBUG]: Chunk processed: 0 updated, 2 inserted.
+2025-01-10T23:08:52.431Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:09:03.297Z [DEBUG]: Parsed 0 rows from Excel file.
+2025-01-10T23:09:03.298Z [WARN]: No data found in the Excel sheet.
+2025-01-10T23:09:10.308Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-10T23:09:10.313Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:09:10.314Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T23:09:10.314Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T23:09:10.314Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T23:09:10.315Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T23:09:10.316Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T23:09:10.316Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T23:09:10.317Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T23:09:10.317Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T23:09:10.318Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T23:09:10.321Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:09:19.974Z [DEBUG]: Parsed 1 rows from Excel file.
+2025-01-10T23:09:19.977Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:09:19.979Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:09:30.430Z [DEBUG]: Parsed 0 rows from Excel file.
+2025-01-10T23:09:30.431Z [WARN]: No data found in the Excel sheet.
+2025-01-10T23:09:40.288Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-10T23:09:40.291Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:09:40.301Z [DEBUG]: Chunk processed: 0 updated, 9 inserted.
+2025-01-10T23:09:40.305Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:10:00.483Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-10T23:10:00.489Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:10:00.490Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T23:10:00.490Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T23:10:00.491Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T23:10:00.492Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T23:10:00.492Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T23:10:00.493Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T23:10:00.493Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T23:10:00.494Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T23:10:00.495Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T23:10:00.497Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:10:20.934Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T23:10:20.966Z [DEBUG]: Refresh token process complete
+2025-01-10T23:10:20.977Z [DEBUG]: User display profile operation completed.
+2025-01-10T23:10:29.896Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-10T23:10:29.899Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-10T23:10:29.900Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-10T23:10:29.900Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-10T23:10:29.901Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-10T23:10:29.901Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-10T23:10:29.902Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-10T23:10:29.902Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-10T23:10:29.903Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-10T23:10:29.903Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-10T23:10:29.904Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-10T23:10:29.906Z [DEBUG]: Excel file processed and database updated.
+2025-01-10T23:10:57.033Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-01-11T15:34:07.981Z [INFO]: Middlewares configured successfully.
+2025-01-11T15:34:08.052Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T15:34:08.075Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T15:34:08.078Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T15:34:08.097Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T15:34:08.098Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T15:34:08.099Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T15:34:08.100Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T15:34:08.101Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T15:34:08.102Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T15:34:08.102Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T15:34:08.103Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T15:34:08.103Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T15:34:08.104Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T15:34:08.108Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T15:34:32.915Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T15:34:33.000Z [DEBUG]: Refresh token process complete
+2025-01-11T15:34:33.033Z [DEBUG]: User display profile operation completed.
+2025-01-11T15:34:45.856Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:34:46.790Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:34:48.893Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:34:50.454Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:34:50.817Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:34:51.214Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:34:51.396Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:34:55.072Z [DEBUG]: Display contact is complete.
+2025-01-11T15:36:00.417Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:36:00.956Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:36:01.726Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:36:02.320Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:36:06.341Z [DEBUG]: Display contact is complete.
+2025-01-11T15:37:01.016Z [DEBUG]: User display profile operation completed.
+2025-01-11T15:37:02.325Z [DEBUG]: User display profile operation completed.
+2025-01-11T15:43:43.631Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:43.633Z [DEBUG]: Display contact is complete.
+2025-01-11T15:43:44.411Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:44.412Z [DEBUG]: Display contact is complete.
+2025-01-11T15:43:45.103Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:45.104Z [DEBUG]: Display contact is complete.
+2025-01-11T15:43:46.421Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:46.422Z [DEBUG]: Display contact is complete.
+2025-01-11T15:43:56.627Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:56.628Z [DEBUG]: Display contact is complete.
+2025-01-11T15:43:57.131Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:57.132Z [DEBUG]: Display contact is complete.
+2025-01-11T15:44:57.658Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T15:44:57.681Z [DEBUG]: Refresh token process complete
+2025-01-11T15:44:57.698Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:44:57.700Z [DEBUG]: Display contact is complete.
+2025-01-11T15:44:59.043Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:44:59.044Z [DEBUG]: Display contact is complete.
+2025-01-11T15:44:59.763Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:44:59.764Z [DEBUG]: Display contact is complete.
+2025-01-11T15:45:36.041Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:36.042Z [DEBUG]: Display contact is complete.
+2025-01-11T15:45:36.583Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:36.584Z [DEBUG]: Display contact is complete.
+2025-01-11T15:45:55.188Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:55.188Z [DEBUG]: Display contact is complete.
+2025-01-11T15:45:55.813Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:55.814Z [DEBUG]: Display contact is complete.
+2025-01-11T15:45:56.355Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:56.356Z [DEBUG]: Display contact is complete.
+2025-01-11T15:45:56.786Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:56.787Z [DEBUG]: Display contact is complete.
+2025-01-11T15:46:19.599Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:19.602Z [DEBUG]: Display contact is complete.
+2025-01-11T15:46:20.204Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:20.205Z [DEBUG]: Display contact is complete.
+2025-01-11T15:46:54.994Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:54.995Z [DEBUG]: Display contact is complete.
+2025-01-11T15:46:55.568Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:55.570Z [DEBUG]: Display contact is complete.
+2025-01-11T15:46:55.903Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:55.905Z [DEBUG]: Display contact is complete.
+2025-01-11T15:47:08.425Z [DEBUG]: User display profile operation completed.
+2025-01-11T15:47:12.389Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:47:12.390Z [DEBUG]: Display contact is complete.
+2025-01-11T15:47:13.027Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:47:13.029Z [DEBUG]: Display contact is complete.
+2025-01-11T15:47:13.507Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:47:13.508Z [DEBUG]: Display contact is complete.
+2025-01-11T15:48:21.892Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:21.893Z [DEBUG]: Display contact is complete.
+2025-01-11T15:48:22.489Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:22.490Z [DEBUG]: Display contact is complete.
+2025-01-11T15:48:23.857Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:23.858Z [DEBUG]: Display contact is complete.
+2025-01-11T15:48:24.365Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:24.366Z [DEBUG]: Display contact is complete.
+2025-01-11T15:48:24.998Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:24.999Z [DEBUG]: Display contact is complete.
+2025-01-11T15:48:57.122Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:57.124Z [DEBUG]: Display contact is complete.
+2025-01-11T15:48:57.924Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:57.925Z [DEBUG]: Display contact is complete.
+2025-01-11T15:48:58.674Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:58.675Z [DEBUG]: Display contact is complete.
+2025-01-11T15:49:00.751Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:49:01.154Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:49:03.755Z [DEBUG]: Display contact is complete.
+2025-01-11T15:49:39.105Z [DEBUG]: User display profile operation completed.
+2025-01-11T15:49:57.343Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:49:57.345Z [DEBUG]: Display contact is complete.
+2025-01-11T15:49:58.273Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:49:58.274Z [DEBUG]: Display contact is complete.
+2025-01-11T15:49:58.710Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:49:58.711Z [DEBUG]: Display contact is complete.
+2025-01-11T15:50:54.437Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:50:54.438Z [DEBUG]: Display contact is complete.
+2025-01-11T15:50:55.001Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:50:55.001Z [DEBUG]: Display contact is complete.
+2025-01-11T15:50:55.759Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:50:55.760Z [DEBUG]: Display contact is complete.
+2025-01-11T15:51:17.859Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:51:17.860Z [DEBUG]: Display contact is complete.
+2025-01-11T15:54:07.652Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:07.785Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:07.922Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:07.982Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:10.256Z [DEBUG]: Display contact is complete.
+2025-01-11T15:54:13.338Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:13.480Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:13.522Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:13.631Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:18.109Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:18.215Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:18.276Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:18.379Z [DEBUG]: Port contacts is complete.
+2025-01-11T15:54:20.338Z [DEBUG]: Display contact is complete.
+2025-01-11T15:57:41.687Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T15:57:41.810Z [DEBUG]: Refresh token process complete
+2025-01-11T15:57:41.826Z [DEBUG]: User display profile operation completed.
+2025-01-11T16:00:00.051Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/11/2025, 6:00:00 PM
+2025-01-11T16:00:00.059Z [DEBUG]: Cron job ran successfully at: 1/11/2025, 6:00:00 PM
+2025-01-11T16:00:14.885Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:00:40.404Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:00:40.548Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:00:40.607Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:00:40.684Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:00:42.594Z [DEBUG]: Display contact is complete.
+2025-01-11T16:10:06.644Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=y&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T16:10:06.663Z [DEBUG]: Refresh token process complete
+2025-01-11T16:10:06.671Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:11:00.111Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:11:00.488Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:11:01.087Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:11:01.575Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:11:03.976Z [DEBUG]: Display contact is complete.
+2025-01-11T16:12:15.956Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:16.397Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:17.391Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:20.208Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:20.341Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:21.013Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:22.540Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:23.514Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:24.706Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:24.897Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:25.011Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:25.342Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:25.512Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:26.246Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:27.075Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:27.086Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:27.150Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:27.168Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:27.379Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:27.382Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:28.775Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:28.972Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:29.137Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:29.337Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:29.519Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:30.694Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:30.804Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:30.924Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:33.274Z [DEBUG]: Display contact is complete.
+2025-01-11T16:12:56.735Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:57.046Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:12:59.013Z [DEBUG]: Display contact is complete.
+2025-01-11T16:13:10.061Z [DEBUG]: User display profile operation completed.
+2025-01-11T16:13:30.791Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:13:31.108Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:13:33.088Z [DEBUG]: Display contact is complete.
+2025-01-11T16:13:41.059Z [DEBUG]: User display profile operation completed.
+2025-01-11T16:13:44.002Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:13:44.654Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:13:45.975Z [DEBUG]: Display contact is complete.
+2025-01-11T16:13:51.228Z [DEBUG]: User display profile operation completed.
+2025-01-11T16:18:44.777Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:18:45.169Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:18:45.884Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:18:51.037Z [DEBUG]: Display contact is complete.
+2025-01-11T16:19:17.091Z [DEBUG]: User display profile operation completed.
+2025-01-11T16:19:19.364Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:19:19.367Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:19:19.368Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:19:19.585Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:19:19.588Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:19:19.631Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:21:16.727Z [DEBUG]: Logout process complete
+2025-01-11T16:25:54.889Z [INFO]: Authentication process complete
+2025-01-11T16:25:54.905Z [DEBUG]: User display profile operation completed.
+2025-01-11T16:37:21.949Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T16:37:21.965Z [DEBUG]: Refresh token process complete
+2025-01-11T16:37:21.973Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:37:22.514Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:38:08.307Z [DEBUG]: User display profile operation completed.
+2025-01-11T16:42:16.623Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:42:16.756Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:42:16.850Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:42:16.939Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:42:56.158Z [DEBUG]: User display profile operation completed.
+2025-01-11T16:43:24.298Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:43:24.429Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:43:24.491Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:43:24.599Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:45:48.731Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:45:48.878Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:45:49.016Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:45:49.856Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:45:49.979Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:45:50.006Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:45:50.119Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:46:10.892Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:46:10.992Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:46:10.998Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:46:11.113Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:08.443Z [DEBUG]: Display contact is complete.
+2025-01-11T16:47:12.773Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:12.884Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:12.979Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:13.089Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:13.898Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:14.232Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:14.420Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:15.261Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:15.428Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:15.553Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:15.747Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:15.836Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:16.523Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:19.355Z [DEBUG]: Display contact is complete.
+2025-01-11T16:47:46.023Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T16:47:46.041Z [DEBUG]: Refresh token process complete
+2025-01-11T16:47:46.051Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:46.157Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:46.189Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:47:46.293Z [DEBUG]: Port contacts is complete.
+2025-01-11T16:58:59.247Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T16:58:59.281Z [DEBUG]: Refresh token process complete
+2025-01-11T16:58:59.294Z [DEBUG]: User display profile operation completed.
+2025-01-11T17:00:00.037Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/11/2025, 7:00:00 PM
+2025-01-11T17:00:00.040Z [DEBUG]: Cron job ran successfully at: 1/11/2025, 7:00:00 PM
+2025-01-11T17:02:18.591Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:02:18.742Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:02:18.828Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:02:18.925Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:02:21.249Z [DEBUG]: Display contact is complete.
+2025-01-11T17:02:28.446Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:02:28.657Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:02:29.171Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:09:17.996Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T17:09:18.015Z [DEBUG]: Refresh token process complete
+2025-01-11T17:09:18.023Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:25:11.658Z [INFO]: Middlewares configured successfully.
+2025-01-11T17:25:11.754Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T17:25:11.780Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T17:25:11.785Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T17:25:11.809Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T17:25:11.810Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T17:25:11.811Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T17:25:11.812Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T17:25:11.813Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T17:25:11.814Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T17:25:11.814Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T17:25:11.815Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T17:25:11.815Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T17:25:11.816Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T17:25:11.830Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T17:42:03.893Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T17:42:03.916Z [DEBUG]: Refresh token process complete
+2025-01-11T17:42:03.930Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:42:05.469Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:42:05.955Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:42:09.984Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test%20record%201",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-11T17:42:21.049Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test%20record%201",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-11T17:43:48.324Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:54.062Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:54.241Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:54.433Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:54.609Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:54.767Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:54.929Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:55.097Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:55.283Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:55.458Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:55.633Z [DEBUG]: Display contact is complete.
+2025-01-11T17:43:55.815Z [DEBUG]: Display contact is complete.
+2025-01-11T17:52:37.409Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T17:52:37.433Z [DEBUG]: Refresh token process complete
+2025-01-11T17:52:37.462Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:37.463Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:41.032Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.034Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:41.114Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?te",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.115Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:41.151Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?ter",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.152Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:41.237Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?ters",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.240Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:41.343Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?terst",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.347Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:41.561Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?ters",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.563Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:41.729Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?ter",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.732Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:41.874Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?te",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.876Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:42.379Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:42.380Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:42.794Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:42.795Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:43.121Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?te",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:43.122Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:43.386Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?tes",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:43.386Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:52:43.474Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?test",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:43.476Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:16.906Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:17.161Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:18.140Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:18.715Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:23.475Z [DEBUG]: Display contact is complete.
+2025-01-11T17:53:26.227Z [DEBUG]: Display contact is complete.
+2025-01-11T17:53:28.406Z [DEBUG]: Display contact is complete.
+2025-01-11T17:53:30.469Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:30.988Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:32.293Z [DEBUG]: Display contact is complete.
+2025-01-11T17:53:33.790Z [DEBUG]: Display contact is complete.
+2025-01-11T17:53:37.659Z [DEBUG]: Display contact is complete.
+2025-01-11T17:53:44.151Z [DEBUG]: Display contact is complete.
+2025-01-11T17:53:50.002Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:50.136Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:52.076Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:52.227Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:53:53.785Z [DEBUG]: Display contact is complete.
+2025-01-11T17:53:58.122Z [DEBUG]: Display contact is complete.
+2025-01-11T17:54:01.634Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:54:02.062Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:54:04.906Z [DEBUG]: Display contact is complete.
+2025-01-11T17:54:06.709Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:54:07.738Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:54:08.441Z [DEBUG]: Display contact is complete.
+2025-01-11T17:54:10.212Z [DEBUG]: Display contact is complete.
+2025-01-11T17:54:27.770Z [DEBUG]: User display profile operation completed.
+2025-01-11T17:56:00.093Z [DEBUG]: Logout process complete
+2025-01-11T17:56:23.460Z [INFO]: Authentication process complete
+2025-01-11T17:56:23.472Z [DEBUG]: User display profile operation completed.
+2025-01-11T17:56:29.728Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:29.897Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:30.019Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:30.185Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:31.771Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:31.968Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:32.136Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:33.161Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:34.116Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:34.305Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:34.589Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:34.849Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:35.634Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:56:37.407Z [DEBUG]: Display contact is complete.
+2025-01-11T17:57:01.109Z [DEBUG]: User display profile operation completed.
+2025-01-11T17:57:04.169Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:04.306Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:04.351Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:04.473Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:05.446Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:05.659Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:05.850Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:06.149Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:06.271Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:06.791Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:07.155Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:07.674Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:08.603Z [DEBUG]: Port contacts is complete.
+2025-01-11T17:57:09.608Z [DEBUG]: Display contact is complete.
+2025-01-11T17:57:10.421Z [DEBUG]: Display contact is complete.
+2025-01-11T17:57:49.035Z [DEBUG]: Display contact is complete.
+2025-01-11T17:58:30.344Z [DEBUG]: Display contact is complete.
+2025-01-11T17:59:36.437Z [DEBUG]: Display contact is complete.
+2025-01-11T17:59:59.618Z [DEBUG]: Display contact is complete.
+2025-01-11T18:00:00.037Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/11/2025, 8:00:00 PM
+2025-01-11T18:00:00.042Z [DEBUG]: Cron job ran successfully at: 1/11/2025, 8:00:00 PM
+2025-01-11T18:00:48.342Z [INFO]: Middlewares configured successfully.
+2025-01-11T18:00:48.418Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T18:00:48.441Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T18:00:48.444Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T18:00:48.464Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T18:00:48.465Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T18:00:48.465Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T18:00:48.466Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T18:00:48.466Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T18:00:48.467Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T18:00:48.467Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T18:00:48.468Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T18:00:48.469Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T18:00:48.470Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T18:00:48.478Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T18:01:01.612Z [INFO]: Middlewares configured successfully.
+2025-01-11T18:01:01.683Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T18:01:01.706Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T18:01:01.710Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T18:01:01.728Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T18:01:01.729Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T18:01:01.730Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T18:01:01.730Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T18:01:01.731Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T18:01:01.731Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T18:01:01.731Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T18:01:01.732Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T18:01:01.732Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T18:01:01.732Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T18:01:01.737Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T18:01:05.900Z [DEBUG]: Display contact is complete.
+2025-01-11T18:01:11.412Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:11.531Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:11.560Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:11.671Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:13.664Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:14.170Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:14.210Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:14.888Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:15.207Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:15.708Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:16.406Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:18.468Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:18.970Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:19.001Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:20.201Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:20.302Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:20.394Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:20.488Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:20.957Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:21.463Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:21.499Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:01:49.685Z [INFO]: Middlewares configured successfully.
+2025-01-11T18:01:49.754Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T18:01:49.780Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T18:01:49.784Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T18:01:49.800Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T18:01:49.800Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T18:01:49.801Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T18:01:49.801Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T18:01:49.802Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T18:01:49.803Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T18:01:49.803Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T18:01:49.803Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T18:01:49.804Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T18:01:49.805Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T18:01:49.813Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T18:02:03.745Z [INFO]: Middlewares configured successfully.
+2025-01-11T18:02:03.831Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T18:02:03.897Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T18:02:03.902Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T18:02:03.922Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T18:02:03.923Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T18:02:03.923Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T18:02:03.924Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T18:02:03.924Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T18:02:03.925Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T18:02:03.925Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T18:02:03.926Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T18:02:03.926Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T18:02:03.927Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T18:02:03.933Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T18:02:04.114Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:02:04.382Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:02:05.081Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:02:05.413Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:02:43.333Z [INFO]: Middlewares configured successfully.
+2025-01-11T18:02:43.399Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T18:02:43.422Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T18:02:43.426Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T18:02:43.441Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T18:02:43.442Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T18:02:43.443Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T18:02:43.444Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T18:02:43.444Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T18:02:43.445Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T18:02:43.446Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T18:02:43.446Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T18:02:43.447Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T18:02:43.447Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T18:02:43.454Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T18:02:44.651Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:03:22.755Z [INFO]: Middlewares configured successfully.
+2025-01-11T18:03:22.823Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T18:03:22.845Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T18:03:22.849Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T18:03:22.865Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T18:03:22.865Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T18:03:22.866Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T18:03:22.866Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T18:03:22.867Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T18:03:22.867Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T18:03:22.868Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T18:03:22.869Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T18:03:22.870Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T18:03:22.870Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T18:03:22.881Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T18:03:24.246Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:03:24.689Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:03:25.317Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:03:25.633Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:03:33.372Z [INFO]: Middlewares configured successfully.
+2025-01-11T18:03:33.441Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T18:03:33.463Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T18:03:33.466Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T18:03:33.480Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T18:03:33.481Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T18:03:33.482Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T18:03:33.483Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T18:03:33.484Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T18:03:33.485Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T18:03:33.485Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T18:03:33.486Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T18:03:33.486Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T18:03:33.487Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T18:03:33.496Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T18:04:02.869Z [INFO]: Middlewares configured successfully.
+2025-01-11T18:04:02.940Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T18:04:02.963Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T18:04:02.966Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T18:04:02.983Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T18:04:02.984Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T18:04:02.985Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T18:04:02.985Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T18:04:02.986Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T18:04:02.986Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T18:04:02.986Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T18:04:02.987Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T18:04:02.987Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T18:04:02.988Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T18:04:02.999Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T18:04:07.390Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:04:07.710Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:04:10.347Z [DEBUG]: Display contact is complete.
+2025-01-11T18:04:20.858Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:04:21.073Z [DEBUG]: Port contacts is complete.
+2025-01-11T18:04:24.540Z [DEBUG]: Display contact is complete.
+2025-01-11T19:00:01.197Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/11/2025, 9:00:01 PM
+2025-01-11T19:00:01.201Z [DEBUG]: Cron job ran successfully at: 1/11/2025, 9:00:01 PM
+2025-01-11T19:04:12.468Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:04:12.489Z [DEBUG]: Refresh token process complete
+2025-01-11T19:04:12.500Z [DEBUG]: User display profile operation completed.
+2025-01-11T19:04:16.025Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:04:24.918Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:04:28.919Z [DEBUG]: Display contact is complete.
+2025-01-11T19:04:40.168Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:04:40.897Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:04:43.074Z [DEBUG]: Display contact is complete.
+2025-01-11T19:04:44.918Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:04:45.454Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:04:47.277Z [DEBUG]: Display contact is complete.
+2025-01-11T19:04:56.098Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:04:58.220Z [DEBUG]: Display contact is complete.
+2025-01-11T19:05:06.988Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:05:06.989Z [DEBUG]: Display contact is complete.
+2025-01-11T19:05:14.118Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:05:14.119Z [DEBUG]: Display contact is complete.
+2025-01-11T19:05:18.313Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:05:18.315Z [DEBUG]: Display contact is complete.
+2025-01-11T19:05:19.363Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:05:19.365Z [DEBUG]: Display contact is complete.
+2025-01-11T19:11:06.473Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:11:06.476Z [DEBUG]: Display contact is complete.
+2025-01-11T19:11:10.116Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:11:12.704Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:11:12.985Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:11:14.065Z [DEBUG]: Display contact is complete.
+2025-01-11T19:11:25.010Z [DEBUG]: Display contact is complete.
+2025-01-11T19:11:32.380Z [DEBUG]: Display contact is complete.
+2025-01-11T19:15:57.841Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=s",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:15:57.859Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=sd",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:15:57.865Z [DEBUG]: Refresh token process complete
+2025-01-11T19:15:57.875Z [DEBUG]: Refresh token process complete
+2025-01-11T19:15:57.880Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:15:57.890Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:15:57.978Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:15:58.067Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:15:58.075Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:15:58.214Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:31.432Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:35.125Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:35.690Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:38.155Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:38.686Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:42.918Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:42.927Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:42.929Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:42.984Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:43.096Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:43.186Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:43.303Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:43.332Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:43.428Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:46.209Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:16:46.725Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:44:07.601Z [INFO]: Middlewares configured successfully.
+2025-01-11T19:44:07.698Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T19:44:07.735Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T19:44:07.741Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T19:44:07.765Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T19:44:07.766Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T19:44:07.768Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T19:44:07.769Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T19:44:07.770Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T19:44:07.770Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T19:44:07.771Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T19:44:07.771Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T19:44:07.772Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T19:44:07.772Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T19:44:07.781Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T19:44:30.067Z [INFO]: Middlewares configured successfully.
+2025-01-11T19:44:30.130Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-11T19:44:30.154Z [INFO]: Connected To MongoDB Locally.
+2025-01-11T19:44:30.158Z [INFO]: Server is running on http://localhost:8080
+2025-01-11T19:44:30.172Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-11T19:44:30.172Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-11T19:44:30.173Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-11T19:44:30.173Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-11T19:44:30.174Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-11T19:44:30.175Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-11T19:44:30.175Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-11T19:44:30.175Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-11T19:44:30.176Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-11T19:44:30.176Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-11T19:44:30.183Z [DEBUG]: Excel file processed and database updated.
+2025-01-11T19:44:31.470Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:44:31.497Z [DEBUG]: Refresh token process complete
+2025-01-11T19:44:31.511Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:44:34.791Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:00.042Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:01.506Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:02.281Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:02.541Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:05.608Z [DEBUG]: Display contact is complete.
+2025-01-11T19:45:09.705Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:10.770Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:11.423Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:11.543Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:12.032Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:12.627Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:12.680Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:12.969Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:13.247Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:13.365Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:15.615Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:15.780Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:15.951Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:16.131Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:16.318Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:17.655Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:17.792Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:18.103Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:18.262Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:18.375Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:18.596Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:18.669Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:19.450Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:45:20.999Z [DEBUG]: Display contact is complete.
+2025-01-11T19:46:55.456Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:46:56.260Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:46:56.840Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:46:59.382Z [DEBUG]: Display contact is complete.
+2025-01-11T19:47:02.463Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:02.585Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:02.638Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:02.735Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:05.166Z [DEBUG]: Display contact is complete.
+2025-01-11T19:47:08.039Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:08.178Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:08.205Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:08.420Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:09.186Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:09.504Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:09.700Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:10.329Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:10.526Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:11.456Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:11.692Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:11.805Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:11.976Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:12.059Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:12.330Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:47:13.550Z [DEBUG]: Display contact is complete.
+2025-01-11T19:50:22.297Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:50:22.298Z [DEBUG]: Display contact is complete.
+2025-01-11T19:50:25.823Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:25.831Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:25.909Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.026Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.029Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.095Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.209Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.246Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.346Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.487Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.507Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:26.629Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:28.610Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.103Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.143Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.177Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.203Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.245Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.265Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.302Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.325Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.371Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:29.413Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:30.168Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:30.299Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:30.339Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:30.422Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:50:33.243Z [DEBUG]: Display contact is complete.
+2025-01-11T19:51:47.037Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:51:47.534Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:51:51.166Z [DEBUG]: Display contact is complete.
+2025-01-11T19:51:53.776Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:51:56.027Z [DEBUG]: Display contact is complete.
+2025-01-11T19:52:00.879Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:00.965Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:01.006Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:01.103Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:07.064Z [DEBUG]: Display contact is complete.
+2025-01-11T19:52:13.783Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:13.900Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:13.947Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:14.041Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:14.750Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:14.920Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:15.082Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:15.929Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:15.941Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:16.025Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:16.144Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:16.153Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:16.228Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:18.947Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:19.438Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:19.468Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:19.523Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:19.543Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:20.110Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:20.230Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:20.243Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:20.336Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:52:22.955Z [DEBUG]: Display contact is complete.
+2025-01-11T19:53:57.155Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:53:57.536Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:53:58.311Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:53:58.861Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:53:59.879Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:00.601Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:00.992Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:01.462Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:01.720Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:01.877Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:02.147Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:02.498Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:03.002Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:06.613Z [DEBUG]: Display contact is complete.
+2025-01-11T19:54:10.283Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:10.359Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:10.447Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:10.537Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:18.023Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:18.136Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:18.148Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:54:18.265Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:55:49.316Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:55:49.354Z [DEBUG]: Refresh token process complete
+2025-01-11T19:55:49.378Z [DEBUG]: User display profile operation completed.
+2025-01-11T19:56:54.388Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:56:54.823Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:56:55.522Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:56:56.350Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:56:56.601Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:56:56.689Z [DEBUG]: Port contacts is complete.
+2025-01-11T19:57:06.660Z [DEBUG]: User display profile operation completed.
+2025-01-11T20:00:00.042Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/11/2025, 10:00:00 PM
+2025-01-11T20:00:00.047Z [DEBUG]: Cron job ran successfully at: 1/11/2025, 10:00:00 PM
+2025-01-11T20:03:42.049Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:42.256Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:43.514Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:44.662Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:44.672Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:44.765Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:44.872Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:44.893Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:44.974Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:45.113Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:45.118Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:45.199Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:46.555Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:47.375Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:47.864Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:47.910Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:47.961Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:47.976Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:48.003Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:48.033Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:49.004Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:49.078Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:49.157Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:49.235Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:51.299Z [DEBUG]: Display contact is complete.
+2025-01-11T20:03:57.970Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:58.076Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:58.183Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:58.285Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:03:59.490Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:00.003Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:00.042Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.576Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.579Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.625Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.639Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.758Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.784Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.841Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.988Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:08.989Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:09.073Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:09.213Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:09.237Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:09.342Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:36.327Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:37.333Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:04:39.419Z [DEBUG]: Display contact is complete.
+2025-01-11T20:05:06.813Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T20:05:06.814Z [DEBUG]: Display contact is complete.
+2025-01-11T20:05:11.078Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:11.528Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:13.259Z [DEBUG]: Display contact is complete.
+2025-01-11T20:05:17.755Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:17.904Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:17.916Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:18.019Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:19.107Z [DEBUG]: Display contact is complete.
+2025-01-11T20:05:22.622Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:22.715Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:22.756Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:22.850Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:24.096Z [DEBUG]: Display contact is complete.
+2025-01-11T20:05:31.270Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:31.385Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:31.411Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:31.487Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:33.530Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:33.640Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:33.669Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:33.763Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:35.508Z [DEBUG]: Display contact is complete.
+2025-01-11T20:05:40.199Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:40.319Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:40.337Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:40.428Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:41.850Z [DEBUG]: Display contact is complete.
+2025-01-11T20:05:49.732Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T20:05:49.753Z [DEBUG]: Refresh token process complete
+2025-01-11T20:05:49.764Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:49.841Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:49.868Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:49.984Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:51.254Z [DEBUG]: Display contact is complete.
+2025-01-11T20:05:52.859Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:52.964Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:52.988Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:53.100Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:05:54.328Z [DEBUG]: Display contact is complete.
+2025-01-11T20:06:08.746Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:08.898Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:08.946Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:09.057Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:10.546Z [DEBUG]: Display contact is complete.
+2025-01-11T20:06:13.820Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:13.934Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:13.969Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:14.054Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:17.016Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:17.102Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:17.147Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:17.239Z [DEBUG]: Port contacts is complete.
+2025-01-11T20:06:18.756Z [DEBUG]: Display contact is complete.
+2025-01-11T20:06:36.651Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...

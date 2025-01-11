@@ -92,7 +92,7 @@ export const processExcelFile = async (filePath: string): Promise<void> => {
 					contactName: data.contactName,
 					email: data.email,
 					service: data.service,
-					flour: data.flour,
+					floor: data.floor,
 					location: data.location,
 					role: data.role,
 					room: data.room,

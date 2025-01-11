@@ -9,7 +9,7 @@ export interface IContact extends Document {
 	phone: string;
 	role: string;
 	location: string;
-	flour: number;
+	floor: number;
 	room: number;
 }
 
@@ -32,7 +32,7 @@ const schema = new Schema<IContact>({
 		required: true,
 	},
 	location: {type: String, required: true},
-	flour: {type: Number, required: true},
+	floor: {type: Number, required: true},
 	room: {type: Number, required: true},
 });
 

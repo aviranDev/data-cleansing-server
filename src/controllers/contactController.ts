@@ -71,14 +71,12 @@ class ContactController {
 		try {
 			// Parse pagination parameters from the request query or use default values if not provided.
 			const search = request.query.search as string;
-			console.log(search);
 
 			// Call the service to fetch contacts for the given location.
-			const contactsInThatcompany = await this.service.filterByName(search);
-			console.log(contactsInThatcompany);
+			const filteredContacts = await this.service.filterByName(search);
 
 			// Respond with a success message.
-			response.status(200).json(contactsInThatcompany);
+			response.status(200).send(filteredContacts);
 		} catch (error) {
 			// Pass any errors to the error-handling middleware.
 			next(error);
@@ -101,7 +99,7 @@ class ContactController {
 			const contact = await this.service.searchByname(search);
 
 			// Respond with the contact details.
-			response.status(200).send({contact: contact});
+			response.status(200).send(contact);
 		} catch (error) {
 			// Pass any errors to the error-handling middleware.
 			next(error);
