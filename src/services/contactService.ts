@@ -139,8 +139,9 @@ class ContactService {
 			if (!data) {
 				throw new BaseError(`No contacts found for the company: ${company}`);
 			}
+			console.log(data);
 
-			return {data};
+			return data;
 		} catch (error) {
 			throw new BaseError(`Error retrieving contacts for company: ${company}`);
 		}
@@ -205,8 +206,10 @@ class ContactService {
 	 * Retrieves the details of a contact by its ID.
 	 */
 	public async searchByname(search: string): Promise<IContact> {
+		console.log('search...', search);
+
 		try {
-			const contact = await this.model.findOne({search});
+			const contact = await this.model.findOne({company: search});
 			if (!contact) {
 				throw new ConflictError('Contact not found.');
 			}

@@ -1487,3 +1487,1044 @@ Conflict Error: Contact not found.
     at ContactService.searchByname (\services\contactService.ts:211:11)
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T12:55:07.889Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T12:58:37.318Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-10T12:58:38.920Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-10T12:58:48.274Z [ERROR]: Error: Refresh token not found in the database.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Refresh token not found in the database.
+    at SessionService.removeRefreshToken (\services\SessionService.ts:166:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthService.logout (\services\authService.ts:252:4)
+    at async AuthController.logout (\controllers\authController.ts:146:4)
+2025-01-10T12:59:04.318Z [ERROR]: Error: Cookie must be provided.
+Meta: {
+  "url": "/api/auth/logout",
+  "method": "DELETE",
+  "statusCode": 401
+}
+Stack trace:
+Unauthorized: Cookie must be provided.
+    at AuthService.logout (\services\authService.ts:248:11)
+    at AuthController.logout (\controllers\authController.ts:146:23)
+2025-01-10T13:13:02.905Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T13:23:42.862Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T13:34:15.054Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/search-by-name?test%20record%202",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T13:34:15.111Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?test%20record%202",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T13:34:25.139Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?test%20record%202",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-10T13:54:07.482Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:04:56.358Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:19:28.653Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:33:14.537Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:44:42.778Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=j&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:44:42.789Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=jk&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T14:54:59.520Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T20:28:27.210Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T20:58:43.481Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T22:12:52.713Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T22:25:25.723Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=test+record+&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T22:35:48.198Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T22:48:04.762Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-10T23:10:20.934Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T15:34:32.915Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T15:43:43.631Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:44.411Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:45.103Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:46.421Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:56.627Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:43:57.131Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:44:57.658Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T15:44:57.698Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:44:59.043Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:44:59.763Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:36.041Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:36.583Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:55.188Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:55.813Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:56.355Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:45:56.786Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:19.599Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:20.204Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:54.994Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:55.568Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:46:55.903Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:47:12.389Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:47:13.027Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:47:13.507Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:21.892Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:22.489Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:23.857Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:24.365Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:24.998Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:57.122Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:57.924Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:48:58.674Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:49:57.343Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:49:58.273Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:49:58.710Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:50:54.437Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:50:55.001Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:50:55.759Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:51:17.859Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:213:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:101:20)
+2025-01-11T15:57:41.687Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T16:10:06.644Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=y&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T16:37:21.949Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T16:47:46.023Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T16:58:59.247Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T17:09:17.996Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T17:42:03.893Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t&limit=10",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T17:42:09.984Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test%20record%201",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-11T17:42:21.049Z [ERROR]: Error: Route not found
+Meta: {
+  "url": "/api/contacts/search-by-name?search=test%20record%201",
+  "method": "POST",
+  "statusCode": 404
+}
+Stack trace:
+Not Found: Route not found
+    at notFoundMiddleware (\middlewares\notFoundMiddleware.ts:10:7)
+2025-01-11T17:52:37.409Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T17:52:37.462Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.032Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.114Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?te",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.151Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?ter",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.237Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?ters",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.343Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?terst",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.561Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?ters",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.729Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?ter",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:41.874Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?te",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:42.379Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:42.794Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?t",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:43.121Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?te",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:43.386Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?tes",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T17:52:43.474Z [ERROR]: Error: Error retrieving contacts for company: undefined
+Meta: {
+  "url": "/api/contacts/filter-by-name?test",
+  "method": "GET",
+  "statusCode": 500
+}
+Stack trace:
+Internal Error: Error retrieving contacts for company: undefined
+    at ContactService.filterByName (\services\contactService.ts:145:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.filterByName (\controllers\contactController.ts:77:34)
+2025-01-11T19:04:12.468Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:05:06.988Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:05:14.118Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:05:18.313Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:05:19.363Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:11:06.473Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:15:57.841Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=s",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:15:57.859Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=sd",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:44:31.470Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T19:50:22.297Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T19:55:49.316Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/users/user-profile",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
+2025-01-11T20:05:06.813Z [ERROR]: Error: Contact not found.
+Meta: {
+  "url": "/api/contacts/search-by-name?search=",
+  "method": "GET",
+  "statusCode": 409
+}
+Stack trace:
+Conflict Error: Contact not found.
+    at ContactService.searchByname (\services\contactService.ts:214:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ContactController.searchByname (\controllers\contactController.ts:99:20)
+2025-01-11T20:05:49.732Z [ERROR]: Error: Invalid Token: TokenExpiredError: jwt expired
+Meta: {
+  "url": "/api/contacts/filter-by-name?search=t",
+  "method": "GET",
+  "statusCode": 403
+}
+Stack trace:
+Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
+    at userAuth (\middlewares\userAuth.ts:44:8)
