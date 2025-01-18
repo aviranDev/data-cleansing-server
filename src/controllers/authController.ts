@@ -145,10 +145,6 @@ class AuthController {
 			// Call the AuthService to remove the refresh token from the database.
 			await this.service.logout(cookies.jwt);
 
-			// Clear the refresh token cookie on the client-side.
-			// using it only in development mode with postman tests
-			// res.clearCookie('jwt', { httpOnly: true, sameSite: 'none' });
-
 			// Respond with a confirmation message that the cookie has been cleared.
 			res.status(200).json({messgae: 'Cookie cleared.'});
 		} catch (error) {
