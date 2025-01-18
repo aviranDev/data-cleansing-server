@@ -7724,3 +7724,19 @@ Forbidden Error: Invalid Token: TokenExpiredError: jwt expired
 2025-01-11T20:06:17.239Z [DEBUG]: Port contacts is complete.
 2025-01-11T20:06:18.756Z [DEBUG]: Display contact is complete.
 2025-01-11T20:06:36.651Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-01-18T11:52:32.709Z [INFO]: Middlewares configured successfully.
+2025-01-18T11:52:32.789Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-18T11:52:32.814Z [INFO]: Connected To MongoDB Locally.
+2025-01-18T11:52:32.819Z [INFO]: Server is running on http://localhost:8080
+2025-01-18T11:52:32.839Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-18T11:52:32.841Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-18T11:52:32.844Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-18T11:52:32.845Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-18T11:52:32.846Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-18T11:52:32.847Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-18T11:52:32.848Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-18T11:52:32.848Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-18T11:52:32.849Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-18T11:52:32.850Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-18T11:52:32.864Z [DEBUG]: Excel file processed and database updated.
+2025-01-18T11:52:35.625Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
