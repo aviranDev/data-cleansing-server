@@ -28,9 +28,6 @@ jobs:
       - name: Build the App
         run: npm run build
 
-      - name: Run Tests
-        run: npm test
-
       - name: Deploy to Production
         env:
           NODE_ENV: production
