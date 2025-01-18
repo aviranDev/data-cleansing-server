@@ -14,8 +14,6 @@ dotenv.config(); // Load environment variables from .env file into process.env
 // Function to start the server
 export async function startServer(): Promise<void> {
 	try {
-		console.log('this is a test');
-
 		const app = express(); // Create an Express application instance
 		setupMiddlewares(app); // Set up middlewares such as body parsers, CORS, etc.
 		setupRoutes(app); // Set up API routes to handle requests
