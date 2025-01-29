@@ -15,6 +15,9 @@ const userSchema = new Schema<IUser>({
 		minlength: 6,
 		maxlength: 255,
 	},
+	email: {type: String, required: true, unique: true},
+	isVerified: {type: Boolean, default: false},
+	verificationCode: {type: String, default: ''},
 	role: {
 		type: String,
 		enum: ['employee', 'admin', 'superAdmin'],

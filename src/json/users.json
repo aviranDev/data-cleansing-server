@@ -2,16 +2,19 @@
 	"users": [
 		{
 			"username": "Aiqw99",
+			"email": "aviran2024@gmail.com",
 			"password": "123456",
 			"role": "superAdmin"
 		},
 		{
 			"username": "Aiqw98",
+			"email": "aviranitzhak45@gmail.com",
 			"password": "123456",
 			"role": "admin"
 		},
 		{
 			"username": "Aiqw97",
+			"email": "aviranitzhak55@gmail.com",
 			"password": "123456",
 			"role": "employee"
 		}

@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: . # Path to the Dockerfile
+    ports:
+      - "8080:8080" # Expose port 8080 on the host
+    environment:
+      MONGODB_URI: mongodb://127.0.0.1:27017/data-cleansing # Use the local MongoDB
+    depends_on:
+      - mongo # Ensure MongoDB starts before the app
+
+  mongo:
+    image: mongo # Use the official MongoDB image
+    container_name: mongo
+    ports:
+      - "27017:27017" # Expose MongoDB port
