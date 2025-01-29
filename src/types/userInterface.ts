@@ -2,6 +2,9 @@ export interface IUser {
 	_id: string;
 	username: string;
 	password: string;
+	email: string;
+	isVerified: boolean;
+	verificationCode?: string;
 	role: string;
 	resetPassword: boolean;
 	accountLocked: boolean;
