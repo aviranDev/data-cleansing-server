@@ -1,0 +1,201 @@
+2025-01-29T23:04:48.413Z [INFO]: Middlewares configured successfully.
+2025-01-29T23:04:48.553Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-29T23:04:48.599Z [INFO]: Connected To MongoDB Locally.
+2025-01-29T23:04:48.605Z [INFO]: Server is running on http://localhost:8080
+2025-01-29T23:04:48.650Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-29T23:04:48.651Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-29T23:04:48.652Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-29T23:04:48.653Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-29T23:04:48.654Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-29T23:04:48.655Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-29T23:04:48.655Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-29T23:04:48.656Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-29T23:04:48.657Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-29T23:04:48.658Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-29T23:04:48.671Z [DEBUG]: Excel file processed and database updated.
+2025-01-29T23:05:35.939Z [INFO]: Middlewares configured successfully.
+2025-01-29T23:05:36.088Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-29T23:05:46.116Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-01-29T23:06:06.022Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 961056381,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-01-29T23:58:25.164Z [INFO]: Middlewares configured successfully.
+2025-01-29T23:58:25.308Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-29T23:58:35.337Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-01-29T23:58:55.226Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 166925,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-01-30T00:53:47.239Z [INFO]: Middlewares configured successfully.
+2025-01-30T00:53:47.316Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-30T00:53:57.327Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-01-30T00:54:17.296Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 3480198,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-01-30T00:54:42.848Z [INFO]: Middlewares configured successfully.
+2025-01-30T00:54:42.930Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-01-30T00:54:42.968Z [INFO]: Connected To MongoDB Locally.
+2025-01-30T00:54:42.973Z [INFO]: Server is running on http://localhost:8080
+2025-01-30T00:54:43.006Z [DEBUG]: No changes for email: person1email@mail.com
+2025-01-30T00:54:43.007Z [DEBUG]: No changes for email: person2email@mail.com
+2025-01-30T00:54:43.008Z [DEBUG]: No changes for email: person3email@mail.com
+2025-01-30T00:54:43.009Z [DEBUG]: No changes for email: person4email@mail.com
+2025-01-30T00:54:43.009Z [DEBUG]: No changes for email: person5email@mail.com
+2025-01-30T00:54:43.010Z [DEBUG]: No changes for email: person6email@mail.com
+2025-01-30T00:54:43.010Z [DEBUG]: No changes for email: person7email@mail.com
+2025-01-30T00:54:43.010Z [DEBUG]: No changes for email: person8email@mail.com
+2025-01-30T00:54:43.011Z [DEBUG]: No changes for email: person9email@mail.com
+2025-01-30T00:54:43.011Z [DEBUG]: No changes for email: person10email@mail.com
+2025-01-30T00:54:43.021Z [DEBUG]: Excel file processed and database updated.
+2025-01-30T01:00:00.051Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/30/2025, 3:00:00 AM
+2025-01-30T01:00:00.059Z [DEBUG]: Cron job ran successfully at: 1/30/2025, 3:00:00 AM
+2025-01-30T01:01:23.486Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
