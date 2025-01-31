@@ -52,7 +52,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      # Export GHCR_USERNAME
+      # Export GHCR_USERNAME to environment variables
       - name: Export GHCR_USERNAME
         run: echo "GHCR_USERNAME=${{ secrets.GHCR_USERNAME }}" >> $GITHUB_ENV
 
@@ -60,10 +60,10 @@ jobs:
       - name: Log in to GitHub Container Registry
         run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
 
-      # Pull the latest Docker images using Docker Compose
+      # Pull Docker images using Docker Compose
       - name: Pull Docker Images
         run: docker compose pull
 
-      # Start the application using Docker Compose
+      # Start the application with Docker Compose
       - name: Start Application with Docker Compose
         run: docker compose up -d --remove-orphans
