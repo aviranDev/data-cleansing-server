@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   app:
-    build: .
+    image: ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest
     container_name: my-node-app
     restart: always
     ports:
@@ -10,7 +10,7 @@ services:
     depends_on:
       - mongo
     environment:
-      MONGO_URI: "mongodb://mongo:27017/data-cleansing"
+      MONGO_URI: "mongodb://mongo:27017/mydb"
   
   mongo:
     image: mongo:6
