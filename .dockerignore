@@ -1,0 +1,41 @@
+# Ignore node modules (except for production installs)
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Ignore TypeScript source files (since only compiled files are needed)
+*.ts
+*.tsx
+
+# Ignore build artifacts from TypeScript
+dist
+build
+
+# Ignore logs
+logs
+*.log
+*.log.*
+
+# Ignore environment files (security risk)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore local development files
+.vscode
+.idea
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Ignore git-related files
+.git
+.gitignore

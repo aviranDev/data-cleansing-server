@@ -1,17 +1,25 @@
-version: '3.8'
+version: "3.9"
+
 services:
   app:
-    build:
-      context: . # Path to the Dockerfile
+    build: .
+    container_name: my-node-app
+    restart: always
     ports:
-      - "8080:8080" # Expose port 8080 on the host
-    environment:
-      MONGODB_URI: mongodb://127.0.0.1:27017/data-cleansing # Use the local MongoDB
+      - "8080:8080"
     depends_on:
-      - mongo # Ensure MongoDB starts before the app
-
+      - mongo
+    environment:
+      MONGO_URI: "mongodb://mongo:27017/data-cleansing"
+  
   mongo:
-    image: mongo # Use the official MongoDB image
-    container_name: mongo
+    image: mongo:6
+    container_name: mongodb
+    restart: always
     ports:
-      - "27017:27017" # Expose MongoDB port
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
