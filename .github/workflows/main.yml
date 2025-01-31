@@ -9,37 +9,58 @@ on:
       - main
 
 jobs:
-  deploy:
-    name: Deploy to Production
+  build:
+    name: Build and Deploy Node.js App
     runs-on: ubuntu-latest
-    needs: build
 
     steps:
+      # Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20.18'
+
+      # Install Dependencies
+      - name: Install Dependencies
+        run: npm install
+
+      # Build the app (Optional if necessary)
+      - name: Build the App
+        run: npm run build
+
+      # Log in to GitHub Container Registry (GHCR)
       - name: Log in to GitHub Container Registry
         run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
 
-      - name: Pull Docker Image from GitHub Container Registry
-        run: docker pull ghcr.io/avirandev/my-node-app:latest
-
-      - name: Run Docker Container
+      # Push the Docker image to GitHub Container Registry (GHCR)
+      - name: Build and Push Docker Image to GHCR
         run: |
-          docker run -d -p 8080:8080 ghcr.io/avirandev/my-node-app:latest
+          docker build -t ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest .
+          docker push ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest
 
   deploy:
-    name: Deploy to Production
+    name: Deploy Node.js App
     runs-on: ubuntu-latest
     needs: build
 
     steps:
+      # Checkout the repository (if not already done in 'build' job)
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Pull Docker Image from GitHub Container Registry
-        run: docker pull ghcr.io/avirandev/my-node-app:latest
+      # Log in to GitHub Container Registry (GHCR)
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
 
+      # Pull Docker Image from GHCR
+      - name: Pull Docker Image from GitHub Container Registry
+        run: docker pull ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest
+
+      # Run the Docker Container
       - name: Run Docker Container
         run: |
-          docker run -d -p 8080:8080 ghcr.io/your-username/my-node-app:latest
+          docker run -d -p 8080:8080 ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest
