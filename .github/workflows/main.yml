@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: Build and Deploy Node.js App
+    name: Build and Push Docker Image
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +28,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      # Build the app (Optional if necessary)
+      # Build the app (Optional)
       - name: Build the App
         run: npm run build
 
@@ -36,19 +36,19 @@ jobs:
       - name: Log in to GitHub Container Registry
         run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
 
-      # Push the Docker image to GitHub Container Registry (GHCR)
-      - name: Build and Push Docker Image to GHCR
+      # Build and Push Docker Image to GHCR
+      - name: Build and Push Docker Image
         run: |
           docker build -t ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest .
           docker push ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest
 
   deploy:
-    name: Deploy Node.js App
+    name: Deploy Application
     runs-on: ubuntu-latest
     needs: build
 
     steps:
-      # Checkout the repository (if not already done in 'build' job)
+      # Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v2
 
@@ -56,11 +56,10 @@ jobs:
       - name: Log in to GitHub Container Registry
         run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
 
-      # Pull Docker Image from GHCR
-      - name: Pull Docker Image from GitHub Container Registry
-        run: docker pull ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest
+      # Pull the latest Docker images using Docker Compose
+      - name: Pull Docker Images
+        run: docker compose pull
 
-      # Run the Docker Container
-      - name: Run Docker Container
-        run: |
-          docker run -d -p 8080:8080 ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest
+      # Start the application using Docker Compose
+      - name: Start Application with Docker Compose
+        run: docker compose up -d --remove-orphans
