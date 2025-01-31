@@ -1,7 +1,7 @@
 services:
   app:
-    image: ghcr.io/${GHCR_USERNAME}/my-node-app:latest
-    container_name: my-node-app
+    image: ghcr.io/${GHCR_USERNAME}/data-cleansing-server:latest
+    container_name: data-cleansing-server
     restart: always
     ports:
       - "8080:8080"
