@@ -36,7 +36,7 @@ jobs:
       - name: Log in to GitHub Container Registry
         run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u "${{ secrets.GHCR_USERNAME }}" --password-stdin
 
-      # Build and Push Docker Image to GHCR
+      # Build and Push Docker Image
       - name: Build and Push Docker Image
         run: |
           docker build -t ghcr.io/${{ secrets.GHCR_USERNAME }}/my-node-app:latest .
@@ -51,6 +51,10 @@ jobs:
       # Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v2
+
+      # Export GHCR_USERNAME
+      - name: Export GHCR_USERNAME
+        run: echo "GHCR_USERNAME=${{ secrets.GHCR_USERNAME }}" >> $GITHUB_ENV
 
       # Log in to GitHub Container Registry (GHCR)
       - name: Log in to GitHub Container Registry
