@@ -27,7 +27,7 @@ jobs:
         run: docker build -t ghcr.io/avirandev/my-node-app:latest .
 
       - name: Push Docker Image
-        run: docker push ghcr.io/your-username/my-node-app:latest
+        run: docker push ghcr.io/avirandev/my-node-app:latest
 
   deploy:
     name: Deploy to Production
