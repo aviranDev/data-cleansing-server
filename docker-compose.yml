@@ -1,5 +1,3 @@
-version: '3.8'  # Use a valid version, 3.8 or higher
-
 services:
   app:
     image: ghcr.io/${GHCR_USERNAME}/my-node-app:latest
