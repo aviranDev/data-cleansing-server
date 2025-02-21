@@ -32,8 +32,6 @@ export async function startServer(): Promise<void> {
 		// Set up graceful shutdown to ensure connections and tasks are properly closed
 		configureGracefulShutdown(server);
 	} catch (error) {
-		console.log('test');
-
 		// If an error occurs, log the error and terminate the process
 		logger.error('Error starting the server:', error);
 		process.exit(1); // Exit with a failure status code

@@ -66,7 +66,6 @@ class ContactService {
 			const totalItems = result[0]?.metadata?.[0]?.totalItems || 0;
 			const totalPages = result[0]?.metadata?.[0]?.totalPages || 0;
 			const items = result[0]?.items || [];
-			console.log(items);
 
 			return {items, totalItems, totalPages};
 		} catch (error) {
@@ -139,7 +138,6 @@ class ContactService {
 			if (!data) {
 				throw new BaseError(`No contacts found for the company: ${company}`);
 			}
-			console.log(data);
 
 			return data;
 		} catch (error) {
@@ -206,8 +204,6 @@ class ContactService {
 	 * Retrieves the details of a contact by its ID.
 	 */
 	public async searchByname(search: string): Promise<IContact> {
-		console.log('search...', search);
-
 		try {
 			const contact = await this.model.findOne({company: search});
 			if (!contact) {

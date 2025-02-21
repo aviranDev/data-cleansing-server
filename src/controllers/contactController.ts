@@ -43,7 +43,6 @@ class ContactController {
 			const page: number = parseInt(request.query.page as string) || 1;
 			const limit: number = parseInt(request.query.limit as string) || 10;
 			const location = request.query.location as string;
-			console.log(location);
 
 			// Call the service to fetch contacts for the given location.
 			const contactsInThatLocation = await this.service.selectByLocation(
@@ -200,7 +199,6 @@ class ContactController {
 					{company: {$regex: searchQuery, $options: 'i'}}, // Search by company (case-insensitive)
 				],
 			};
-			console.log('-------------------> ', searchQuery);
 
 			// Fetch matching contacts from the database (no pagination needed for this case)
 			const contacts = await this.service.searchContacts(filter, 1, limit);
