@@ -7,6 +7,8 @@ services:
       - "8080:8080"
     depends_on:
       - mongo
+    env_file: 
+      - .env
     environment:
       - DOCKER_ENV=true
       - MONGO_URI=mongodb://mongo:27017/mydb
