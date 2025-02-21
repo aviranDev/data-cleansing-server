@@ -8,6 +8,9 @@ const filePath = process.env.DOCKER_ENV
 	? '/app/contacts.xlsx' // Inside Docker
 	: path.join(process.cwd(), 'src/contacts.xlsx'); // Local development
 
+console.log('DOCKER_ENV:', process.env.DOCKER_ENV); // Log the value of DOCKER_ENV
+console.log('File path being watched:', filePath); // Log the file path to ensure it's correct
+
 /**
  * Initialize the watcher for the Excel file and process changes
  */

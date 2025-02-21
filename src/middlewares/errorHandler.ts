@@ -10,8 +10,6 @@ const errorHandler = (
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	_next: NextFunction // Required by Express for error handling
 ): void => {
-	console.log('error: ', err.name);
-
 	const statusCode = err instanceof BaseError ? err.statusCode : 500;
 	const name = err instanceof BaseError ? err.name : 'undentified error';
 
