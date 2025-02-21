@@ -12,8 +12,8 @@ services:
     environment:
       - DOCKER_ENV=true
       - MONGO_URI=mongodb://mongo:27017/mydb
-    volumes:  # This should be at the same level as `environment`
-      - ./src/contacts.xlsx:/app/contacts.xlsx  # Mount the Excel file
+    volumes:
+      - ./src:/app/src:delegated
   mongo:
     image: mongo:6
     container_name: mongodb
