@@ -8,7 +8,7 @@ services:
     depends_on:
       - mongo
     environment:
-      - DOCKER_ENV=true
+    DOCKER_ENV: "true"
     MONGO_URI: "mongodb://mongo:27017/mydb"
     volumes:  # This should be at the same level as `environment`
       - ./src/contacts.xlsx:/app/contacts.xlsx  # Mount the Excel file
