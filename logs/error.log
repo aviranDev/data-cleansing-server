@@ -160,3 +160,197 @@ MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
     at async connectDb (\db\connectDb.ts:16:3)
     at async Promise.all (index 0)
     at async startServer (\index.ts:21:3)
+2025-02-21T13:30:18.074Z [ERROR]: Excel file not found:
+2025-02-21T13:30:36.102Z [ERROR]: Excel file not found:
+2025-02-21T13:31:06.076Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 403733233,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-02-21T13:31:26.692Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-21T13:31:46.642Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 403773764,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-02-21T13:32:08.804Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-21T13:32:46.105Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-21T13:33:06.000Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 403853074,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-02-21T13:45:40.905Z [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::8080
+Meta: {
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 8080
+}
+Stack trace:
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at startServer (\index.ts:27:10)
+2025-02-21T13:47:46.122Z [ERROR]: Excel file not found:
+2025-02-21T13:48:01.218Z [ERROR]: Excel file not found:
+2025-02-21T13:48:53.253Z [ERROR]: Excel file not found:
+2025-02-21T13:49:18.549Z [ERROR]: Excel file not found:
+2025-02-21T13:50:42.757Z [ERROR]: Excel file not found:
+2025-02-21T13:51:13.018Z [ERROR]: Excel file not found:
+2025-02-21T15:50:44.882Z [ERROR]: Excel file not found:
+2025-02-21T15:51:07.168Z [ERROR]: Excel file not found:
+2025-02-21T15:51:44.243Z [ERROR]: Excel file not found:
+2025-02-21T15:52:05.549Z [ERROR]: Excel file not found:
+2025-02-21T16:21:00.122Z [ERROR]: Excel file not found:
+2025-02-21T17:41:33.756Z [ERROR]: Excel file not found:
+2025-02-21T17:41:47.529Z [ERROR]: Excel file not found:
+2025-02-21T17:42:52.629Z [ERROR]: Excel file not found:
+2025-02-21T17:43:52.162Z [ERROR]: Excel file not found:
+2025-02-21T17:45:30.465Z [ERROR]: Excel file not found:
