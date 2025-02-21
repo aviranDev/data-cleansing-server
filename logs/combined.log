@@ -199,3 +199,462 @@ MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
 2025-01-30T01:00:00.051Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 1/30/2025, 3:00:00 AM
 2025-01-30T01:00:00.059Z [DEBUG]: Cron job ran successfully at: 1/30/2025, 3:00:00 AM
 2025-01-30T01:01:23.486Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-02-21T13:30:17.983Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:30:18.074Z [ERROR]: Excel file not found:
+2025-02-21T13:30:36.033Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:30:36.102Z [ERROR]: Excel file not found:
+2025-02-21T13:31:06.076Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 403733233,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-02-21T13:31:16.577Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:31:16.667Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T13:31:26.692Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-21T13:31:46.642Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 403773764,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-02-21T13:31:58.696Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:31:58.781Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T13:32:08.804Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-21T13:32:35.923Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:32:36.079Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T13:32:46.105Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-21T13:33:06.000Z [ERROR]: Error starting the server: getaddrinfo ENOTFOUND mongo
+Meta: {
+  "reason": {
+    "type": "Unknown",
+    "servers": {
+      "mongo:27017": {
+        "address": "mongo:27017",
+        "type": "Unknown",
+        "hosts": [],
+        "passives": [],
+        "arbiters": [],
+        "tags": {},
+        "minWireVersion": 0,
+        "maxWireVersion": 0,
+        "roundTripTime": -1,
+        "minRoundTripTime": 0,
+        "lastUpdateTime": 403853074,
+        "lastWriteDate": 0,
+        "error": {},
+        "topologyVersion": null,
+        "setName": null,
+        "setVersion": null,
+        "electionId": null,
+        "logicalSessionTimeoutMinutes": null,
+        "maxMessageSizeBytes": null,
+        "maxWriteBatchSize": null,
+        "maxBsonObjectSize": null,
+        "primary": null,
+        "me": null,
+        "$clusterTime": null,
+        "iscryptd": false
+      }
+    },
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": null,
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+Stack trace:
+MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
+    at async connectDb (\db\connectDb.ts:16:3)
+    at async Promise.all (index 0)
+    at async startServer (\index.ts:21:3)
+2025-02-21T13:45:23.728Z [DEBUG]: Connected to MongoDB
+2025-02-21T13:45:23.730Z [DEBUG]: Database connection established for seeding
+2025-02-21T13:45:24.013Z [DEBUG]: User Aiqw99 added.
+2025-02-21T13:45:24.014Z [DEBUG]: User Aiqw98 added.
+2025-02-21T13:45:24.014Z [DEBUG]: User Aiqw97 added.
+2025-02-21T13:45:24.015Z [DEBUG]: Data successfully imported
+2025-02-21T13:45:24.022Z [DEBUG]: Database disconnected
+2025-02-21T13:45:40.806Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:46:02.190Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:46:02.257Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T13:46:02.284Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:46:02.291Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:46:02.413Z [DEBUG]: Chunk processed: 0 updated, 10 inserted.
+2025-02-21T13:46:02.431Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T13:46:18.353Z [DEBUG]: Parsed 2 rows from Excel file.
+2025-02-21T13:46:18.360Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T13:46:18.361Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T13:46:18.365Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T13:46:37.750Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T13:46:37.757Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T13:46:37.758Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T13:46:37.773Z [DEBUG]: Chunk processed: 0 updated, 8 inserted.
+2025-02-21T13:46:37.776Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T13:46:49.506Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-02-21T13:47:10.848Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:47:10.921Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T13:47:10.943Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:47:10.948Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:47:10.973Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T13:47:10.974Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T13:47:10.975Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T13:47:10.976Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T13:47:10.977Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T13:47:10.978Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T13:47:10.980Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T13:47:10.982Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T13:47:10.983Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T13:47:10.985Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T13:47:11.006Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T13:47:29.949Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:47:30.026Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T13:47:30.060Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:47:30.067Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:47:30.099Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T13:47:30.101Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T13:47:30.103Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T13:47:30.105Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T13:47:30.106Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T13:47:30.107Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T13:47:30.108Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T13:47:30.109Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T13:47:30.109Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T13:47:30.110Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T13:47:30.126Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T13:47:46.069Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:47:46.122Z [ERROR]: Excel file not found:
+2025-02-21T13:47:46.144Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:47:46.149Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:48:01.153Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:48:01.218Z [ERROR]: Excel file not found:
+2025-02-21T13:48:01.248Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:48:01.256Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:48:53.198Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:48:53.253Z [ERROR]: Excel file not found:
+2025-02-21T13:48:53.277Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:48:53.283Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:49:18.495Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:49:18.549Z [ERROR]: Excel file not found:
+2025-02-21T13:49:18.575Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:49:18.580Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:50:42.696Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:50:42.757Z [ERROR]: Excel file not found:
+2025-02-21T13:50:42.781Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:50:42.788Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:51:12.974Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:51:13.018Z [ERROR]: Excel file not found:
+2025-02-21T13:51:13.041Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:51:13.047Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:51:27.750Z [INFO]: Middlewares configured successfully.
+2025-02-21T13:51:27.830Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T13:51:27.862Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T13:51:27.869Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T13:51:27.899Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T13:51:27.900Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T13:51:27.902Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T13:51:27.902Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T13:51:27.903Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T13:51:27.904Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T13:51:27.904Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T13:51:27.905Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T13:51:27.906Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T13:51:27.907Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T13:51:27.916Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T14:00:00.284Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 2/21/2025, 4:00:00 PM
+2025-02-21T14:00:00.361Z [DEBUG]: Cron job ran successfully at: 2/21/2025, 4:00:00 PM
+2025-02-21T15:40:10.330Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 2/21/2025, 5:40:10 PM
+2025-02-21T15:40:10.337Z [DEBUG]: Cron job ran successfully at: 2/21/2025, 5:40:10 PM
+2025-02-21T15:47:47.058Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-02-21T15:48:21.579Z [INFO]: Middlewares configured successfully.
+2025-02-21T15:48:21.704Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T15:48:21.748Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T15:48:21.757Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T15:48:21.785Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T15:48:21.787Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T15:48:21.788Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T15:48:21.790Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T15:48:21.792Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T15:48:21.794Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T15:48:21.795Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T15:48:21.796Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T15:48:21.798Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T15:48:21.799Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T15:48:21.823Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T15:50:44.769Z [INFO]: Middlewares configured successfully.
+2025-02-21T15:50:44.882Z [ERROR]: Excel file not found:
+2025-02-21T15:50:44.920Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T15:50:44.940Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T15:51:07.027Z [INFO]: Middlewares configured successfully.
+2025-02-21T15:51:07.168Z [ERROR]: Excel file not found:
+2025-02-21T15:51:07.222Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T15:51:07.234Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T15:51:44.095Z [INFO]: Middlewares configured successfully.
+2025-02-21T15:51:44.243Z [ERROR]: Excel file not found:
+2025-02-21T15:51:44.298Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T15:51:44.309Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T15:52:05.459Z [INFO]: Middlewares configured successfully.
+2025-02-21T15:52:05.549Z [ERROR]: Excel file not found:
+2025-02-21T15:52:05.580Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T15:52:05.587Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T15:52:36.958Z [INFO]: Middlewares configured successfully.
+2025-02-21T15:52:37.028Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T15:52:37.060Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T15:52:37.064Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T15:52:37.090Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T15:52:37.093Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T15:52:37.096Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T15:52:37.097Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T15:52:37.098Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T15:52:37.099Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T15:52:37.100Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T15:52:37.101Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T15:52:37.101Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T15:52:37.102Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T15:52:37.121Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T15:53:44.909Z [INFO]: Middlewares configured successfully.
+2025-02-21T15:53:45.010Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T15:53:45.044Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T15:53:45.050Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T15:53:45.085Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T15:53:45.086Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T15:53:45.087Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T15:53:45.088Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T15:53:45.089Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T15:53:45.090Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T15:53:45.092Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T15:53:45.094Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T15:53:45.095Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T15:53:45.096Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T15:53:45.109Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T16:00:00.111Z [DEBUG]: Cron task to remove expired refresh tokens ran at: 2/21/2025, 6:00:00 PM
+2025-02-21T16:00:00.125Z [DEBUG]: Cron job ran successfully at: 2/21/2025, 6:00:00 PM
+2025-02-21T16:21:00.066Z [INFO]: Middlewares configured successfully.
+2025-02-21T16:21:00.122Z [ERROR]: Excel file not found:
+2025-02-21T16:21:00.148Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T16:21:00.153Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T16:21:23.930Z [INFO]: Middlewares configured successfully.
+2025-02-21T16:21:24.055Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T16:21:24.092Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T16:21:24.098Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T16:21:24.126Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T16:21:24.127Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T16:21:24.128Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T16:21:24.129Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T16:21:24.130Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T16:21:24.130Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T16:21:24.131Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T16:21:24.132Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T16:21:24.132Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T16:21:24.136Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T16:21:24.149Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T16:55:54.639Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-02-21T17:40:33.184Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:40:33.269Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T17:40:33.297Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:40:33.306Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:40:33.340Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T17:40:33.341Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T17:40:33.342Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T17:40:33.344Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T17:40:33.396Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T17:40:33.403Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T17:40:33.417Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T17:40:33.423Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T17:40:33.451Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T17:40:33.501Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
+2025-02-21T17:40:33.525Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T17:40:46.226Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T17:40:46.231Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T17:40:46.232Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T17:40:46.233Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T17:40:46.233Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T17:40:46.234Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T17:40:46.235Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T17:40:46.236Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T17:40:46.236Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T17:40:46.237Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T17:40:46.241Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
+2025-02-21T17:40:46.245Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T17:41:24.618Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:41:24.939Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T17:41:25.041Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:41:25.058Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:41:33.694Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:41:33.756Z [ERROR]: Excel file not found:
+2025-02-21T17:41:33.789Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:41:33.795Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:41:47.459Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:41:47.529Z [ERROR]: Excel file not found:
+2025-02-21T17:41:47.558Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:41:47.563Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:42:06.191Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:42:06.270Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T17:42:06.298Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:42:06.304Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:42:06.338Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T17:42:06.339Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T17:42:06.340Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T17:42:06.341Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T17:42:06.341Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T17:42:06.342Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T17:42:06.343Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T17:42:06.344Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T17:42:06.347Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T17:42:06.348Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T17:42:06.364Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T17:42:52.568Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:42:52.629Z [ERROR]: Excel file not found:
+2025-02-21T17:42:52.655Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:42:52.661Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:43:52.115Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:43:52.162Z [ERROR]: Excel file not found:
+2025-02-21T17:43:52.180Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:43:52.186Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:45:30.402Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:45:30.465Z [ERROR]: Excel file not found:
+2025-02-21T17:45:30.489Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:45:30.496Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:46:29.223Z [INFO]: Middlewares configured successfully.
+2025-02-21T17:46:29.304Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T17:46:29.339Z [INFO]: Connected To MongoDB Locally.
+2025-02-21T17:46:29.347Z [INFO]: Server is running on http://localhost:8080
+2025-02-21T17:46:29.378Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-21T17:46:29.379Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T17:46:29.379Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T17:46:29.380Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T17:46:29.380Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T17:46:29.381Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T17:46:29.382Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T17:46:29.383Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T17:46:29.384Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T17:46:29.386Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T17:46:29.399Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T17:46:46.772Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T17:46:46.782Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T17:46:46.783Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T17:46:46.784Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T17:46:46.785Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T17:46:46.785Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T17:46:46.786Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T17:46:46.787Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T17:46:46.787Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T17:46:46.788Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T17:46:46.798Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
+2025-02-21T17:46:46.804Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T17:46:57.338Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-21T17:46:57.346Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-21T17:46:57.346Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-21T17:46:57.347Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-21T17:46:57.348Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-21T17:46:57.349Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-21T17:46:57.349Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-21T17:46:57.350Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-21T17:46:57.350Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-21T17:46:57.351Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-21T17:46:57.357Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
+2025-02-21T17:46:57.363Z [DEBUG]: Excel file processed and database updated.
+2025-02-21T17:47:08.019Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...

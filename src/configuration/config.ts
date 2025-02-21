@@ -8,7 +8,7 @@ dotenv.config();
 const defaults = {
 	proUri:
 		'mongodb+srv://aviran:304715840@cluster0.g4o9h.mongodb.net/data-cleansing', // Default URI for MongoDB in development
-	devUri: 'mongodb://mongo:27017/data-cleansing', // Default URI for MongoDB in development
+	devUri: 'mongodb://127.0.0.1:27017/data-cleansing', // Default URI for MongoDB in development
 	jwtSecret: 'default_jwt_secret', // Default JWT secret for token signing
 	accessTokenSecret: 'default_access_token_secret', // Default secret for access token
 	refreshTokenSecret: 'default_refresh_token_secret', // Default secret for refresh token
