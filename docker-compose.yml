@@ -9,7 +9,8 @@ services:
       - mongo
     environment:
       MONGO_URI: "mongodb://mongo:27017/mydb"
-
+    volumes:  # This should be at the same level as `environment`
+      - ./src/contacts.xlsx:/app/contacts.xlsx  # Mount the Excel file
   mongo:
     image: mongo:6
     container_name: mongodb
