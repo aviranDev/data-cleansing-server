@@ -9,8 +9,6 @@ services:
       - mongo
     environment:
       MONGO_URI: "mongodb://mongo:27017/mydb"
-      volumes:
-      - ./src/contacts.xlsx:/app/contacts.xlsx 
 
   mongo:
     image: mongo:6
