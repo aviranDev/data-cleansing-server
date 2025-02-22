@@ -658,3 +658,39 @@ MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo
 2025-02-21T17:46:57.357Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
 2025-02-21T17:46:57.363Z [DEBUG]: Excel file processed and database updated.
 2025-02-21T17:47:08.019Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-02-22T10:15:33.900Z [INFO]: Middlewares configured successfully.
+2025-02-22T10:15:33.981Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-22T10:15:44.005Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-02-22T10:15:56.588Z [INFO]: Middlewares configured successfully.
+2025-02-22T10:15:56.657Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-22T10:15:56.684Z [INFO]: Connected To MongoDB Locally.
+2025-02-22T10:15:56.688Z [INFO]: Server is running on http://localhost:8080
+2025-02-22T10:15:56.719Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-22T10:15:56.719Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-22T10:15:56.720Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-22T10:15:56.721Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-22T10:15:56.721Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-22T10:15:56.721Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-22T10:15:56.722Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-22T10:15:56.722Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-22T10:15:56.723Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-22T10:15:56.741Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
+2025-02-22T10:15:56.746Z [DEBUG]: Excel file processed and database updated.
+2025-02-22T10:16:19.537Z [INFO]: Authentication process complete
+2025-02-22T10:20:23.377Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-22T10:20:23.386Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-22T10:20:23.387Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-22T10:20:23.387Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-22T10:20:23.388Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-22T10:20:23.388Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-22T10:20:23.388Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-22T10:20:23.389Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-22T10:20:23.389Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-22T10:20:23.389Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-22T10:20:23.393Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
+2025-02-22T10:20:23.398Z [DEBUG]: Excel file processed and database updated.
+2025-02-22T10:20:53.247Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...

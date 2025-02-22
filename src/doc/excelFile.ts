@@ -45,7 +45,8 @@ export const processExcelFile = async (filePath: string): Promise<void> => {
 			return;
 		}
 
-		const workbook = XLSX.readFile(filePath);
+		const fileBuffer = fs.readFileSync(filePath); // Read file into memory
+		const workbook = XLSX.read(fileBuffer, {type: 'buffer'});
 		const sheetName = workbook.SheetNames[0];
 		const sheetData: IContact[] = XLSX.utils.sheet_to_json<IContact>(
 			workbook.Sheets[sheetName]
