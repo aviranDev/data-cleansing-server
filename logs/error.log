@@ -354,3 +354,8 @@ Error: listen EADDRINUSE: address already in use :::8080
 2025-02-21T17:42:52.629Z [ERROR]: Excel file not found:
 2025-02-21T17:43:52.162Z [ERROR]: Excel file not found:
 2025-02-21T17:45:30.465Z [ERROR]: Excel file not found:
+2025-02-22T10:15:44.005Z [ERROR]: Error processing Excel file: Operation `contacts.find()` buffering timed out after 10000ms
+Stack trace:
+MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
