@@ -15,6 +15,7 @@ services:
     volumes:
       - ./src:/app/src:delegated
       - "C:/Users/avira/data:/app/data"
+
   mongo:
     image: mongo:6
     container_name: mongodb
