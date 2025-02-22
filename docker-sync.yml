@@ -1,0 +1,9 @@
+version: '2'
+syncs:
+  sync:
+    src: './src' # Path to your host machine's source directory
+    dest: '/app/src' # Path to the target directory inside the container
+    sync_host_ip: '127.0.0.1' # Sync host IP
+    sync_host_port: '10872' # Sync host port
+    wait_for_delay: 5s # Optional: Delay before syncing
+    timeout: 60 # Timeout setting for sync
