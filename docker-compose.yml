@@ -14,7 +14,7 @@ services:
       - MONGO_URI=mongodb://mongo:27017/mydb
     volumes:
       - ./src:/app/src:delegated
-      - ./data:/app/data
+      - "C:/Users/avira/data:/app/data"
   mongo:
     image: mongo:6
     container_name: mongodb
