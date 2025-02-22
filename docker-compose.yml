@@ -13,7 +13,7 @@ services:
       - DOCKER_ENV=true
       - MONGO_URI=mongodb://mongo:27017/mydb
     volumes:
-      - ./src:/app/src:cached
+      - ./src:/app/src:delegated
       - ./src/contacts.xlsx:/app/src/contacts.xlsx:delegated      
 
   mongo:

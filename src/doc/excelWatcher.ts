@@ -5,13 +5,14 @@ import _ from 'lodash';
 import {processExcelFile} from './excelFile';
 
 // Determine the correct file path
-const possiblePaths = [
+/* const possiblePaths = [
 	path.join(process.cwd(), 'app/contacts.xlsx'),
 	path.join(process.cwd(), 'src/contacts.xlsx'),
 ];
 
 const filePath =
-	possiblePaths.find((p) => fs.existsSync(p)) ?? possiblePaths[0];
+	possiblePaths.find((p) => fs.existsSync(p)) ?? possiblePaths[0]; */
+const filePath = '/app/src/contacts.xlsx'; // Container path
 
 // Log the file path or an error if not found
 if (!fs.existsSync(filePath)) {
