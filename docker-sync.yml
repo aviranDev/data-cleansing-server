@@ -1,8 +1,9 @@
 version: '2'
 syncs:
-  sync:
-    src: './src'
-    dest: '/app/src'
-    sync_strategy: 'unison' # Use 'unison' for Windows
+  myapp-sync:
+    src: './src' # Path to your local source directory
+    dest: '/app/src' # Path to the container's destination directory
+    sync_host_ip: '127.0.0.1'
+    sync_host_port: '10872'
     wait_for_delay: 5s
     timeout: 60
