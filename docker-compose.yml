@@ -13,7 +13,7 @@ services:
       - DOCKER_ENV=true
       - MONGO_URI=mongodb://mongo:27017/mydb
     volumes:
-      - ./src:/app/src:delegated
+      - myapp-sync:/app/src:rw
       - ./src/contacts.xlsx:/app/src/contacts.xlsx:delegated      
 
   mongo:
@@ -26,6 +26,6 @@ services:
       - mongo_data:/data/db
 
 volumes:
-  mongo_data:
-  sync:
+  mongo_data: {}
+  myapp-sync:
     external: true
