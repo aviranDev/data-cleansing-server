@@ -694,3 +694,46 @@ MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
 2025-02-22T10:20:23.393Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
 2025-02-22T10:20:23.398Z [DEBUG]: Excel file processed and database updated.
 2025-02-22T10:20:53.247Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-02-22T11:01:51.709Z [INFO]: Middlewares configured successfully.
+2025-02-22T11:01:51.779Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-22T11:01:51.803Z [INFO]: Connected To MongoDB Locally.
+2025-02-22T11:01:51.808Z [INFO]: Server is running on http://localhost:8080
+2025-02-22T11:01:51.828Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-22T11:01:51.828Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-22T11:01:51.829Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-22T11:01:51.829Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-22T11:01:51.829Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-22T11:01:51.830Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-22T11:01:51.830Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-22T11:01:51.831Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-22T11:01:51.831Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-22T11:01:51.846Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
+2025-02-22T11:01:51.850Z [DEBUG]: Excel file processed and database updated.
+2025-02-22T11:02:00.271Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-22T11:02:00.281Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-22T11:02:00.282Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-22T11:02:00.283Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-22T11:02:00.284Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-22T11:02:00.285Z [DEBUG]: No changes for email: person6email@mail.com
+2025-02-22T11:02:00.286Z [DEBUG]: No changes for email: person7email@mail.com
+2025-02-22T11:02:00.286Z [DEBUG]: No changes for email: person8email@mail.com
+2025-02-22T11:02:00.287Z [DEBUG]: No changes for email: person9email@mail.com
+2025-02-22T11:02:00.287Z [DEBUG]: No changes for email: person10email@mail.com
+2025-02-22T11:02:00.292Z [DEBUG]: Chunk processed: 1 updated, 0 inserted.
+2025-02-22T11:02:00.297Z [DEBUG]: Excel file processed and database updated.
+2025-02-22T11:02:15.770Z [DEBUG]: Parsed 5 rows from Excel file.
+2025-02-22T11:02:15.777Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-22T11:02:15.778Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-22T11:02:15.779Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-22T11:02:15.780Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-22T11:02:15.783Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-22T11:02:15.798Z [DEBUG]: Excel file processed and database updated.
+2025-02-22T11:02:24.447Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-02-22T11:02:24.455Z [DEBUG]: No changes for email: person1email@mail.com
+2025-02-22T11:02:24.456Z [DEBUG]: No changes for email: person2email@mail.com
+2025-02-22T11:02:24.457Z [DEBUG]: No changes for email: person3email@mail.com
+2025-02-22T11:02:24.457Z [DEBUG]: No changes for email: person4email@mail.com
+2025-02-22T11:02:24.458Z [DEBUG]: No changes for email: person5email@mail.com
+2025-02-22T11:02:24.476Z [DEBUG]: Chunk processed: 0 updated, 5 inserted.
+2025-02-22T11:02:24.479Z [DEBUG]: Excel file processed and database updated.
+2025-02-22T11:02:32.764Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
