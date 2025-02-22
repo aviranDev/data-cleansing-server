@@ -11,12 +11,20 @@ const possiblePaths = [
 ];
 
 const filePath =
-	possiblePaths.find((p) => fs.existsSync(p)) ?? possiblePaths[0]; // Default to first if none exist
+	possiblePaths.find((p) => fs.existsSync(p)) ?? possiblePaths[0];
+
+// Log the file path or an error if not found
+if (!fs.existsSync(filePath)) {
+	console.error(`❌ Excel file not found at ${filePath}`);
+} else {
+	console.log(`✅ Using Excel file at ${filePath}`);
+}
 
 /**
  * Initialize the watcher for the Excel file and process changes
  */
 export function startExcelWatcher(): void {
+	// Ensure the file exists
 	if (!fs.existsSync(filePath)) {
 		console.error(`❌ Excel file not found: ${filePath}`);
 		return;
@@ -33,11 +41,19 @@ export function startExcelWatcher(): void {
 		'change',
 		_.debounce(() => {
 			console.log(`📂 File changed: ${filePath}, updating database...`);
-			processExcelFile(filePath);
-		}, 1000)
+			try {
+				processExcelFile(filePath);
+			} catch (error) {
+				console.error(`Error processing file ${filePath}:`, error);
+			}
+		}, 1000) // Debounce to handle rapid changes
 	);
 
-	// Initial processing
+	// Initial processing of the file
 	console.log(`✅ Watching: ${filePath}`);
-	processExcelFile(filePath);
+	try {
+		processExcelFile(filePath);
+	} catch (error) {
+		console.error(`Error processing file on startup: ${error}`);
+	}
 }
