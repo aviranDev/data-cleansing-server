@@ -359,3 +359,9 @@ Stack trace:
 MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
     at listOnTimeout (node:internal/timers:581:17)
     at processTimers (node:internal/timers:519:7)
+2025-03-21T13:41:51.588Z [ERROR]: ❌ Excel file not found at /app/src/contacts.xlsx
+2025-03-21T13:41:51.685Z [ERROR]: ❌ Excel file not found: /app/src/contacts.xlsx
+2025-03-21T13:42:52.670Z [ERROR]: ❌ Excel file not found at /src/contacts.xlsx
+2025-03-21T13:42:52.718Z [ERROR]: ❌ Excel file not found: /src/contacts.xlsx
+2025-03-21T13:45:17.154Z [ERROR]: ❌ Excel file not found at /src/contacts.xlsx
+2025-03-21T13:45:17.201Z [ERROR]: ❌ Excel file not found: /src/contacts.xlsx

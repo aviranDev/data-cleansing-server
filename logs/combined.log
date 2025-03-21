@@ -737,3 +737,62 @@ MongooseError: Operation `contacts.find()` buffering timed out after 10000ms
 2025-02-22T11:02:24.476Z [DEBUG]: Chunk processed: 0 updated, 5 inserted.
 2025-02-22T11:02:24.479Z [DEBUG]: Excel file processed and database updated.
 2025-02-22T11:02:32.764Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-03-21T13:41:51.588Z [ERROR]: ❌ Excel file not found at /app/src/contacts.xlsx
+2025-03-21T13:41:51.594Z [INFO]: Middlewares configured successfully.
+2025-03-21T13:41:51.685Z [ERROR]: ❌ Excel file not found: /app/src/contacts.xlsx
+2025-03-21T13:41:51.718Z [INFO]: Connected To MongoDB Locally.
+2025-03-21T13:41:51.726Z [INFO]: Server is running on http://localhost:8080
+2025-03-21T13:42:25.861Z [INFO]: Middlewares configured successfully.
+2025-03-21T13:42:25.920Z [INFO]: Connected To MongoDB Locally.
+2025-03-21T13:42:25.923Z [INFO]: Server is running on http://localhost:8080
+2025-03-21T13:42:52.670Z [ERROR]: ❌ Excel file not found at /src/contacts.xlsx
+2025-03-21T13:42:52.674Z [INFO]: Middlewares configured successfully.
+2025-03-21T13:42:52.718Z [ERROR]: ❌ Excel file not found: /src/contacts.xlsx
+2025-03-21T13:42:52.738Z [INFO]: Connected To MongoDB Locally.
+2025-03-21T13:42:52.741Z [INFO]: Server is running on http://localhost:8080
+2025-03-21T13:43:28.778Z [INFO]: Middlewares configured successfully.
+2025-03-21T13:43:28.840Z [INFO]: Connected To MongoDB Locally.
+2025-03-21T13:43:28.843Z [INFO]: Server is running on http://localhost:8080
+2025-03-21T13:43:38.879Z [INFO]: Middlewares configured successfully.
+2025-03-21T13:43:38.941Z [INFO]: Connected To MongoDB Locally.
+2025-03-21T13:43:38.946Z [INFO]: Server is running on http://localhost:8080
+2025-03-21T13:45:17.154Z [ERROR]: ❌ Excel file not found at /src/contacts.xlsx
+2025-03-21T13:45:17.158Z [INFO]: Middlewares configured successfully.
+2025-03-21T13:45:17.201Z [ERROR]: ❌ Excel file not found: /src/contacts.xlsx
+2025-03-21T13:45:17.220Z [INFO]: Connected To MongoDB Locally.
+2025-03-21T13:45:17.222Z [INFO]: Server is running on http://localhost:8080
+2025-03-21T13:47:30.690Z [INFO]: ✅ Using Excel file at C:\projects\dataCleansing\data-cleansing-server\src\contacts.xlsx
+2025-03-21T13:47:30.694Z [INFO]: Middlewares configured successfully.
+2025-03-21T13:47:30.735Z [INFO]: 👀 Watching: C:\projects\dataCleansing\data-cleansing-server\src\contacts.xlsx
+2025-03-21T13:47:30.737Z [INFO]: 🚀 Initial processing of: C:\projects\dataCleansing\data-cleansing-server\src\contacts.xlsx
+2025-03-21T13:47:30.767Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-03-21T13:47:30.801Z [INFO]: Connected To MongoDB Locally.
+2025-03-21T13:47:30.806Z [INFO]: Server is running on http://localhost:8080
+2025-03-21T13:47:30.863Z [DEBUG]: Chunk processed: 0 updated, 10 inserted.
+2025-03-21T13:47:30.877Z [DEBUG]: Excel file processed and database updated.
+2025-03-21T13:47:48.648Z [INFO]: 📂 File changed: C:\projects\dataCleansing\data-cleansing-server\src\contacts.xlsx, updating database...
+2025-03-21T13:47:48.672Z [DEBUG]: Parsed 3 rows from Excel file.
+2025-03-21T13:47:48.687Z [DEBUG]: No changes for email: person1email@mail.com
+2025-03-21T13:47:48.690Z [DEBUG]: No changes for email: person2email@mail.com
+2025-03-21T13:47:48.691Z [DEBUG]: No changes for email: person3email@mail.com
+2025-03-21T13:47:48.704Z [DEBUG]: Excel file processed and database updated.
+2025-03-21T13:48:21.331Z [INFO]: Received SIGINT (Ctrl+C). Initiating graceful shutdown...
+2025-03-21T13:48:30.857Z [DEBUG]: Connected to MongoDB
+2025-03-21T13:48:30.860Z [DEBUG]: Database connection established for seeding
+2025-03-21T13:48:31.130Z [DEBUG]: User Aiqw99 added.
+2025-03-21T13:48:31.130Z [DEBUG]: User Aiqw98 added.
+2025-03-21T13:48:31.131Z [DEBUG]: User Aiqw97 added.
+2025-03-21T13:48:31.132Z [DEBUG]: Data successfully imported
+2025-03-21T13:48:31.136Z [DEBUG]: Database disconnected
+2025-03-21T13:48:56.627Z [INFO]: ✅ Using Excel file at C:\projects\dataCleansing\data-cleansing-server\src\contacts.xlsx
+2025-03-21T13:48:56.631Z [INFO]: Middlewares configured successfully.
+2025-03-21T13:48:56.675Z [INFO]: 👀 Watching: C:\projects\dataCleansing\data-cleansing-server\src\contacts.xlsx
+2025-03-21T13:48:56.676Z [INFO]: 🚀 Initial processing of: C:\projects\dataCleansing\data-cleansing-server\src\contacts.xlsx
+2025-03-21T13:48:56.706Z [DEBUG]: Parsed 10 rows from Excel file.
+2025-03-21T13:48:56.732Z [INFO]: Connected To MongoDB Locally.
+2025-03-21T13:48:56.737Z [INFO]: Server is running on http://localhost:8080
+2025-03-21T13:48:56.757Z [DEBUG]: No changes for email: person1email@mail.com
+2025-03-21T13:48:56.758Z [DEBUG]: No changes for email: person2email@mail.com
+2025-03-21T13:48:56.759Z [DEBUG]: No changes for email: person3email@mail.com
+2025-03-21T13:48:56.779Z [DEBUG]: Chunk processed: 0 updated, 7 inserted.
+2025-03-21T13:48:56.784Z [DEBUG]: Excel file processed and database updated.
